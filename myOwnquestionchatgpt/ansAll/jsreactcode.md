@@ -2,7 +2,7 @@
 
 This file contains coding answers for commonly asked JavaScript and React interview questions.
 
-## 1. Reverse a String
+## 1. Reverse String
 
 ### Approach 1: Reverse characters in a string
 
