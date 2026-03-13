@@ -46,3 +46,21 @@ console.log(reverseWords(str));
 1. `reverseString()` reverses all characters.
 2. `reverseWords()` reverses the order of words.
 3. These are common beginner to medium JavaScript interview questions.
+
+
+built in methods
+
+function reverseString(str){
+ return str.split("").reverse().join("")
+}
+
+console.log(reverseString("hello how are you" ))
+//uoy era woh olleh
+
+function reverseString(str){
+ return str.split(" ").reverse().join(" ")
+}
+
+console.log(reverseString("hello how are you" ))
+//you are how hello
+
