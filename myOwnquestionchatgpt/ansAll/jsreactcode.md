@@ -652,6 +652,24 @@ console.log(nums.myMap((num) => num * 2));
 // [2, 4, 6]
 ```
 
+```js
+Array.prototype.myMap = function (callback) {
+  let result = [];
+
+  for (let i = 0; i < this.length; i++) {
+    result.push(callback(this[i], i, this));
+  }
+
+  return result;
+};
+
+const arr = [1, 2, 3];
+
+const output = arr.myMap((num) => num * 2);
+
+console.log(output);
+```
+
 ## 18. Polyfill for `filter`
 
 ### Approach
@@ -672,6 +690,26 @@ Array.prototype.myFilter = function (callback) {
 const nums = [1, 2, 3, 4, 5];
 console.log(nums.myFilter((num) => num % 2 === 0));
 // [2, 4]
+```
+
+```js
+Array.prototype.myFilter = function (callback) {
+  let result = [];
+
+  for (let i = 0; i < this.length; i++) {
+    if (callback(this[i], i, this)) {
+      result.push(this[i]);
+    }
+  }
+
+  return result;
+};
+
+const arr = [1, 2, 3, 4, 5];
+
+const output = arr.myFilter((num) => num % 2 === 0);
+
+console.log(output);
 ```
 
 ## 19. Polyfill for `reduce`
@@ -698,6 +736,24 @@ Array.prototype.myReduce = function (callback, initialValue) {
 const nums = [1, 2, 3, 4];
 console.log(nums.myReduce((sum, num) => sum + num, 0));
 // 10
+```
+
+```js
+Array.prototype.myReduce = function (callback, initialValue) {
+  let accumulator = initialValue;
+
+  for (let i = 0; i < this.length; i++) {
+    accumulator = callback(accumulator, this[i], i, this);
+  }
+
+  return accumulator;
+};
+
+const arr = [1, 2, 3, 4];
+
+const sum = arr.reduce((acc, curr) => acc + curr, 0);
+
+console.log(sum);
 ```
 
 ## 20. Event Emitter Implementation
