@@ -296,6 +296,20 @@ debouncedSearch("react");
 // Searching: react
 ```
 
+```js
+function debounce(fn, delay) {
+  let timer;
+
+  return function (...args) {
+    clearTimeout(timer);
+
+    timer = setTimeout(() => {
+      fn(...args);
+    }, delay);
+  };
+}
+```
+
 ## 9. Throttle Function Implementation
 
 ### Approach
@@ -1251,6 +1265,21 @@ throttled("scroll 1");
 throttled("scroll 2");
 // Output:
 // Throttle: scroll 1
+```
+
+```js
+function throttle(fn, delay) {
+  let timer = null;
+
+  return function (...args) {
+    if (!timer) {
+      timer = setTimeout(() => {
+        fn(...args);
+        timer = null;
+      }, delay);
+    }
+  };
+}
 ```
 
 ## 26. Virtual DOM Implementation
