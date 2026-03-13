@@ -493,3 +493,647 @@ function bubbleSortDescending(arr) {
 console.log(bubbleSortDescending([5, 3, 8, 1, 2]));
 // [8, 5, 3, 2, 1]
 ```
+
+## 14. Implement `Promise.all`
+
+### Approach
+
+```js
+function myPromiseAll(promises) {
+  return new Promise((resolve, reject) => {
+    const results = [];
+    let completed = 0;
+
+    if (promises.length === 0) {
+      resolve([]);
+      return;
+    }
+
+    for (let i = 0; i < promises.length; i++) {
+      Promise.resolve(promises[i])
+        .then((value) => {
+          results[i] = value;
+          completed++;
+
+          if (completed === promises.length) {
+            resolve(results);
+          }
+        })
+        .catch((error) => {
+          reject(error);
+        });
+    }
+  });
+}
+
+myPromiseAll([
+  Promise.resolve("A"),
+  Promise.resolve("B"),
+  Promise.resolve("C")
+]).then((result) => console.log(result));
+// ["A", "B", "C"]
+```
+
+## 15. Implement Deep Clone
+
+### Approach 1: Recursive deep clone
+
+```js
+function deepClone(value) {
+  if (value === null || typeof value !== "object") {
+    return value;
+  }
+
+  if (Array.isArray(value)) {
+    const arr = [];
+
+    for (let i = 0; i < value.length; i++) {
+      arr[i] = deepClone(value[i]);
+    }
+
+    return arr;
+  }
+
+  const result = {};
+
+  for (const key in value) {
+    result[key] = deepClone(value[key]);
+  }
+
+  return result;
+}
+
+const user = { name: "Asha", address: { city: "Pune" } };
+const copiedUser = deepClone(user);
+copiedUser.address.city = "Delhi";
+
+console.log(user.address.city);
+// Pune
+```
+
+### Approach 2: Using built-in method
+
+```js
+const user = { name: "Asha", address: { city: "Pune" } };
+const copiedUser = structuredClone(user);
+copiedUser.address.city = "Delhi";
+
+console.log(user.address.city);
+// Pune
+```
+
+## 16. Implement Memoization
+
+### Approach
+
+```js
+function memoize(fn) {
+  const cache = {};
+
+  return function (...args) {
+    const key = JSON.stringify(args);
+
+    if (cache[key] !== undefined) {
+      return cache[key];
+    }
+
+    const result = fn(...args);
+    cache[key] = result;
+    return result;
+  };
+}
+
+function add(a, b) {
+  console.log("Calculating...");
+  return a + b;
+}
+
+const memoizedAdd = memoize(add);
+
+console.log(memoizedAdd(2, 3));
+// Calculating...
+// 5
+
+console.log(memoizedAdd(2, 3));
+// 5
+```
+
+## 17. Polyfill for `map`
+
+### Approach
+
+```js
+Array.prototype.myMap = function (callback) {
+  const result = [];
+
+  for (let i = 0; i < this.length; i++) {
+    result[result.length] = callback(this[i], i, this);
+  }
+
+  return result;
+};
+
+const nums = [1, 2, 3];
+console.log(nums.myMap((num) => num * 2));
+// [2, 4, 6]
+```
+
+## 18. Polyfill for `filter`
+
+### Approach
+
+```js
+Array.prototype.myFilter = function (callback) {
+  const result = [];
+
+  for (let i = 0; i < this.length; i++) {
+    if (callback(this[i], i, this)) {
+      result[result.length] = this[i];
+    }
+  }
+
+  return result;
+};
+
+const nums = [1, 2, 3, 4, 5];
+console.log(nums.myFilter((num) => num % 2 === 0));
+// [2, 4]
+```
+
+## 19. Polyfill for `reduce`
+
+### Approach
+
+```js
+Array.prototype.myReduce = function (callback, initialValue) {
+  let accumulator = initialValue;
+  let startIndex = 0;
+
+  if (accumulator === undefined) {
+    accumulator = this[0];
+    startIndex = 1;
+  }
+
+  for (let i = startIndex; i < this.length; i++) {
+    accumulator = callback(accumulator, this[i], i, this);
+  }
+
+  return accumulator;
+};
+
+const nums = [1, 2, 3, 4];
+console.log(nums.myReduce((sum, num) => sum + num, 0));
+// 10
+```
+
+## 20. Event Emitter Implementation
+
+### Approach
+
+```js
+class EventEmitter {
+  constructor() {
+    this.events = {};
+  }
+
+  on(eventName, listener) {
+    if (!this.events[eventName]) {
+      this.events[eventName] = [];
+    }
+
+    this.events[eventName].push(listener);
+  }
+
+  emit(eventName, ...args) {
+    if (this.events[eventName]) {
+      for (let i = 0; i < this.events[eventName].length; i++) {
+        this.events[eventName][i](...args);
+      }
+    }
+  }
+
+  off(eventName, listenerToRemove) {
+    if (!this.events[eventName]) return;
+
+    this.events[eventName] = this.events[eventName].filter(
+      (listener) => listener !== listenerToRemove
+    );
+  }
+}
+
+const emitter = new EventEmitter();
+
+function greet(name) {
+  console.log("Hello", name);
+}
+
+emitter.on("welcome", greet);
+emitter.emit("welcome", "Moni");
+// Hello Moni
+```
+
+## 21. Implement LRU Cache
+
+### Approach
+
+```js
+class LRUCache {
+  constructor(limit) {
+    this.limit = limit;
+    this.cache = new Map();
+  }
+
+  get(key) {
+    if (!this.cache.has(key)) {
+      return -1;
+    }
+
+    const value = this.cache.get(key);
+    this.cache.delete(key);
+    this.cache.set(key, value);
+    return value;
+  }
+
+  put(key, value) {
+    if (this.cache.has(key)) {
+      this.cache.delete(key);
+    } else if (this.cache.size >= this.limit) {
+      const oldestKey = this.cache.keys().next().value;
+      this.cache.delete(oldestKey);
+    }
+
+    this.cache.set(key, value);
+  }
+}
+
+const lru = new LRUCache(2);
+lru.put(1, "A");
+lru.put(2, "B");
+console.log(lru.get(1));
+// A
+
+lru.put(3, "C");
+console.log(lru.get(2));
+// -1
+```
+
+## 22. Advanced JavaScript Detailed Notes
+
+### 1. Implement `Promise.all`
+
+#### Idea
+
+1. Accept an array of promises.
+2. Resolve when all promises resolve.
+3. Reject if any promise rejects.
+
+```js
+function promiseAll(promises) {
+  return new Promise((resolve, reject) => {
+    let results = [];
+    let completed = 0;
+
+    promises.forEach((promise, index) => {
+      Promise.resolve(promise)
+        .then((data) => {
+          results[index] = data;
+          completed++;
+
+          if (completed === promises.length) {
+            resolve(results);
+          }
+        })
+        .catch(reject);
+    });
+  });
+}
+```
+
+#### Usage
+
+```js
+promiseAll([
+  Promise.resolve(1),
+  Promise.resolve(2),
+  Promise.resolve(3)
+]).then(console.log);
+```
+
+#### Output
+
+```js
+[1, 2, 3];
+```
+
+### 2. Implement Deep Clone
+
+#### Handles
+
+1. Objects
+2. Arrays
+3. Nested values
+
+```js
+function deepClone(obj) {
+  if (obj === null || typeof obj !== "object") {
+    return obj;
+  }
+
+  if (Array.isArray(obj)) {
+    return obj.map((item) => deepClone(item));
+  }
+
+  let clone = {};
+
+  for (let key in obj) {
+    clone[key] = deepClone(obj[key]);
+  }
+
+  return clone;
+}
+```
+
+#### Example
+
+```js
+let obj = {
+  name: "Monali",
+  address: {
+    city: "Pune"
+  }
+};
+
+let copy = deepClone(obj);
+copy.address.city = "Mumbai";
+
+console.log(obj.address.city);
+```
+
+#### Output
+
+```js
+"Pune";
+```
+
+### 3. Implement Memoization
+
+#### Idea
+
+Cache results of expensive functions.
+
+```js
+function memoize(fn) {
+  let cache = {};
+
+  return function (...args) {
+    let key = JSON.stringify(args);
+
+    if (cache[key]) {
+      return cache[key];
+    }
+
+    let result = fn(...args);
+    cache[key] = result;
+
+    return result;
+  };
+}
+```
+
+#### Example
+
+```js
+function add(a, b) {
+  console.log("calculating...");
+  return a + b;
+}
+
+let memoAdd = memoize(add);
+
+console.log(memoAdd(2, 3));
+console.log(memoAdd(2, 3));
+```
+
+#### Output
+
+```js
+// calculating...
+5
+5
+```
+
+Second call comes from cache.
+
+### 4. Polyfill for `map`
+
+```js
+Array.prototype.myMap = function (callback) {
+  let result = [];
+
+  for (let i = 0; i < this.length; i++) {
+    result.push(callback(this[i], i, this));
+  }
+
+  return result;
+};
+```
+
+#### Example
+
+```js
+let arr = [1, 2, 3];
+
+let res = arr.myMap((x) => x * 2);
+
+console.log(res);
+```
+
+#### Output
+
+```js
+[2, 4, 6];
+```
+
+### 5. Polyfill for `filter`
+
+```js
+Array.prototype.myFilter = function (callback) {
+  let result = [];
+
+  for (let i = 0; i < this.length; i++) {
+    if (callback(this[i], i, this)) {
+      result.push(this[i]);
+    }
+  }
+
+  return result;
+};
+```
+
+#### Example
+
+```js
+console.log([1, 2, 3, 4].myFilter((x) => x % 2 === 0));
+```
+
+#### Output
+
+```js
+[2, 4];
+```
+
+### 6. Polyfill for `reduce`
+
+```js
+Array.prototype.myReduce = function (callback, initialValue) {
+  let accumulator = initialValue;
+  let startIndex = 0;
+
+  if (accumulator === undefined) {
+    accumulator = this[0];
+    startIndex = 1;
+  }
+
+  for (let i = startIndex; i < this.length; i++) {
+    accumulator = callback(accumulator, this[i], i, this);
+  }
+
+  return accumulator;
+};
+```
+
+#### Example
+
+```js
+console.log([1, 2, 3, 4].myReduce((sum, num) => sum + num, 0));
+```
+
+#### Output
+
+```js
+10;
+```
+
+### 7. Event Emitter Implementation
+
+Used in Node.js and React libraries.
+
+```js
+class EventEmitter {
+  constructor() {
+    this.events = {};
+  }
+
+  on(event, listener) {
+    if (!this.events[event]) {
+      this.events[event] = [];
+    }
+
+    this.events[event].push(listener);
+  }
+
+  emit(event, ...args) {
+    if (this.events[event]) {
+      this.events[event].forEach((fn) => fn(...args));
+    }
+  }
+
+  off(event, listener) {
+    if (this.events[event]) {
+      this.events[event] = this.events[event].filter((fn) => fn !== listener);
+    }
+  }
+}
+```
+
+#### Usage
+
+```js
+const emitter = new EventEmitter();
+
+function greet(name) {
+  console.log("Hello", name);
+}
+
+emitter.on("greet", greet);
+emitter.emit("greet", "Monali");
+```
+
+#### Output
+
+```js
+// Hello Monali
+```
+
+### 8. LRU Cache Implementation
+
+Used in system design interviews.
+
+```js
+class LRUCache {
+  constructor(limit) {
+    this.limit = limit;
+    this.cache = new Map();
+  }
+
+  get(key) {
+    if (!this.cache.has(key)) return -1;
+
+    let value = this.cache.get(key);
+
+    this.cache.delete(key);
+    this.cache.set(key, value);
+
+    return value;
+  }
+
+  put(key, value) {
+    if (this.cache.has(key)) {
+      this.cache.delete(key);
+    }
+
+    this.cache.set(key, value);
+
+    if (this.cache.size > this.limit) {
+      let firstKey = this.cache.keys().next().value;
+      this.cache.delete(firstKey);
+    }
+  }
+}
+```
+
+#### Usage
+
+```js
+let cache = new LRUCache(2);
+
+cache.put(1, 10);
+cache.put(2, 20);
+
+cache.get(1);
+
+cache.put(3, 30);
+
+console.log(cache.get(2));
+```
+
+#### Output
+
+```js
+-1;
+```
+
+Because key `2` was least recently used.
+
+## 23. Frequently Asked Hard JavaScript Questions
+
+These are very frequently asked in React interviews:
+
+1. `Promise.allSettled` polyfill
+2. Debounce vs Throttle implementation
+3. Virtual DOM implementation
+4. Flatten object
+5. Curry function
+6. Retry promise with delay
+7. Implement `setInterval` using `setTimeout`
+8. Implement `bind`, `call`, and `apply`
