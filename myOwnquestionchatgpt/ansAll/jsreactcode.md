@@ -47,20 +47,62 @@ console.log(reverseWords(str));
 2. `reverseWords()` reverses the order of words.
 3. These are common beginner to medium JavaScript interview questions.
 
+## 2. Built-in Methods
 
-built in methods
+### Approach 3: Reverse characters using built-in methods
 
-function reverseString(str){
- return str.split("").reverse().join("")
+```js
+function reverseString(str) {
+  return str.split("").reverse().join("");
 }
 
-console.log(reverseString("hello how are you" ))
-//uoy era woh olleh
+console.log(reverseString("hello how are you"));
+// uoy era woh olleh
+```
 
-function reverseString(str){
- return str.split(" ").reverse().join(" ")
+### Approach 4: Reverse words using built-in methods
+
+```js
+function reverseString(str) {
+  return str.split(" ").reverse().join(" ");
 }
 
-console.log(reverseString("hello how are you" ))
-//you are how hello
+console.log(reverseString("hello how are you"));
+// you are how hello
+```
 
+## 3. Check Palindrome String
+
+### Approach 1: Without built-in reverse method
+
+```js
+function isPalindrome(str) {
+  let reversed = "";
+
+  for (let i = str.length - 1; i >= 0; i--) {
+    reversed += str[i];
+  }
+
+  return str === reversed;
+}
+
+console.log(isPalindrome("madam"));
+// true
+
+console.log(isPalindrome("hello"));
+// false
+```
+
+### Approach 2: Using built-in methods
+
+```js
+function isPalindrome(str) {
+  return str === str.split("").reverse().join("");
+}
+
+console.log(isPalindrome("madam"));
+// true
+
+console.log(isPalindrome("hello"));
+// false
+```
