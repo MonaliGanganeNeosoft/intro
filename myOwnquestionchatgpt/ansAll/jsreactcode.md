@@ -1137,3 +1137,366 @@ These are very frequently asked in React interviews:
 6. Retry promise with delay
 7. Implement `setInterval` using `setTimeout`
 8. Implement `bind`, `call`, and `apply`
+
+## 24. `Promise.allSettled` Polyfill
+
+### Idea
+
+1. Accept an array of promises.
+2. Wait for all of them to finish.
+3. Return both fulfilled and rejected results.
+
+```js
+function myPromiseAllSettled(promises) {
+  return new Promise((resolve) => {
+    const results = [];
+    let completed = 0;
+
+    if (promises.length === 0) {
+      resolve([]);
+      return;
+    }
+
+    promises.forEach((promise, index) => {
+      Promise.resolve(promise)
+        .then((value) => {
+          results[index] = { status: "fulfilled", value };
+        })
+        .catch((reason) => {
+          results[index] = { status: "rejected", reason };
+        })
+        .finally(() => {
+          completed++;
+          if (completed === promises.length) {
+            resolve(results);
+          }
+        });
+    });
+  });
+}
+```
+
+### Example
+
+```js
+myPromiseAllSettled([
+  Promise.resolve("A"),
+  Promise.reject("Error"),
+  Promise.resolve("C")
+]).then(console.log);
+```
+
+### Output
+
+```js
+[
+  { status: "fulfilled", value: "A" },
+  { status: "rejected", reason: "Error" },
+  { status: "fulfilled", value: "C" }
+];
+```
+
+## 25. Debounce vs Throttle Implementation
+
+### Debounce
+
+Used when you want to call a function only after the user stops triggering the event.
+
+```js
+function debounce(fn, delay) {
+  let timer;
+
+  return function (...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn.apply(this, args), delay);
+  };
+}
+
+const debounced = debounce((value) => {
+  console.log("Debounce:", value);
+}, 500);
+
+debounced("h");
+debounced("he");
+debounced("hello");
+// Output after delay:
+// Debounce: hello
+```
+
+### Throttle
+
+Used when you want to limit how often a function runs.
+
+```js
+function throttle(fn, delay) {
+  let allowCall = true;
+
+  return function (...args) {
+    if (!allowCall) return;
+
+    fn.apply(this, args);
+    allowCall = false;
+
+    setTimeout(() => {
+      allowCall = true;
+    }, delay);
+  };
+}
+
+const throttled = throttle((value) => {
+  console.log("Throttle:", value);
+}, 1000);
+
+throttled("scroll 1");
+throttled("scroll 2");
+// Output:
+// Throttle: scroll 1
+```
+
+## 26. Virtual DOM Implementation
+
+### Idea
+
+Virtual DOM is a JavaScript object representation of UI.
+
+```js
+function createElement(type, props, ...children) {
+  return {
+    type,
+    props: props || {},
+    children
+  };
+}
+
+const virtualDom = createElement(
+  "div",
+  { id: "app" },
+  createElement("h1", null, "Hello World"),
+  createElement("p", null, "This is virtual DOM")
+);
+
+console.log(virtualDom);
+```
+
+### Output
+
+```js
+{
+  type: "div",
+  props: { id: "app" },
+  children: [
+    { type: "h1", props: {}, children: ["Hello World"] },
+    { type: "p", props: {}, children: ["This is virtual DOM"] }
+  ]
+}
+```
+
+## 27. Flatten Object
+
+### Idea
+
+Convert nested object into a single-level object.
+
+```js
+function flattenObject(obj, parentKey = "", result = {}) {
+  for (let key in obj) {
+    const newKey = parentKey ? `${parentKey}.${key}` : key;
+
+    if (typeof obj[key] === "object" && obj[key] !== null && !Array.isArray(obj[key])) {
+      flattenObject(obj[key], newKey, result);
+    } else {
+      result[newKey] = obj[key];
+    }
+  }
+
+  return result;
+}
+
+const user = {
+  name: "Monali",
+  address: {
+    city: "Pune",
+    pin: 411001
+  }
+};
+
+console.log(flattenObject(user));
+```
+
+### Output
+
+```js
+{
+  name: "Monali",
+  "address.city": "Pune",
+  "address.pin": 411001
+}
+```
+
+## 28. Curry Function
+
+### Idea
+
+Convert a function with multiple arguments into nested functions.
+
+```js
+function curryAdd(a) {
+  return function (b) {
+    return function (c) {
+      return a + b + c;
+    };
+  };
+}
+
+console.log(curryAdd(1)(2)(3));
+```
+
+### Output
+
+```js
+6;
+```
+
+## 29. Retry Promise With Delay
+
+### Idea
+
+Retry an async function if it fails.
+
+```js
+function retryPromise(fn, retries, delay) {
+  return new Promise((resolve, reject) => {
+    function attempt(remaining) {
+      fn()
+        .then(resolve)
+        .catch((error) => {
+          if (remaining === 0) {
+            reject(error);
+          } else {
+            setTimeout(() => attempt(remaining - 1), delay);
+          }
+        });
+    }
+
+    attempt(retries);
+  });
+}
+```
+
+### Example
+
+```js
+let count = 0;
+
+function testApi() {
+  return new Promise((resolve, reject) => {
+    count++;
+    if (count < 3) {
+      reject("Failed");
+    } else {
+      resolve("Success");
+    }
+  });
+}
+
+retryPromise(testApi, 3, 1000)
+  .then(console.log)
+  .catch(console.error);
+```
+
+### Output
+
+```js
+"Success";
+```
+
+## 30. Implement `setInterval` Using `setTimeout`
+
+### Idea
+
+Call a function repeatedly using recursive `setTimeout`.
+
+```js
+function mySetInterval(callback, delay) {
+  let timerId;
+
+  function run() {
+    timerId = setTimeout(() => {
+      callback();
+      run();
+    }, delay);
+  }
+
+  run();
+
+  return function clearMyInterval() {
+    clearTimeout(timerId);
+  };
+}
+```
+
+### Example
+
+```js
+const stop = mySetInterval(() => {
+  console.log("Hello");
+}, 1000);
+
+setTimeout(() => {
+  stop();
+}, 3500);
+```
+
+### Output
+
+```js
+// Hello
+// Hello
+// Hello
+```
+
+## 31. Implement `bind`, `call`, and `apply`
+
+### `call`
+
+Calls a function immediately with a given `this` value.
+
+```js
+function introduce(city) {
+  console.log(this.name, city);
+}
+
+const user = { name: "Monali" };
+introduce.call(user, "Pune");
+// Monali Pune
+```
+
+### `apply`
+
+Same as `call`, but arguments are passed as an array.
+
+```js
+function introduce(city, country) {
+  console.log(this.name, city, country);
+}
+
+const user = { name: "Monali" };
+introduce.apply(user, ["Pune", "India"]);
+// Monali Pune India
+```
+
+### `bind`
+
+Returns a new function with fixed `this`.
+
+```js
+function introduce(city) {
+  console.log(this.name, city);
+}
+
+const user = { name: "Monali" };
+const boundFn = introduce.bind(user);
+
+boundFn("Mumbai");
+// Monali Mumbai
+```
