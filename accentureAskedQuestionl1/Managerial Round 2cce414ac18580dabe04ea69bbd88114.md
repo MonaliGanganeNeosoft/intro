@@ -51,15 +51,17 @@ aur doosra insist kar raha tha ki NPM package use karna better hoga project stru
 Maine sabko ek short meeting me gather kiya aur humne pros & cons list kiye.
 Jaise:
 
-CDN Pros	CDN Cons
-Faster load for cached users	No offline support
-No installation needed	Version control difficult
-Easy setup	Multi-environment conflicts
+| CDN Pros | CDN Cons |
+| --- | --- |
+| Faster load for cached users | No offline support |
+| No installation needed | Version control difficult |
+| Easy setup | Multi-environment conflicts |
 
-Package Pros	Package Cons
-Version control easy	Builds may increase size
-Offline support	Initial setup time
-Consistent across dev & prod	Needs updates manually
+| Package Pros | Package Cons |
+| --- | --- |
+| Version control easy | Builds may increase size |
+| Offline support | Initial setup time |
+| Consistent across dev & prod | Needs updates manually |
 
 Discussion ke baad team ne agree kiya ki long-term maintainability, version control, CI/CD support, and large scalable project ke liye package better approach hai.
 Isliye humne NPM package select kiya.
@@ -117,31 +119,34 @@ If any issue or delay happens, I inform them early with a proper plan.
 
 Example:-
 
-	In my previous project, our team was developing a dashboard for inventory management. 
-	The client requested a new feature, but it required extra time because the existing structure needed changes.
+In my previous project, our team was developing a dashboard for inventory management.
+The client requested a new feature, but it required extra time because the existing structure needed changes.
 
-	Instead of keeping quiet, I scheduled a quick call with the client.
-	I explained the situation clearly:
+Instead of keeping quiet, I scheduled a quick call with the client.
+I explained the situation clearly:
 
-	“To add this feature properly we need additional backend changes. It may take 2 more days. 
-	If you approve, we will start immediately. Meanwhile, I can deliver the UI part first so you can see the progress.”
+> To add this feature properly we need additional backend changes. It may take 2 more days.
+> If you approve, we will start immediately. Meanwhile, I can deliver the UI part first so you can see the progress.
 
-	The client appreciated the transparency and agreed to the timeline.
-	We delivered before the revised deadline and the client was very satisfied.
+The client appreciated the transparency and agreed to the timeline.
+We delivered before the revised deadline and the client was very satisfied.
 
-	Key Points You Can Mention
-	Skill	Explanation
-	Active Listening	Understanding requirements clearly
-	Regular Updates	Sharing progress through calls, emails, or chats
-	Transparency	Informing about delays or issues early
-	Professional language	No arguments, no assumptions
-	Documentation	Email confirmation after meetings
-	Short answer format
+Key Points You Can Mention
 
-	I handle client communication with clarity and transparency. I listen carefully, 
-	confirm requirements, provide regular updates, and solve issues proactively. In my last project, 
-	I informed the client early about a delay due to technical changes and provided an alternative plan. 
-	The client appreciated my honesty and we maintained a strong working relationship
+| Skill | Explanation |
+| --- | --- |
+| Active Listening | Understanding requirements clearly |
+| Regular Updates | Sharing progress through calls, emails, or chats |
+| Transparency | Informing about delays or issues early |
+| Professional language | No arguments, no assumptions |
+| Documentation | Email confirmation after meetings |
+
+Short answer format
+
+I handle client communication with clarity and transparency. I listen carefully,
+confirm requirements, provide regular updates, and solve issues proactively. In my last project,
+I informed the client early about a delay due to technical changes and provided an alternative plan.
+The client appreciated my honesty and we maintained a strong working relationship
 
 ```
 
@@ -1008,6 +1013,7 @@ Callback Hell means too many nested callbacks, which makes the code hard to read
 
 ```
 
+```js
 userLogin("bilal",function(){
 viewProfile( function(){
 logoutUser(function(){
@@ -1016,6 +1022,7 @@ console.log("flow complete")
 }
 )
 })
+```
 
 ---
 
@@ -1128,6 +1135,8 @@ Verify kaise hota hai? (very simple steps)
 5️⃣ Match nahi hui / expire → ❌ invalid
 
 Short & simple syntax (Node.js)
+
+```js
 const jwt = require("jsonwebtoken");
 
 function authMiddleware(req, res, next) {
@@ -1145,12 +1154,17 @@ next();
 return res.status(401).json({ message: "Invalid token" });
 }
 }
+```
 
 ## Ek line me verify ka logic 🧠
-jwt.verify(token, SECRET_KEY)
-→ signature match ?
-→ expired ?
-→ valid user
+
+```js
+jwt.verify(token, SECRET_KEY);
+```
+
+- signature match?
+- expired?
+- valid user
 
 next() is used to pass control to the next middleware or route handler in the Express request pipeline.
 If next() is not called and no response is sent, the request hangs.
@@ -1166,10 +1180,12 @@ One-line yaad rakhne ke liye 🔥
 
 We often write this in Express:
 
+```js
 app.use(helmet());
 app.use(rateLimit());
 app.use(csrf());
 app.use(xssClean());
+```
 
 These middlewares do not add features, they protect your application from common web attacks.
 
@@ -1223,8 +1239,11 @@ Simple understanding
 Helmet protects the browser side, not the database.
 
 Code
+
+```js
 import helmet from "helmet";
 app.use(helmet());
+```
 
 Interview line
 
@@ -1383,7 +1402,7 @@ It sanitizes user input
 
 Removes or escapes:
 
-<script>
+`<script>`
 
 inline JavaScript
 
@@ -1394,19 +1413,24 @@ Simple understanding
 xssClean cleans dirty input before it reaches your app.
 
 Code
+
+```js
 import xssClean from "xss-clean";
 app.use(xssClean());
+```
 
 Interview line
 
 xssClean sanitizes user input to prevent script injection.
 
 🔐 How They Work Together
-Middleware	Protects
-Helmet	Browser security
-Rate Limit	Server traffic
-CSRF	Fake authenticated requests
-XSS Clean	Malicious user input
+
+| Middleware | Protects |
+| --- | --- |
+| Helmet | Browser security |
+| Rate Limit | Server traffic |
+| CSRF | Fake authenticated requests |
+| XSS Clean | Malicious user input |
 🧠 Final Understanding (Very Important)
 
 Helmet → browser ko secure banata hai
@@ -1770,15 +1794,15 @@ HTTPS vs HTTP mismatch
 
 👉 Postman ignores CORS, browser doesn’t.
 
-✅ Difference Between <Image> and <img>
+✅ Difference Between `<Image>` and `<img>`
 
-<img>
+`<img>`
 
 Normal HTML tag
 
 No optimization
 
-<Image> (Next.js)
+`<Image>` (Next.js)
 
 Auto image optimization
 
@@ -1894,17 +1918,21 @@ Aapne required data nahi bheja.
 
 Example:
 
+```json
 // Backend expects
 {
-"email": "[test@gmail.com](mailto:test@gmail.com)",
+"email": "test@gmail.com",
 "password": "123456"
 }
+```
 
 Frontend ne bheja:
 
+```json
 {
-"email": "[test@gmail.com](mailto:test@gmail.com)"
+"email": "test@gmail.com"
 }
+```
 
 👉 password missing → 400
 
@@ -1914,15 +1942,19 @@ Data ka type galat hai.
 
 Example:
 
+```json
 {
 "age": "twenty"
 }
+```
 
 Backend expects:
 
+```json
 {
 "age": 20
 }
+```
 
 👉 400 error
 
@@ -1944,7 +1976,9 @@ URL me galat ya missing params.
 
 Example:
 
+```text
 /api/user?id=
+```
 
 id empty hai → 400
 
@@ -1954,9 +1988,10 @@ Required headers missing.
 
 Example:
 
-Content-Type: application/json missing
-
-Token galat format me
+```text
+Content-Type: application/json
+Authorization: Bearer <token>
+```
 
 👉 400
 
@@ -1966,15 +2001,19 @@ Backend strict ho aur extra fields allow na kare.
 
 Example:
 
+```json
 {
-"email": "[a@gmail.com](mailto:a@gmail.com)",
+"email": "a@gmail.com",
 "password": "123456",
 "role": "admin"
 }
+```
 
 Backend role expect nahi karta → 400
 
 ✅ Frontend me 400 kaise handle kare
+
+```js
 try {
 await axios.post("/login", data);
 } catch (error) {
@@ -1982,6 +2021,7 @@ if (error.response.status === 400) {
 alert(error.response.data.message || "Invalid input");
 }
 }
+```
 
 ✅ Interview One-Line Answer
 
@@ -1989,23 +2029,29 @@ alert(error.response.data.message || "Invalid input");
 
 ✅ 400 vs 401 vs 404 (Short difference)
 
-400 → Request galat
-
-401 → Login / token issue
-
-## 404 → Data ya API nahi mili
+- 400 → Request galat
+- 401 → Login / token issue
+- 404 → Data ya API nahi mili
 
 JSON (JavaScript Object Notation) is a lightweight, text-based data format used to store and exchange data between a client and a server in a structured key-value form.
 
 ---
 
 Without NEXT_PUBLIC_ (Server only)
+
+```env
 API_SECRET=abcd1234
+```
 
 // ✅ Works only on server
+```js
 process.env.API_SECRET
+```
 
 ❌ Not available in browser
 
 🌍 With NEXT_PUBLIC_ (Client + Server)
+
+```env
 NEXT_PUBLIC_API_URL=https://api.example.com
+```
