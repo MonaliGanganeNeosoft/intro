@@ -17,22 +17,6 @@ This file contains commonly asked Accenture L1 interview topics and coding quest
 11. Debounce
 12. Throttling
 
-## JavaScript Coding Questions
-
-1. Debouncing code
-2. Array delete code
-3. Reverse a string
-4. Check palindrome string
-5. Find duplicate elements in array
-6. Remove duplicates from array
-7. Find second largest number in array
-8. Flatten nested array
-9. Debounce function implementation
-10. Throttle function implementation
-11. Group array objects by property
-12. Count frequency of elements in array
-13. Find missing number in array
-14. Sort array without using `.sort()`
 
 ## JavaScript Example Snippets
 
@@ -103,6 +87,23 @@ console.log(arr[0].prop);
 2. Pseudo element
 3. Box model
 4. Class and id
+
+## JavaScript Coding Questions
+
+1. Debouncing code
+2. Array delete code
+3. Reverse a string
+4. Check palindrome string
+5. Find duplicate elements in array
+6. Remove duplicates from array
+7. Find second largest number in array
+8. Flatten nested array
+9. Debounce function implementation
+10. Throttle function implementation
+11. Group array objects by property
+12. Count frequency of elements in array
+13. Find missing number in array
+14. Sort array without using `.sort()`
 
 ## Advanced JavaScript Coding Questions
 
