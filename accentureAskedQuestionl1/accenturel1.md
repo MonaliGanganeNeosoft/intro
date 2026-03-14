@@ -75,6 +75,35 @@ const searchInput = document.getElementById("search");
 searchInput.addEventListener("input", debounce(search, 500));
 ```
 
+## React Custom Hook Example
+
+```jsx
+// function useCounter(initialValue = 0) {
+//   const [count, setCount] = useState(initialValue);
+//
+//   const increment = () => setCount(count + 1);
+//   const decrement = () => setCount(count - 1);
+//   const reset = () => setCount(initialValue);
+//
+//   return { count, increment, decrement, reset };
+// }
+//
+// export default useCounter;
+
+const obj = { prop: "old" };
+const arr = [obj];
+delete arr;
+
+console.log(arr[0].prop);
+```
+
+## CSS Theory Questions
+
+1. Pseudo class
+2. Pseudo element
+3. Box model
+4. Class and id
+
 ## Advanced JavaScript Coding Questions
 
 1. Implement `Promise.all`
@@ -133,32 +162,3 @@ searchInput.addEventListener("input", debounce(search, 500));
 8. Code splitting with `lazy`
 9. Error boundaries
 10. React reconciliation
-
-## React Custom Hook Example
-
-```jsx
-// function useCounter(initialValue = 0) {
-//   const [count, setCount] = useState(initialValue);
-//
-//   const increment = () => setCount(count + 1);
-//   const decrement = () => setCount(count - 1);
-//   const reset = () => setCount(initialValue);
-//
-//   return { count, increment, decrement, reset };
-// }
-//
-// export default useCounter;
-
-const obj = { prop: "old" };
-const arr = [obj];
-delete arr;
-
-console.log(arr[0].prop);
-```
-
-## CSS Theory Questions
-
-1. Pseudo class
-2. Pseudo element
-3. Box model
-4. Class and id
