@@ -2007,3 +2007,716 @@ Where: Login systems and protected APIs.
 const token = "header.payload.signature";
 localStorage.setItem("token", token);
 ```
+
+---
+
+# Separate Practice Code Examples
+
+## Screen 2 Separate Code
+
+### Redux and `useContext` with example
+
+```jsx
+import React, { createContext, useContext, useReducer } from "react";
+
+const CountContext = createContext();
+
+function reducer(state, action) {
+  switch (action.type) {
+    case "INC":
+      return { count: state.count + 1 };
+    default:
+      return state;
+  }
+}
+
+function Child() {
+  const { state, dispatch } = useContext(CountContext);
+  return <button onClick={() => dispatch({ type: "INC" })}>{state.count}</button>;
+}
+
+export default function App() {
+  const [state, dispatch] = useReducer(reducer, { count: 0 });
+  return (
+    <CountContext.Provider value={{ state, dispatch }}>
+      <Child />
+    </CountContext.Provider>
+  );
+}
+```
+
+### Lifecycle methods in React
+
+```jsx
+import React, { useEffect } from "react";
+
+export default function App() {
+  useEffect(() => {
+    console.log("componentDidMount");
+    return () => console.log("componentWillUnmount");
+  }, []);
+
+  return <h1>Lifecycle</h1>;
+}
+```
+
+### Props and state
+
+```jsx
+import React, { useState } from "react";
+
+function Child({ title }) {
+  return <h2>{title}</h2>;
+}
+
+export default function App() {
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <Child title="Props Example" />
+      <button onClick={() => setCount(count + 1)}>{count}</button>
+    </div>
+  );
+}
+```
+
+### `splice()` and `slice()` method, and `hasOwnProperty()`
+
+```js
+const arr = [1, 2, 3, 4];
+console.log(arr.slice(1, 3)); // [2, 3]
+arr.splice(1, 1);
+console.log(arr); // [1, 3, 4]
+
+const user = { name: "Aslam" };
+console.log(user.hasOwnProperty("name")); // true
+```
+
+### Routing in React JS
+
+```jsx
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
+function Home() {
+  return <h1>Home</h1>;
+}
+
+function About() {
+  return <h1>About</h1>;
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+```
+
+### Callback, HOC, and HOF
+
+```jsx
+function greet(callback) {
+  callback();
+}
+
+greet(() => console.log("callback"));
+
+function withBorder(Component) {
+  return function Wrapped() {
+    return (
+      <div style={{ border: "1px solid black" }}>
+        <Component />
+      </div>
+    );
+  };
+}
+
+function Hello() {
+  return <h1>Hello</h1>;
+}
+
+const BoxedHello = withBorder(Hello);
+```
+
+### What is DOM and Virtual DOM?
+
+```jsx
+const element = <h1>Hello Virtual DOM</h1>;
+```
+
+### `async` / `await`
+
+```js
+async function loadUsers() {
+  const res = await fetch("https://jsonplaceholder.typicode.com/users");
+  const data = await res.json();
+  console.log(data);
+}
+```
+
+### `setTimeout()` and `setInterval()`
+
+```js
+setTimeout(() => console.log("runs once"), 1000);
+
+const timerId = setInterval(() => console.log("runs again"), 2000);
+clearInterval(timerId);
+```
+
+### Spread and rest operators
+
+```js
+const nums = [1, 2, 3];
+const newNums = [...nums, 4];
+
+function sum(...values) {
+  return values.reduce((acc, item) => acc + item, 0);
+}
+```
+
+### Shallow copy and deep copy
+
+```js
+const obj = { user: { name: "Aslam" } };
+const shallow = { ...obj };
+const deep = structuredClone(obj);
+```
+
+### Code optimization
+
+```jsx
+import React, { memo, useMemo } from "react";
+
+const Child = memo(function Child({ value }) {
+  return <p>{value}</p>;
+});
+
+export default function App({ items }) {
+  const total = useMemo(() => items.length, [items]);
+  return <Child value={total} />;
+}
+```
+
+### API call methods and HTTP methods
+
+```js
+fetch("/api/users", { method: "GET" });
+fetch("/api/users", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ name: "Aslam" })
+});
+```
+
+### Difference between React JS and React Native
+
+```jsx
+// React JS
+<button>Click</button>
+
+// React Native
+<Button title="Click" />
+```
+
+### Redux and Flux
+
+```js
+const action = { type: "INC" };
+
+function reducer(state = { count: 0 }, action) {
+  switch (action.type) {
+    case "INC":
+      return { count: state.count + 1 };
+    default:
+      return state;
+  }
+}
+```
+
+### Why does CORS error occur?
+
+```js
+fetch("https://other-domain.com/api/data")
+  .then((res) => res.json())
+  .then(console.log)
+  .catch(console.error);
+```
+
+## Screen 3 Separate Code
+
+### Fibonacci series
+
+```js
+function fibonacci(n) {
+  let a = 0;
+  let b = 1;
+  const result = [];
+
+  for (let i = 0; i < n; i++) {
+    result.push(a);
+    [a, b] = [b, a + b];
+  }
+
+  return result;
+}
+```
+
+### Factorial
+
+```js
+function factorial(n) {
+  let result = 1;
+  for (let i = 1; i <= n; i++) result *= i;
+  return result;
+}
+```
+
+### Prime number
+
+```js
+function isPrime(num) {
+  if (num <= 1) return false;
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i === 0) return false;
+  }
+  return true;
+}
+```
+
+### Unique number
+
+```js
+const arr = [1, 2, 2, 3, 3];
+const unique = arr.find((item) => arr.indexOf(item) === arr.lastIndexOf(item));
+```
+
+### Count how many repeated elements
+
+```js
+const arr = [1, 2, 2, 3, 3, 3];
+const counts = arr.reduce((acc, item) => {
+  acc[item] = (acc[item] || 0) + 1;
+  return acc;
+}, {});
+```
+
+### Highest second number
+
+```js
+function secondLargest(arr) {
+  return [...new Set(arr)].sort((a, b) => b - a)[1];
+}
+```
+
+### Palindrome
+
+```js
+function isPalindrome(str) {
+  return str === str.split("").reverse().join("");
+}
+```
+
+### Generate possibilities / pairs
+
+```js
+const arr = ["a", "b", "c"];
+for (let i = 0; i < arr.length; i++) {
+  for (let j = i + 1; j < arr.length; j++) {
+    console.log(arr[i], arr[j]);
+  }
+}
+```
+
+### Count vowels
+
+```js
+function countVowels(str) {
+  return (str.match(/[aeiou]/gi) || []).length;
+}
+```
+
+### Pattern logic
+
+```js
+for (let i = 1; i <= 5; i++) {
+  console.log("*".repeat(i));
+}
+```
+
+### Longest substring without repeating characters
+
+```js
+function longestSubstring(str) {
+  let left = 0;
+  let max = 0;
+  const set = new Set();
+
+  for (let right = 0; right < str.length; right++) {
+    while (set.has(str[right])) {
+      set.delete(str[left]);
+      left++;
+    }
+    set.add(str[right]);
+    max = Math.max(max, right - left + 1);
+  }
+
+  return max;
+}
+```
+
+### Find subarray in array
+
+```js
+const arr = [1, 2, 3, 4, 5];
+const subarray = arr.slice(1, 4);
+```
+
+### Find missing number in array
+
+```js
+function missingNumber(arr, n) {
+  const expected = (n * (n + 1)) / 2;
+  const actual = arr.reduce((sum, item) => sum + item, 0);
+  return expected - actual;
+}
+```
+
+### Deep clone
+
+```js
+const original = { a: 1, b: { c: 2 } };
+const copied = structuredClone(original);
+```
+
+## Screen 4 Separate Code
+
+### Custom hooks
+
+```jsx
+import { useState } from "react";
+
+function useCounter(initialValue = 0) {
+  const [count, setCount] = useState(initialValue);
+  return { count, setCount };
+}
+```
+
+### Counter to timer
+
+```jsx
+import React, { useEffect, useState } from "react";
+
+export default function App() {
+  const [time, setTime] = useState(0);
+
+  useEffect(() => {
+    const id = setInterval(() => setTime((prev) => prev + 1), 1000);
+    return () => clearInterval(id);
+  }, []);
+
+  return <h1>{time}</h1>;
+}
+```
+
+### Redux counter
+
+```js
+const initialState = { count: 0 };
+
+function reducer(state = initialState, action) {
+  switch (action.type) {
+    case "INC":
+      return { count: state.count + 1 };
+    case "DEC":
+      return { count: state.count - 1 };
+    default:
+      return state;
+  }
+}
+```
+
+### Progress bar
+
+```jsx
+export default function App() {
+  return (
+    <div style={{ width: 200, border: "1px solid #000" }}>
+      <div style={{ width: "70%", background: "green", color: "#fff" }}>70%</div>
+    </div>
+  );
+}
+```
+
+### API call with `fetch`
+
+```js
+fetch("https://jsonplaceholder.typicode.com/posts")
+  .then((res) => res.json())
+  .then((data) => console.log(data));
+```
+
+### Color changer
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const [color, setColor] = useState("red");
+  return <button style={{ background: color }} onClick={() => setColor("blue")}>Change</button>;
+}
+```
+
+### Filter card
+
+```js
+const cards = [
+  { id: 1, type: "fruit" },
+  { id: 2, type: "book" }
+];
+
+const filtered = cards.filter((card) => card.type === "fruit");
+```
+
+### Generate random color
+
+```js
+function randomColor() {
+  return "#" + Math.floor(Math.random() * 16777215).toString(16);
+}
+```
+
+### Form validation
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = () => {
+    if (!email.includes("@")) {
+      alert("Invalid email");
+    }
+  };
+
+  return (
+    <div>
+      <input value={email} onChange={(e) => setEmail(e.target.value)} />
+      <button onClick={handleSubmit}>Submit</button>
+    </div>
+  );
+}
+```
+
+### Multi-select with all options
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const options = ["HTML", "CSS", "JS"];
+  const [selected, setSelected] = useState([]);
+
+  const selectAll = () => setSelected(options);
+
+  return <button onClick={selectAll}>Select All</button>;
+}
+```
+
+### Target value from array by index
+
+```js
+const arr = ["red", "green", "blue"];
+console.log(arr[2]); // blue
+```
+
+### Change positions
+
+```js
+let arr = [10, 20, 30];
+[arr[0], arr[2]] = [arr[2], arr[0]];
+```
+
+### Negative numbers from array
+
+```js
+const arr = [1, -2, 3, -4];
+const negatives = arr.filter((item) => item < 0);
+```
+
+### Longest substring
+
+```js
+function longestWord(str) {
+  return str.split(" ").sort((a, b) => b.length - a.length)[0];
+}
+```
+
+## Screen 5 Separate Code
+
+### Show / hide text
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const [show, setShow] = useState(false);
+  return (
+    <div>
+      <button onClick={() => setShow(!show)}>Toggle</button>
+      {show && <p>Hello World</p>}
+    </div>
+  );
+}
+```
+
+### API call on click
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const [users, setUsers] = useState([]);
+
+  async function loadUsers() {
+    const res = await fetch("https://jsonplaceholder.typicode.com/users");
+    const data = await res.json();
+    setUsers(data);
+  }
+
+  return <button onClick={loadUsers}>{users.length} Users</button>;
+}
+```
+
+### Show list of response in two columns
+
+```jsx
+const styles = {
+  display: "grid",
+  gridTemplateColumns: "1fr 1fr",
+  gap: "10px"
+};
+```
+
+### Dropdown sorting: ascending and descending
+
+```jsx
+const numbers = [30, 10, 20];
+const asc = [...numbers].sort((a, b) => a - b);
+const desc = [...numbers].sort((a, b) => b - a);
+```
+
+### Filter based on status code
+
+```js
+const data = [
+  { id: 1, status: 200 },
+  { id: 2, status: 404 }
+];
+
+const result = data.filter((item) => item.status === 200);
+```
+
+### 3 input fields with submit button, show data in table, and empty after submit
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const [form, setForm] = useState({ name: "", email: "", city: "" });
+  const [rows, setRows] = useState([]);
+
+  const submit = () => {
+    setRows((prev) => [...prev, form]);
+    setForm({ name: "", email: "", city: "" });
+  };
+
+  return (
+    <div>
+      <input value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} />
+      <input value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} />
+      <input value={form.city} onChange={(e) => setForm({ ...form, city: e.target.value })} />
+      <button onClick={submit}>Submit</button>
+    </div>
+  );
+}
+```
+
+### Create counter
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const [count, setCount] = useState(0);
+  return <button onClick={() => setCount(count + 1)}>{count}</button>;
+}
+```
+
+### Create timer with play, stop, and reset
+
+```jsx
+import React, { useRef, useState } from "react";
+
+export default function App() {
+  const [time, setTime] = useState(0);
+  const idRef = useRef(null);
+
+  const start = () => {
+    if (!idRef.current) {
+      idRef.current = setInterval(() => setTime((prev) => prev + 1), 1000);
+    }
+  };
+
+  const stop = () => {
+    clearInterval(idRef.current);
+    idRef.current = null;
+  };
+
+  const reset = () => {
+    stop();
+    setTime(0);
+  };
+
+  return (
+    <div>
+      <p>{time}</p>
+      <button onClick={start}>Play</button>
+      <button onClick={stop}>Stop</button>
+      <button onClick={reset}>Reset</button>
+    </div>
+  );
+}
+```
+
+### Pagination with limit and make responsive
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const items = ["A", "B", "C", "D", "E"];
+  const [page, setPage] = useState(1);
+  const limit = 2;
+
+  const start = (page - 1) * limit;
+  const visible = items.slice(start, start + limit);
+
+  return (
+    <div>
+      {visible.map((item) => (
+        <p key={item}>{item}</p>
+      ))}
+      <button disabled={page === 1} onClick={() => setPage(page - 1)}>Prev</button>
+      <button disabled={start + limit >= items.length} onClick={() => setPage(page + 1)}>Next</button>
+    </div>
+  );
+}
+```
