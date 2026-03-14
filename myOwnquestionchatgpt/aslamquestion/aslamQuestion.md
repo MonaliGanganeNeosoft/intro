@@ -1041,3 +1041,969 @@ const payload = {
 console.log(token);
 console.log(payload);
 ```
+
+---
+
+# Detailed Interview Format
+
+## Screen 1 Detailed Notes
+
+### 1. Difference between normal function and arrow function
+Definition: A normal function has its own `this`, while an arrow function uses `this` from the parent scope.
+Why: It matters when working with event handlers, objects, and callbacks.
+When: Use arrow functions for short callbacks. Use normal functions when you need your own `this`.
+Where: Common in React handlers, array methods, and object methods.
+
+```js
+const obj = {
+  name: "Aslam",
+  normal: function () {
+    console.log(this.name);
+  },
+  arrow: () => {
+    console.log(this.name);
+  }
+};
+```
+
+### 2. Features of ECMAScript
+Definition: ECMAScript is the JavaScript standard that introduces language features.
+Why: It makes code shorter, cleaner, and easier to maintain.
+When: Use modern syntax in new projects.
+Where: Used in frontend, backend, and tooling.
+
+```js
+const user = { name: "Aslam" };
+const { name } = user;
+const msg = `Hello ${name}`;
+console.log(msg);
+```
+
+### 3. `let`, `var`, `const`, and `package.json`
+Definition: `var` is function-scoped, `let` and `const` are block-scoped, and `package.json` holds project metadata.
+Why: Correct variable choice prevents bugs; `package.json` manages scripts and dependencies.
+When: Use `const` by default, `let` when reassignment is needed, avoid `var` in modern code.
+Where: Used in all JavaScript projects and Node/React apps.
+
+```js
+let count = 1;
+const appName = "demo-app";
+var oldValue = "legacy";
+```
+
+```json
+{
+  "name": "demo-app",
+  "scripts": {
+    "start": "vite"
+  }
+}
+```
+
+### 4. How to pass data from child to parent
+Definition: The child sends data to the parent by calling a function passed through props.
+Why: React data flow is mainly top to bottom, so callbacks help send values back up.
+When: Use it when a child input or button needs to update parent state.
+Where: Forms, modals, dropdowns, and reusable child components.
+
+```jsx
+function Child({ onSend }) {
+  return <button onClick={() => onSend("hello")}>Send</button>;
+}
+```
+
+### 5. Promises
+Definition: A Promise represents an async operation that may resolve or reject later.
+Why: It helps handle async code without deeply nested callbacks.
+When: Use for API calls, timers, and async tasks.
+Where: `fetch`, database calls, file operations, and custom async logic.
+
+```js
+new Promise((resolve) => {
+  setTimeout(() => resolve("done"), 1000);
+}).then(console.log);
+```
+
+### 6. Difference between XML / XHR and `fetch`
+Definition: XHR is the older browser API for requests; `fetch` is the modern promise-based API.
+Why: `fetch` is cleaner and works naturally with async/await.
+When: Prefer `fetch` in modern applications.
+Where: Frontend API requests.
+
+```js
+fetch("/api/users")
+  .then((res) => res.json())
+  .then((data) => console.log(data));
+```
+
+### 7. Difference between `git fetch` and `git pull`
+Definition: `git fetch` downloads remote changes only; `git pull` downloads and merges them.
+Why: It helps avoid accidental merges.
+When: Use `fetch` when you want to review first, `pull` when ready to update local branch.
+Where: Git repositories and team workflows.
+
+```bash
+git fetch origin
+git pull origin main
+```
+
+### 8. Class component and function component
+Definition: Class components use ES6 classes; function components are plain functions that return JSX.
+Why: Function components are simpler and work well with Hooks.
+When: Use function components in modern React.
+Where: React web apps and React Native apps.
+
+```jsx
+function Welcome() {
+  return <h1>Hello</h1>;
+}
+```
+
+### 9. Stateless and stateful components
+Definition: Stateless components only use props; stateful components manage their own state.
+Why: It helps separate presentational and logic-heavy parts.
+When: Use stateless for display-only UI, stateful for interactive UI.
+Where: Buttons, forms, modals, counters.
+
+```jsx
+function Title({ text }) {
+  return <h1>{text}</h1>;
+}
+```
+
+### 10. Controlled and uncontrolled components
+Definition: Controlled inputs are managed by React state; uncontrolled inputs are managed by the DOM.
+Why: Controlled components give better validation and predictability.
+When: Use controlled inputs for most React forms.
+Where: Login, signup, search, filters.
+
+```jsx
+const [name, setName] = useState("");
+<input value={name} onChange={(e) => setName(e.target.value)} />;
+```
+
+### 11. `useCallback` and `useMemo`
+Definition: `useCallback` caches a function; `useMemo` caches a calculated value.
+Why: They help avoid unnecessary renders or recalculations.
+When: Use when passing callbacks to memoized children or doing expensive calculations.
+Where: Performance-sensitive React components.
+
+```jsx
+const total = useMemo(() => items.length, [items]);
+const handleClick = useCallback(() => console.log("clicked"), []);
+```
+
+### 12. How do you make synchronous code asynchronous?
+Definition: You move work into async APIs like promises, timers, or async functions.
+Why: It prevents blocking the main thread.
+When: Use when handling I/O, API calls, or deferred work.
+Where: API requests, delayed tasks, large computations.
+
+```js
+setTimeout(() => {
+  console.log("async task");
+}, 0);
+```
+
+### 13. Hoisting with example
+Definition: Hoisting means JavaScript moves declarations to the top of scope during compilation.
+Why: It explains why `var` behaves differently from `let` and `const`.
+When: Important while debugging variable access before declaration.
+Where: Functions, variables, and interview questions.
+
+```js
+console.log(a);
+var a = 10;
+```
+
+### 14. Closures with example
+Definition: A closure is when an inner function remembers variables from its outer scope.
+Why: It enables private state and reusable function factories.
+When: Use for counters, memoization, and callbacks.
+Where: JavaScript utilities and React event logic.
+
+```js
+function outer() {
+  let value = 0;
+  return () => ++value;
+}
+```
+
+### 15. `export`, `import`, `require`, and ES modules
+Definition: `export` and `import` are ES module syntax; `require` is CommonJS syntax.
+Why: Modules organize code into reusable files.
+When: Use ES modules in modern frontend and Node projects.
+Where: React apps, Node apps, libraries.
+
+```js
+export const sum = (a, b) => a + b;
+import { sum } from "./math.js";
+```
+
+## Screen 2 Detailed Notes
+
+### 1. Redux and `useContext` with example
+Definition: Redux is a full state management library; `useContext` shares data across components without prop drilling.
+Why: They simplify shared state handling.
+When: Use `useContext` for light shared state, Redux for complex app-wide state.
+Where: Authentication, theme, cart, dashboards.
+
+```jsx
+const ThemeContext = React.createContext("light");
+const theme = React.useContext(ThemeContext);
+```
+
+### 2. Lifecycle methods in React
+Definition: Lifecycle methods define what happens when a component mounts, updates, and unmounts.
+Why: They help run side effects at the right time.
+When: Use `useEffect` in function components for lifecycle-like behavior.
+Where: API calls, subscriptions, cleanup.
+
+```jsx
+useEffect(() => {
+  console.log("mounted");
+  return () => console.log("unmounted");
+}, []);
+```
+
+### 3. Props and state
+Definition: Props are inputs from parent; state is internal component data.
+Why: This is the core of React component design.
+When: Use props for external data, state for local changes.
+Where: All React components.
+
+```jsx
+function Card({ title }) {
+  const [open, setOpen] = useState(false);
+  return <button onClick={() => setOpen(!open)}>{title}</button>;
+}
+```
+
+### 4. `splice()` and `slice()` method, and `hasOwnProperty()`
+Definition: `slice()` copies data, `splice()` mutates arrays, and `hasOwnProperty()` checks direct object properties.
+Why: These are common JavaScript interview methods.
+When: Use `slice` for copy, `splice` for edit, `hasOwnProperty` for property checks.
+Where: Arrays, objects, data transforms.
+
+```js
+const arr = [1, 2, 3, 4];
+console.log(arr.slice(1, 3));
+arr.splice(1, 1);
+console.log({ a: 1 }.hasOwnProperty("a"));
+```
+
+### 5. Routing in React JS
+Definition: Routing maps URLs to React components.
+Why: It enables page-like navigation in single-page apps.
+When: Use when your app has multiple views.
+Where: Dashboards, e-commerce, admin panels.
+
+```jsx
+<Routes>
+  <Route path="/" element={<Home />} />
+</Routes>
+```
+
+### 6. Callback, HOC, and HOF
+Definition: A callback is a passed function, HOF works with functions, and HOC wraps components.
+Why: They improve reuse and abstraction.
+When: Use callbacks for async/events, HOF/HOC for shared logic.
+Where: Utilities, React wrappers, event handlers.
+
+```js
+function greet(fn) {
+  fn();
+}
+greet(() => console.log("hello"));
+```
+
+### 7. What is DOM and Virtual DOM?
+Definition: DOM is the browser tree; Virtual DOM is React's in-memory copy for comparison.
+Why: Virtual DOM improves update efficiency.
+When: Important when understanding React rendering.
+Where: All React UI updates.
+
+```jsx
+const element = <h1>Hello</h1>;
+```
+
+### 8. `async` / `await`
+Definition: `async` makes a function return a promise and `await` pauses until the promise resolves.
+Why: It makes async code easier to read.
+When: Use in API calls and async workflows.
+Where: Frontend and backend JavaScript.
+
+```js
+async function load() {
+  const res = await fetch("/api/users");
+  return res.json();
+}
+```
+
+### 9. `setTimeout()` and `setInterval()`
+Definition: `setTimeout` runs once after a delay; `setInterval` runs repeatedly.
+Why: They schedule code execution.
+When: Use for timers, polling, delayed UI actions.
+Where: Countdowns, animations, alerts.
+
+```js
+setTimeout(() => console.log("once"), 1000);
+setInterval(() => console.log("repeat"), 2000);
+```
+
+### 10. Spread and rest operators
+Definition: Spread expands values; rest collects remaining values.
+Why: They reduce boilerplate in arrays, objects, and functions.
+When: Use for copying, merging, and variable argument functions.
+Where: React props, state updates, utility functions.
+
+```js
+const a = [1, 2];
+const b = [...a, 3];
+function sum(...nums) {
+  return nums.reduce((x, y) => x + y, 0);
+}
+```
+
+### 11. Shallow copy and deep copy
+Definition: Shallow copy copies only first-level values; deep copy duplicates nested data too.
+Why: It avoids unwanted shared references.
+When: Use deep copy when nested objects must be fully independent.
+Where: State updates and object cloning.
+
+```js
+const user = { info: { city: "Delhi" } };
+const copy = structuredClone(user);
+```
+
+### 12. Code optimization
+Definition: Code optimization means improving performance and reducing unnecessary work.
+Why: It makes apps faster and more scalable.
+When: Use when rendering is slow or data is heavy.
+Where: Large lists, API-heavy pages, dashboards.
+
+```jsx
+const MemoList = React.memo(List);
+```
+
+### 13. API call methods and HTTP methods
+Definition: HTTP methods like `GET`, `POST`, `PUT`, and `DELETE` define request type.
+Why: They standardize communication with servers.
+When: Use the method based on create, read, update, or delete action.
+Where: REST APIs and backend integration.
+
+```js
+fetch("/api/users", { method: "POST", body: JSON.stringify({ name: "Aslam" }) });
+```
+
+### 14. Difference between React JS and React Native
+Definition: React JS builds web UIs; React Native builds native mobile apps.
+Why: Same React concepts can be used on different platforms.
+When: Use React JS for browsers, React Native for Android/iOS.
+Where: Web apps and mobile apps.
+
+```jsx
+// React JS
+<div>Hello</div>
+
+// React Native
+<Text>Hello</Text>
+```
+
+### 15. Redux and Flux
+Definition: Flux is an architecture pattern; Redux is a library inspired by Flux.
+Why: Both support one-way data flow.
+When: Use Redux when app state grows complex.
+Where: Large React applications.
+
+```js
+const reducer = (state = 0, action) =>
+  action.type === "INC" ? state + 1 : state;
+```
+
+### 16. Why does CORS error occur?
+Definition: CORS blocks requests between different origins unless the server allows them.
+Why: It is a browser security feature.
+When: It happens in cross-origin frontend-backend communication.
+Where: Localhost frontend calling another domain/API.
+
+```js
+fetch("https://api.example.com/data");
+```
+
+## Screen 3 Detailed Notes
+
+### 1. Fibonacci series
+Definition: In Fibonacci, each number is the sum of the previous two numbers.
+Why: It tests loops, recursion, and sequence logic.
+When: Asked in basic coding rounds.
+Where: JavaScript coding interviews and algorithm practice.
+
+```js
+function fibonacci(n) {
+  let a = 0, b = 1;
+  for (let i = 0; i < n; i++) {
+    console.log(a);
+    [a, b] = [b, a + b];
+  }
+}
+```
+
+### 2. Factorial
+Definition: Factorial of `n` is the product of all integers from `1` to `n`.
+Why: It checks loops, recursion, and base conditions.
+When: Common beginner coding problem.
+Where: Interview coding rounds.
+
+```js
+function factorial(n) {
+  return n <= 1 ? 1 : n * factorial(n - 1);
+}
+```
+
+### 3. Prime number
+Definition: A prime number has exactly two factors: `1` and itself.
+Why: It checks divisor logic and optimization.
+When: Common number-based coding question.
+Where: JavaScript and DSA interviews.
+
+```js
+function isPrime(num) {
+  if (num <= 1) return false;
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i === 0) return false;
+  }
+  return true;
+}
+```
+
+### 4. Unique number
+Definition: A unique number appears only once in a list.
+Why: It tests counting and lookup logic.
+When: Use when finding non-repeated values.
+Where: Array interview questions.
+
+```js
+const arr = [1, 2, 2, 3, 3];
+const unique = arr.find((n) => arr.indexOf(n) === arr.lastIndexOf(n));
+```
+
+### 5. Count how many repeated elements
+Definition: This means finding frequency of duplicate values.
+Why: It checks map/object counting skills.
+When: Use when data has repeated items.
+Where: Arrays, reporting, analytics.
+
+```js
+const arr = [1, 2, 2, 3, 3, 3];
+const count = arr.reduce((acc, item) => {
+  acc[item] = (acc[item] || 0) + 1;
+  return acc;
+}, {});
+```
+
+### 6. Highest second number
+Definition: It means finding the second largest distinct value in an array.
+Why: It tests comparison logic.
+When: Use when ranking values.
+Where: Coding interviews and leaderboard logic.
+
+```js
+const second = [...new Set([10, 20, 30, 40, 30])].sort((a, b) => b - a)[1];
+```
+
+### 7. Palindrome
+Definition: A palindrome reads the same forward and backward.
+Why: It checks string handling.
+When: Use in text validation and coding rounds.
+Where: String algorithm questions.
+
+```js
+function isPalindrome(str) {
+  return str === str.split("").reverse().join("");
+}
+```
+
+### 8. Generate possibilities / pairs
+Definition: It means generating combinations or all possible pairs.
+Why: It tests nested loops or recursion.
+When: Use when pairing items or generating combinations.
+Where: Scheduling, combinations, string problems.
+
+```js
+const arr = ["a", "b", "c"];
+for (let i = 0; i < arr.length; i++) {
+  for (let j = i + 1; j < arr.length; j++) {
+    console.log(arr[i], arr[j]);
+  }
+}
+```
+
+### 9. Count vowels
+Definition: It means counting `a`, `e`, `i`, `o`, and `u` in a string.
+Why: It checks string iteration and conditions.
+When: Basic string-processing tasks.
+Where: Form input checks and interview questions.
+
+```js
+function countVowels(str) {
+  return (str.match(/[aeiou]/gi) || []).length;
+}
+```
+
+### 10. Pattern logic
+Definition: Pattern logic means printing shapes like triangles or pyramids.
+Why: It tests nested loop understanding.
+When: Asked in logic-building rounds.
+Where: Coding practice and interviews.
+
+```js
+for (let i = 1; i <= 3; i++) {
+  console.log("*".repeat(i));
+}
+```
+
+### 11. Longest substring without repeating characters
+Definition: It means finding the maximum-length substring with all unique characters.
+Why: It tests sliding window technique.
+When: Medium-level string problem.
+Where: Coding interviews and algorithm practice.
+
+```js
+function longestLength(s) {
+  let set = new Set(), left = 0, max = 0;
+  for (let right = 0; right < s.length; right++) {
+    while (set.has(s[right])) set.delete(s[left++]);
+    set.add(s[right]);
+    max = Math.max(max, right - left + 1);
+  }
+  return max;
+}
+```
+
+### 12. Find subarray in array
+Definition: A subarray is a continuous part of an array.
+Why: It tests iteration, ranges, and sometimes sliding window.
+When: Use for sum, range, and target matching problems.
+Where: Array algorithm questions.
+
+```js
+const arr = [1, 2, 3, 4];
+const sub = arr.slice(1, 3); // [2, 3]
+```
+
+### 13. Find missing number in array
+Definition: It means finding the number missing from an expected sequence.
+Why: It tests math and array reduction.
+When: Use when sequence range is known.
+Where: Coding interviews and data checks.
+
+```js
+function missing(arr, n) {
+  return (n * (n + 1)) / 2 - arr.reduce((sum, x) => sum + x, 0);
+}
+```
+
+### 14. Deep clone
+Definition: Deep clone creates a full independent copy, including nested objects.
+Why: It prevents accidental mutation of original data.
+When: Use before modifying nested structures.
+Where: State management and object transformations.
+
+```js
+const original = { user: { name: "Aslam" } };
+const cloned = structuredClone(original);
+```
+
+## Screen 4 Detailed Notes
+
+### 1. Custom hooks
+Definition: A custom hook is a reusable function that starts with `use` and contains hook logic.
+Why: It helps share logic across components.
+When: Use when repeated hook logic appears in multiple components.
+Where: Form logic, fetch logic, resize logic.
+
+```jsx
+function useCounter() {
+  const [count, setCount] = useState(0);
+  return { count, setCount };
+}
+```
+
+### 2. Counter to timer
+Definition: It means turning a count value into time-based increment or decrement logic.
+Why: It tests interval handling and cleanup.
+When: Use for stopwatch and countdown tasks.
+Where: Quiz apps, timers, productivity tools.
+
+```js
+let count = 0;
+setInterval(() => console.log(++count), 1000);
+```
+
+### 3. Redux counter
+Definition: It is a simple Redux example with increment/decrement actions.
+Why: It shows store, reducer, and dispatch basics.
+When: Use when learning Redux state flow.
+Where: Interview demos and Redux examples.
+
+```js
+const reducer = (state = 0, action) =>
+  action.type === "INC" ? state + 1 : state;
+```
+
+### 4. Progress bar
+Definition: A progress bar visually shows task completion percentage.
+Why: It improves user feedback.
+When: Use in uploads, loaders, and steps.
+Where: Forms, downloads, dashboards.
+
+```jsx
+<div style={{ width: "200px", border: "1px solid #000" }}>
+  <div style={{ width: "60%", background: "green", color: "#fff" }}>60%</div>
+</div>
+```
+
+### 5. API call with `fetch`
+Definition: `fetch` requests data from a server.
+Why: It is the standard browser API for network requests.
+When: Use to load or send backend data.
+Where: User lists, product lists, form submission.
+
+```js
+fetch("/api/data")
+  .then((res) => res.json())
+  .then(console.log);
+```
+
+### 6. Color changer
+Definition: It changes UI color based on state or user action.
+Why: It tests event handling and dynamic styles.
+When: Use in theme toggles and UI demos.
+Where: Buttons, cards, theme switches.
+
+```jsx
+const [color, setColor] = useState("red");
+<button style={{ background: color }} onClick={() => setColor("blue")} />;
+```
+
+### 7. Filter card
+Definition: A filter card displays items and filters them based on a rule.
+Why: It checks array filtering and state updates.
+When: Use in product or user listing UIs.
+Where: E-commerce, dashboards, admin panels.
+
+```js
+const filtered = items.filter((item) => item.category === "books");
+```
+
+### 8. Generate random color
+Definition: It means creating a random RGB or HEX color value.
+Why: It tests random number generation and string building.
+When: Use in demo apps and styling generators.
+Where: Theme demos and UI practice tasks.
+
+```js
+const color = "#" + Math.floor(Math.random() * 16777215).toString(16);
+```
+
+### 9. Form validation
+Definition: Form validation checks if user input is valid before submit.
+Why: It avoids bad or incomplete data.
+When: Use in all user input forms.
+Where: Login, signup, contact, checkout.
+
+```js
+if (!email.includes("@")) {
+  console.log("Invalid email");
+}
+```
+
+### 10. Multi-select with all options
+Definition: It allows selecting multiple choices, including a select-all action.
+Why: It improves bulk selection UX.
+When: Use in filters and permission settings.
+Where: Admin panels, forms, dashboards.
+
+```js
+const allSelected = selected.length === options.length;
+```
+
+### 11. Target value from array by index
+Definition: It means accessing an item by its position.
+Why: Index-based access is basic array usage.
+When: Use when position is known.
+Where: Lists, tables, loops.
+
+```js
+const arr = ["a", "b", "c"];
+console.log(arr[1]); // b
+```
+
+### 12. Change positions
+Definition: It means swapping or reordering array items.
+Why: It tests array mutation and destructuring.
+When: Use in drag-and-drop or reorder tasks.
+Where: Lists, ranking, playlists.
+
+```js
+let arr = [1, 2, 3];
+[arr[0], arr[2]] = [arr[2], arr[0]];
+```
+
+### 13. Negative numbers from array
+Definition: It means extracting only numbers less than zero.
+Why: It tests filtering logic.
+When: Use when categorizing numbers.
+Where: Reports, analytics, math logic.
+
+```js
+const negatives = [1, -2, 3, -4].filter((n) => n < 0);
+```
+
+### 14. Longest substring
+Definition: It means finding the longest valid string segment based on a condition.
+Why: It tests window logic and string processing.
+When: Use in medium-level string questions.
+Where: Coding interviews and text analysis.
+
+```js
+console.log("abcabcbb".substring(0, 3));
+```
+
+## Screen 5 Detailed Notes
+
+### 1. Show / hide text
+Definition: It means conditionally displaying content based on state.
+Why: It is a common UI interaction pattern.
+When: Use in accordions, password toggles, and help text.
+Where: Forms, FAQ sections, details panels.
+
+```jsx
+const [show, setShow] = useState(false);
+{show && <p>Hello</p>}
+```
+
+### 2. API call on click
+Definition: It means calling an API only after user action instead of on load.
+Why: It avoids unnecessary network requests.
+When: Use for search, button actions, or manual loading.
+Where: Dashboards, user actions, reports.
+
+```jsx
+<button onClick={loadUsers}>Load Users</button>
+```
+
+### 3. Show list of response in two columns
+Definition: It means displaying API data in a two-column layout.
+Why: It improves readability and use of screen space.
+When: Use when list items should be visually balanced.
+Where: Product cards, user cards, gallery grids.
+
+```css
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+```
+
+### 4. Dropdown sorting: ascending and descending
+Definition: It means sorting data based on dropdown selection.
+Why: It gives users control over order.
+When: Use in tables, lists, and search results.
+Where: Products, scores, names, dates.
+
+```js
+const sorted = [...arr].sort((a, b) => a - b);
+```
+
+### 5. Filter based on status code
+Definition: It means showing records matching a selected status code.
+Why: It helps users quickly narrow down results.
+When: Use in logs, API data views, and dashboards.
+Where: Admin panels and monitoring tools.
+
+```js
+const okItems = data.filter((item) => item.status === 200);
+```
+
+### 6. 3 input fields with submit button, show data in table, and empty after submit
+Definition: It is a form handling task where submitted data is listed and fields reset.
+Why: It tests forms, arrays, tables, and controlled components.
+When: Use in CRUD basics and form assignments.
+Where: Registration forms, admin panels, contact tables.
+
+```jsx
+setRows((prev) => [...prev, form]);
+setForm({ name: "", email: "", city: "" });
+```
+
+### 7. Create counter
+Definition: A counter increments or decrements a numeric state.
+Why: It is the simplest React state example.
+When: Use while learning `useState`.
+Where: Demos, quantity controls, simple tools.
+
+```jsx
+const [count, setCount] = useState(0);
+```
+
+### 8. Create timer with play, stop, and reset
+Definition: A timer updates state every interval and supports start/stop/reset controls.
+Why: It tests timer cleanup and state control.
+When: Use in stopwatch and countdown apps.
+Where: Quiz apps, productivity apps, games.
+
+```js
+const id = setInterval(() => setTime((t) => t + 1), 1000);
+clearInterval(id);
+```
+
+### 9. Pagination with limit and make responsive
+Definition: Pagination splits data into pages with a fixed item limit.
+Why: It improves performance and readability of large lists.
+When: Use when many records are shown.
+Where: Tables, product lists, blogs.
+
+```js
+const start = (page - 1) * limit;
+const visible = items.slice(start, start + limit);
+```
+
+## Screen 6 Detailed Notes
+
+### 1. What is pure component?
+Definition: A Pure Component re-renders only when shallowly compared props or state change.
+Why: It reduces unnecessary rendering.
+When: Use when props are stable and performance matters.
+Where: Large lists and reusable UI blocks.
+
+```jsx
+const UserCard = React.memo(function UserCard({ name }) {
+  return <p>{name}</p>;
+});
+```
+
+### 2. What does `key` do in React?
+Definition: A `key` gives each list item a stable identity.
+Why: It helps React update lists efficiently.
+When: Use whenever rendering arrays.
+Where: `map()` loops in JSX.
+
+```jsx
+items.map((item) => <li key={item.id}>{item.name}</li>);
+```
+
+### 3. Error boundaries in React
+Definition: Error boundaries catch rendering errors in child components and show fallback UI.
+Why: They prevent the whole app from crashing.
+When: Use around major feature sections.
+Where: Dashboard widgets, routes, risky third-party UI.
+
+```jsx
+<ErrorBoundary>
+  <Dashboard />
+</ErrorBoundary>
+```
+
+### 4. Strict mode
+Definition: Strict Mode is a React development tool that highlights unsafe patterns.
+Why: It helps find bugs early.
+When: Use during development.
+Where: Root React app wrapper.
+
+```jsx
+<React.StrictMode>
+  <App />
+</React.StrictMode>
+```
+
+### 5. Conditional rendering
+Definition: Conditional rendering shows different UI based on a condition.
+Why: It makes UI dynamic.
+When: Use for auth, loading, and error states.
+Where: Almost every React application.
+
+```jsx
+return isLoggedIn ? <Home /> : <Login />;
+```
+
+### 6. What are hooks?
+Definition: Hooks are React functions that let function components use state and lifecycle features.
+Why: They simplify component logic and reuse.
+When: Use in modern function components.
+Where: All modern React apps.
+
+```jsx
+const [count, setCount] = useState(0);
+useEffect(() => console.log(count), [count]);
+```
+
+### 7. What is `ref` and `forwardRef`?
+Definition: `ref` accesses a DOM node directly; `forwardRef` passes that ref through a component.
+Why: It helps with focus, scroll, and integrations.
+When: Use for imperative actions.
+Where: Inputs, modals, custom components.
+
+```jsx
+const inputRef = useRef(null);
+inputRef.current.focus();
+```
+
+### 8. What is props drilling?
+Definition: Props drilling is passing data through many intermediate components just to reach a child.
+Why: It can make code harder to maintain.
+When: It appears in deeply nested trees.
+Where: Large component hierarchies.
+
+```jsx
+<Parent user={user} />
+```
+
+### 9. ESLint plugin and faulty pattern in React
+Definition: ESLint plugins check React code for mistakes and bad patterns.
+Why: They improve code quality and consistency.
+When: Use during development and CI.
+Where: React project linting setup.
+
+```json
+{
+  "extends": ["plugin:react/recommended", "plugin:react-hooks/recommended"]
+}
+```
+
+### 10. Redux Thunk and Redux Saga
+Definition: Thunk handles async logic with functions; Saga handles async flows with generators.
+Why: They manage side effects outside components.
+When: Use Thunk for simple async needs, Saga for complex workflows.
+Where: Large apps with API-heavy state logic.
+
+```js
+const fetchUsers = () => async (dispatch) => {
+  const res = await fetch("/api/users");
+  dispatch({ type: "SET_USERS", payload: await res.json() });
+};
+```
+
+### 11. How to create a React app
+Definition: It means bootstrapping a new React project with a tool like Vite.
+Why: It gives you a ready project setup.
+When: Use when starting a new React application.
+Where: Any new frontend project.
+
+```bash
+npm create vite@latest my-app
+cd my-app
+npm install
+```
+
+### 12. What is JWT?
+Definition: JWT is a token format used to securely send user-related claims.
+Why: It is commonly used for authentication and authorization.
+When: Use when backend returns a signed auth token.
+Where: Login systems and protected APIs.
+
+```js
+const token = "header.payload.signature";
+localStorage.setItem("token", token);
+```
