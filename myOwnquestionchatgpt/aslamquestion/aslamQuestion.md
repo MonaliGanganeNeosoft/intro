@@ -353,3 +353,691 @@
 
 12. What is JWT?  
    Answer: JWT stands for JSON Web Token. It is a compact token format used for authentication and authorization, usually containing a header, payload, and signature.
+
+---
+
+# Screen Wise Code Examples
+
+## Screen 1 Code Examples
+
+### 4. How to pass data from child to parent
+
+```jsx
+import React, { useState } from "react";
+
+function Child({ sendData }) {
+  return <button onClick={() => sendData("Hello Parent")}>Send</button>;
+}
+
+export default function Parent() {
+  const [message, setMessage] = useState("");
+
+  return (
+    <div>
+      <Child sendData={setMessage} />
+      <p>{message}</p>
+    </div>
+  );
+}
+```
+
+### 5. Promises
+
+```js
+function getData() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => resolve("Data loaded"), 1000);
+  });
+}
+
+getData()
+  .then((res) => console.log(res))
+  .catch((err) => console.error(err));
+```
+
+### 11. `useCallback` and `useMemo`
+
+```jsx
+import React, { useCallback, useMemo, useState } from "react";
+
+export default function App() {
+  const [count, setCount] = useState(0);
+  const [num, setNum] = useState(5);
+
+  const multiply = useMemo(() => num * 10, [num]);
+  const handleClick = useCallback(() => {
+    console.log("Button clicked");
+  }, []);
+
+  return (
+    <div>
+      <p>{multiply}</p>
+      <button onClick={() => setCount(count + 1)}>Count {count}</button>
+      <button onClick={handleClick}>Click</button>
+    </div>
+  );
+}
+```
+
+### 13. Hoisting example
+
+```js
+console.log(a); // undefined
+var a = 10;
+
+// console.log(b); // ReferenceError
+let b = 20;
+```
+
+### 14. Closures example
+
+```js
+function outer() {
+  let count = 0;
+
+  return function inner() {
+    count++;
+    return count;
+  };
+}
+
+const fn = outer();
+console.log(fn()); // 1
+console.log(fn()); // 2
+```
+
+### 15. `export` and `import`
+
+```js
+// math.js
+export const sum = (a, b) => a + b;
+
+// app.js
+import { sum } from "./math.js";
+console.log(sum(2, 3));
+```
+
+## Screen 2 Code Examples
+
+### 1. `useContext` example
+
+```jsx
+import React, { createContext, useContext } from "react";
+
+const UserContext = createContext();
+
+function Child() {
+  const user = useContext(UserContext);
+  return <h1>{user}</h1>;
+}
+
+export default function App() {
+  return (
+    <UserContext.Provider value="Aslam">
+      <Child />
+    </UserContext.Provider>
+  );
+}
+```
+
+### 8. `async` / `await`
+
+```js
+async function getUsers() {
+  try {
+    const res = await fetch("https://jsonplaceholder.typicode.com/users");
+    const data = await res.json();
+    console.log(data);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+getUsers();
+```
+
+### 9. `setTimeout()` and `setInterval()`
+
+```js
+setTimeout(() => {
+  console.log("Runs once after 1 second");
+}, 1000);
+
+const id = setInterval(() => {
+  console.log("Runs every 2 seconds");
+}, 2000);
+
+setTimeout(() => clearInterval(id), 7000);
+```
+
+### 10. Spread and rest operators
+
+```js
+const arr1 = [1, 2];
+const arr2 = [...arr1, 3, 4];
+console.log(arr2); // [1, 2, 3, 4]
+
+function total(...nums) {
+  return nums.reduce((sum, item) => sum + item, 0);
+}
+
+console.log(total(1, 2, 3, 4)); // 10
+```
+
+### 11. Shallow copy and deep copy
+
+```js
+const user = { name: "Aslam", address: { city: "Delhi" } };
+
+const shallow = { ...user };
+const deep = structuredClone(user);
+
+shallow.address.city = "Mumbai";
+
+console.log(user.address.city); // Mumbai
+console.log(deep.address.city); // Delhi
+```
+
+## Screen 3 Code Examples
+
+### 1. Fibonacci series
+
+```js
+function fibonacci(n) {
+  const result = [0, 1];
+
+  for (let i = 2; i < n; i++) {
+    result.push(result[i - 1] + result[i - 2]);
+  }
+
+  return result;
+}
+
+console.log(fibonacci(7));
+```
+
+### 2. Factorial
+
+```js
+function factorial(n) {
+  let result = 1;
+
+  for (let i = 1; i <= n; i++) {
+    result *= i;
+  }
+
+  return result;
+}
+
+console.log(factorial(5)); // 120
+```
+
+### 3. Prime number
+
+```js
+function isPrime(num) {
+  if (num <= 1) return false;
+
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i === 0) return false;
+  }
+
+  return true;
+}
+
+console.log(isPrime(7)); // true
+```
+
+### 6. Second highest number
+
+```js
+function secondLargest(arr) {
+  const unique = [...new Set(arr)].sort((a, b) => b - a);
+  return unique[1];
+}
+
+console.log(secondLargest([10, 20, 30, 40, 30])); // 30
+```
+
+### 7. Palindrome
+
+```js
+function isPalindrome(str) {
+  return str === str.split("").reverse().join("");
+}
+
+console.log(isPalindrome("madam")); // true
+```
+
+### 9. Count vowels
+
+```js
+function countVowels(str) {
+  return str.match(/[aeiou]/gi)?.length || 0;
+}
+
+console.log(countVowels("javascript")); // 3
+```
+
+### 11. Longest substring without repeating characters
+
+```js
+function longestSubstring(s) {
+  let set = new Set();
+  let left = 0;
+  let max = 0;
+
+  for (let right = 0; right < s.length; right++) {
+    while (set.has(s[right])) {
+      set.delete(s[left]);
+      left++;
+    }
+
+    set.add(s[right]);
+    max = Math.max(max, right - left + 1);
+  }
+
+  return max;
+}
+
+console.log(longestSubstring("abcabcbb")); // 3
+```
+
+### 13. Find missing number in array
+
+```js
+function missingNumber(arr, n) {
+  const expected = (n * (n + 1)) / 2;
+  const actual = arr.reduce((sum, item) => sum + item, 0);
+  return expected - actual;
+}
+
+console.log(missingNumber([1, 2, 3, 5], 5)); // 4
+```
+
+### 14. Deep clone
+
+```js
+const obj = { a: 1, b: { c: 2 } };
+const copy = structuredClone(obj);
+
+copy.b.c = 99;
+
+console.log(obj.b.c); // 2
+console.log(copy.b.c); // 99
+```
+
+## Screen 4 Code Examples
+
+### 1. Custom hooks
+
+```jsx
+import { useEffect, useState } from "react";
+
+function useWindowWidth() {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return width;
+}
+```
+
+### 5. API call with `fetch`
+
+```jsx
+import React, { useEffect, useState } from "react";
+
+export default function App() {
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((res) => res.json())
+      .then((data) => setUsers(data));
+  }, []);
+
+  return (
+    <ul>
+      {users.map((user) => (
+        <li key={user.id}>{user.name}</li>
+      ))}
+    </ul>
+  );
+}
+```
+
+### 8. Generate random color
+
+```js
+function randomColor() {
+  const letters = "0123456789ABCDEF";
+  let color = "#";
+
+  for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+
+  return color;
+}
+
+console.log(randomColor());
+```
+
+### 9. Form validation
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const [email, setEmail] = useState("");
+  const [error, setError] = useState("");
+
+  const handleSubmit = () => {
+    if (!email.includes("@")) {
+      setError("Invalid email");
+      return;
+    }
+
+    setError("");
+    alert("Submitted");
+  };
+
+  return (
+    <div>
+      <input value={email} onChange={(e) => setEmail(e.target.value)} />
+      <button onClick={handleSubmit}>Submit</button>
+      <p>{error}</p>
+    </div>
+  );
+}
+```
+
+### 10. Multi-select with all options
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const options = ["HTML", "CSS", "JS"];
+  const [selected, setSelected] = useState([]);
+
+  const handleAll = () => {
+    setSelected(selected.length === options.length ? [] : options);
+  };
+
+  return (
+    <div>
+      <button onClick={handleAll}>Select All</button>
+      {options.map((item) => (
+        <div key={item}>
+          <input
+            type="checkbox"
+            checked={selected.includes(item)}
+            onChange={() =>
+              setSelected((prev) =>
+                prev.includes(item)
+                  ? prev.filter((x) => x !== item)
+                  : [...prev, item]
+              )
+            }
+          />
+          {item}
+        </div>
+      ))}
+    </div>
+  );
+}
+```
+
+## Screen 5 Code Examples
+
+### 1. Show / hide text
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const [show, setShow] = useState(false);
+
+  return (
+    <div>
+      <button onClick={() => setShow(!show)}>Toggle</button>
+      {show && <p>Hello World</p>}
+    </div>
+  );
+}
+```
+
+### 2. API call on click
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const [users, setUsers] = useState([]);
+
+  const getUsers = async () => {
+    const res = await fetch("https://jsonplaceholder.typicode.com/users");
+    const data = await res.json();
+    setUsers(data);
+  };
+
+  return (
+    <div>
+      <button onClick={getUsers}>Load Users</button>
+      {users.map((user) => (
+        <p key={user.id}>{user.name}</p>
+      ))}
+    </div>
+  );
+}
+```
+
+### 4. Dropdown sorting
+
+```js
+const numbers = [30, 10, 50, 20];
+
+const asc = [...numbers].sort((a, b) => a - b);
+const desc = [...numbers].sort((a, b) => b - a);
+
+console.log(asc);
+console.log(desc);
+```
+
+### 6. 3 input fields and table
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const [form, setForm] = useState({ name: "", email: "", city: "" });
+  const [rows, setRows] = useState([]);
+
+  const handleSubmit = () => {
+    setRows((prev) => [...prev, form]);
+    setForm({ name: "", email: "", city: "" });
+  };
+
+  return (
+    <div>
+      <input value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} />
+      <input value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} />
+      <input value={form.city} onChange={(e) => setForm({ ...form, city: e.target.value })} />
+      <button onClick={handleSubmit}>Submit</button>
+
+      <table>
+        <tbody>
+          {rows.map((item, index) => (
+            <tr key={index}>
+              <td>{item.name}</td>
+              <td>{item.email}</td>
+              <td>{item.city}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+```
+
+### 7. Create counter
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <button onClick={() => setCount(count - 1)}>-</button>
+      <span>{count}</span>
+      <button onClick={() => setCount(count + 1)}>+</button>
+    </div>
+  );
+}
+```
+
+### 8. Timer with play, stop, and reset
+
+```jsx
+import React, { useRef, useState } from "react";
+
+export default function App() {
+  const [time, setTime] = useState(0);
+  const timerRef = useRef(null);
+
+  const start = () => {
+    if (timerRef.current) return;
+    timerRef.current = setInterval(() => {
+      setTime((prev) => prev + 1);
+    }, 1000);
+  };
+
+  const stop = () => {
+    clearInterval(timerRef.current);
+    timerRef.current = null;
+  };
+
+  const reset = () => {
+    stop();
+    setTime(0);
+  };
+
+  return (
+    <div>
+      <p>{time}</p>
+      <button onClick={start}>Play</button>
+      <button onClick={stop}>Stop</button>
+      <button onClick={reset}>Reset</button>
+    </div>
+  );
+}
+```
+
+### 9. Pagination with limit
+
+```jsx
+import React, { useState } from "react";
+
+export default function App() {
+  const items = ["A", "B", "C", "D", "E", "F"];
+  const [page, setPage] = useState(1);
+  const limit = 2;
+
+  const start = (page - 1) * limit;
+  const visible = items.slice(start, start + limit);
+
+  return (
+    <div>
+      {visible.map((item) => (
+        <p key={item}>{item}</p>
+      ))}
+      <button disabled={page === 1} onClick={() => setPage(page - 1)}>Prev</button>
+      <button disabled={start + limit >= items.length} onClick={() => setPage(page + 1)}>Next</button>
+    </div>
+  );
+}
+```
+
+## Screen 6 Code Examples
+
+### 3. Error boundaries
+
+```jsx
+import React from "react";
+
+class ErrorBoundary extends React.Component {
+  state = { hasError: false };
+
+  static getDerivedStateFromError() {
+    return { hasError: true };
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return <h1>Something went wrong.</h1>;
+    }
+
+    return this.props.children;
+  }
+}
+```
+
+### 5. Conditional rendering
+
+```jsx
+function App({ isLoggedIn }) {
+  return <div>{isLoggedIn ? <h1>Welcome</h1> : <h1>Please Login</h1>}</div>;
+}
+```
+
+### 7. `ref` and `forwardRef`
+
+```jsx
+import React, { forwardRef, useRef } from "react";
+
+const Input = forwardRef((props, ref) => {
+  return <input ref={ref} {...props} />;
+});
+
+export default function App() {
+  const inputRef = useRef(null);
+
+  return (
+    <div>
+      <Input ref={inputRef} />
+      <button onClick={() => inputRef.current.focus()}>Focus</button>
+    </div>
+  );
+}
+```
+
+### 11. How to create a React app
+
+```bash
+npm create vite@latest my-app
+cd my-app
+npm install
+npm run dev
+```
+
+### 12. JWT example
+
+```js
+const token = "header.payload.signature";
+const payload = {
+  userId: 101,
+  role: "admin"
+};
+
+console.log(token);
+console.log(payload);
+```
