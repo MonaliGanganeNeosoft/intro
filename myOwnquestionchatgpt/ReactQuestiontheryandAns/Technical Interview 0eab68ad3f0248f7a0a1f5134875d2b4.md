@@ -13058,7 +13058,7 @@ I use **virtualization** (react-window / react-virtualized) so only the visible 
 
 ---
 
-## **3️⃣ When will you choose Context API vs Redux?**
+## **3️⃣ When will you choose Context API v s Redux?**
 
 **Answer:**
 
