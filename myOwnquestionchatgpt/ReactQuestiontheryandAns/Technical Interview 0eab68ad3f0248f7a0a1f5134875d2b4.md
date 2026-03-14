@@ -1,6 +1,6 @@
 # Technical Interview
 
-## 
+##
 
 Self Introduction :-
 
@@ -26,30 +26,30 @@ That’s a brief introduction about me. Thank you.
 **Monali Introduction**
 Good afternoon sir,
 
-**My name is Monali Gangane, and I have around 4.5 years of experience 
+**My name is Monali Gangane, and I have around 4.5 years of experience
 as a Frontend Developer, primarily working with React.js.
 or** a MERN Stack Developer
 
-**I started my corporate journey in 2021 with NeoSoft Technologies, 
-and I am currently working here. I have strong hands-on experience 
+**I started my corporate journey in 2021 with NeoSoft Technologies,
+and I am currently working here. I have strong hands-on experience
 with** HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB,
 
-**Talking about my recent project, I am working on an enterprise-level 
+**Talking about my recent project, I am working on an enterprise-level
 application called Kizuna.
 
-In this project, I have been involved in developing multiple modules 
-such as Warehouse, MDM, and Production using React.js. I worked on 
-JWT-based authentication, role-based UI access, and features 
-like import/export functionality and dashboards, which improved data 
+In this project, I have been involved in developing multiple modules
+such as Warehouse, MDM, and Production using React.js. I worked on
+JWT-based authentication, role-based UI access, and features
+like import/export functionality and dashboards, which improved data
 handling and overall user experience.
 
-I focus on building reusable components, performance optimization, and 
+I focus on building reusable components, performance optimization, and
 maintaining a clean frontend architecture to ensure scalability.
 
 That’s a brief introduction about me. Thank you
 
-OR 
-I’m Monali Gangane, a React Developer with 4.5 years of experience. 
+OR
+I’m Monali Gangane, a React Developer with 4.5 years of experience.
 I currently work at NeoSoft and have strong expertise in React, Redux Toolkit,
 and API integration. My recent project is Kizuna, an enterprise application
 where I worked on multiple modules and performance-focused UI features.**
@@ -80,7 +80,7 @@ At this stage, I am looking for a **React-focused role** where I can take owners
 
 ### 🔹 About:
 
-BlissIQ is an **e-learning platform** that helps students learn interactively — not just by watching, but by *doing*.
+BlissIQ is an **e-learning platform** that helps students learn interactively — not just by watching, but by _doing_.
 
 It includes **drag & drop quizzes**, **audio-based interactions**, and **adaptive tests** that adjust difficulty based on performance.
 
@@ -98,12 +98,10 @@ React.js | Node.js | Express.js | SQL | AWS
 ### 🔹 Interview Answer:
 
 > “BlissIQ is an e-learning platform that makes learning more interactive with drag-and-drop quizzes and adaptive assessments.
-> 
-> 
+>
 > I developed the frontend using React and handled backend APIs with Node.js and Express.
-> 
+>
 > The data was stored in SQL, and we deployed it on AWS for scalability.”
-> 
 
 ---
 
@@ -129,12 +127,10 @@ React.js | Redux | Node.js | Express.js | MongoDB | Firebase
 ### 🔹 Interview Answer:
 
 > “Rozelle Total Health is a healthcare web app that connects doctors and patients.
-> 
-> 
+>
 > I worked as a MERN Stack Developer — created reusable frontend modules and integrated Firebase for real-time notifications.
-> 
+>
 > I also developed backend APIs with JWT authentication for secure access.”
-> 
 
 ---
 
@@ -160,12 +156,10 @@ React.js | Redux | Node.js | Express.js | MongoDB | WebSockets | ag-Grid
 ### 🔹 Interview Answer:
 
 > “Breeze is a stock market platform that provides live trading data.
-> 
-> 
+>
 > I built the frontend using React and Redux and implemented real-time stock updates using WebSockets.
-> 
+>
 > I also worked on backend APIs for authentication and portfolio management.”
-> 
 
 ---
 
@@ -191,12 +185,10 @@ React.js | Redux | Node.js | Express.js | MongoDB | MySQL | TypeScript
 ### 🔹 Interview Answer:
 
 > “1 Finance is a financial advisory platform where advisors can manage their clients and investments.
-> 
-> 
+>
 > I built the onboarding, dashboards, and calculators on the frontend.
-> 
+>
 > On backend, I worked on APIs for customer data and analytics with JWT-based authentication.”
-> 
 
 ---
 
@@ -214,14 +206,12 @@ Bas har project ke ye 4 points yaad rakh:
 Example (Rozelle ke liye):
 
 > Purpose: Healthcare app
-> 
-> 
+>
 > Role: MERN stack — frontend + backend
-> 
+>
 > Tech Stack: React, Node, MongoDB, Firebase
-> 
+>
 > Special: Real-time notifications + PDF editor
-> 
 
 ---
 
@@ -230,10 +220,8 @@ Example (Rozelle ke liye):
 Har project ko short me bolke record kar:
 
 > “BlissIQ is an e-learning platform. I built it using React and Node.
-> 
-> 
+>
 > It has drag and drop quizzes, audio interactions, and runs on AWS.”
-> 
 
 Repeat 2–3 baar — ek hafte me tu bina dekhe fluently bol paayega 🔥
 
@@ -248,7 +236,7 @@ Interview me mostly ye 4 question aate hain:
 3. What challenges did you face?
 4. What was the key feature?
 
-### 
+###
 
 ---
 
@@ -274,12 +262,10 @@ React.js | Redux | Tailwind CSS | Node.js | Express | SQL | AWS
 ### 🔹 Interview Answer:
 
 > “BlissIQ is an e-learning platform that focuses on interactive learning.
-> 
-> 
+>
 > I mainly worked on the frontend using React.js where I built quiz and assessment modules and handled state with Redux.
-> 
+>
 > We used Node.js and Express for backend APIs and AWS for deployment.”
-> 
 
 ---
 
@@ -305,12 +291,10 @@ Next.js | React | Redux | Firebase | Material UI | Node.js | MongoDB
 ### 🔹 Interview Answer:
 
 > “Rozelle Total Health is a healthcare management system built with Next.js.
-> 
-> 
+>
 > I worked on the frontend, creating modules for doctor and patient management and integrating Firebase for real-time notifications.
-> 
+>
 > I also handled API integration and used Redux for state management.”
-> 
 
 ---
 
@@ -334,12 +318,10 @@ React.js | Redux | Node.js | Express | MongoDB | WebSockets | ag-Grid
 ### 🔹 Interview Answer:
 
 > “Breeze is a stock-market application that provides live trading data.
-> 
-> 
+>
 > I worked on the frontend using React.js and integrated WebSockets to display real-time stock prices.
-> 
+>
 > I also used ag-Grid for handling large data tables efficiently.”
-> 
 
 ---
 
@@ -364,12 +346,10 @@ Node.js | Express | MongoDB | MySQL | JWT | TypeScript
 ### 🔹 Interview Answer:
 
 > “1 Finance is a financial advisory system where advisors manage clients and investments.
-> 
-> 
+>
 > I mainly worked on the backend using Node.js and Express.
-> 
+>
 > I built APIs for onboarding, analytics, and calculators like EMI and SIP, and handled authentication with JWT and OTP.”
-> 
 
 ---
 
@@ -385,7 +365,6 @@ Node.js | Express | MongoDB | MySQL | JWT | TypeScript
 Example (BlissIQ):
 
 > “Learning platform → Frontend in React → Used AWS + SQL → Interactive quizzes and adaptive tests.”
-> 
 
 ---
 
@@ -394,10 +373,8 @@ Example (BlissIQ):
 Practice like this in front of mirror or record on mobile 🎤:
 
 > “BlissIQ is an e-learning platform. I worked on frontend with React and Redux, developed interactive quizzes, and integrated APIs.
-> 
-> 
+>
 > We used AWS for hosting and Node.js for backend support.”
-> 
 
 Repeat each project 2–3 times.
 
@@ -428,12 +405,10 @@ React.js | Redux Toolkit | JavaScript | Axios | HTML | CSS
 ### 🔹 Interview Answer:
 
 > “LGM-Kizuna is an enterprise application with multiple core modules like Warehouse and Production.
-> 
-> 
+>
 > I worked on building scalable React UIs, handled complex state using Redux Toolkit, implemented role-based access, and integrated APIs using Axios.
-> 
+>
 > The focus was on performance, maintainability, and clean UI delivery.”
-> 
 
 ---
 
@@ -462,12 +437,10 @@ React.js | Redux Toolkit | JavaScript | Axios | HTML | CSS
 ### 🔹 Interview Answer:
 
 > “BMS is a bid management platform that handles tenders and approval workflows.
-> 
-> 
+>
 > I worked on the frontend using React and Redux Toolkit, built reusable components, integrated APIs, and implemented role-based UI access.
-> 
+>
 > The system is responsive and optimized for performance.”
-> 
 
 ---
 
@@ -496,10 +469,8 @@ React.js | Redux Toolkit | WebSocket | Axios | Ag-Grid | JavaScript
 ### 🔹 Interview Answer:
 
 > “Breeze is a real-time stock market application.
-> 
-> 
+>
 > I implemented React-based UI, handled complex state with Redux Toolkit, integrated WebSockets for live updates, and optimized performance for large datasets.”
-> 
 
 ---
 
@@ -524,10 +495,8 @@ React.js | JavaScript | Axios | HTML | CSS
 ### 🔹 Interview Answer:
 
 > “Parenting.FirstCry.com is a baby-care and parenting platform.
-> 
-> 
+>
 > I worked on building reusable React components, implemented search and filtering, designed modals for better UX, and optimized performance.”
-> 
 
 Interview me mostly ye 4 question aate hain:
 
@@ -553,10 +522,8 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “I worked as a Frontend Developer.
-> 
-> 
+>
 > I was responsible for building scalable React UI for multiple modules, managing application state using Redux Toolkit, and integrating APIs with the backend.”
-> 
 
 ---
 
@@ -565,7 +532,6 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “I used React.js for UI development, Redux Toolkit for state management, Axios for API integration, and standard HTML, CSS, and JavaScript.”
-> 
 
 ---
 
@@ -574,10 +540,8 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “The main challenge was handling complex data across multiple modules and implementing role-based access.
-> 
-> 
+>
 > I solved this by structuring Redux properly and using conditional rendering based on user roles.”
-> 
 
 ---
 
@@ -586,7 +550,6 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “The key feature was role-based UI access across multiple business modules with optimized performance.”
-> 
 
 ---
 
@@ -597,10 +560,8 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “I worked as a React Frontend Developer.
-> 
-> 
+>
 > I built the bid management UI, approval workflows, dashboards, and handled state management using Redux Toolkit.”
-> 
 
 ---
 
@@ -609,7 +570,6 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “I used React.js, Redux Toolkit, Axios for API integration, and JavaScript, HTML, and CSS.”
-> 
 
 ---
 
@@ -618,10 +578,8 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “Managing multiple workflows and role-based access was challenging.
-> 
-> 
+>
 > I handled it using Redux Toolkit and conditional rendering to control features based on user roles.”
-> 
 
 ---
 
@@ -630,7 +588,6 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “The key feature was the complete bid lifecycle management with approval workflows and role-based access.”
-> 
 
 ---
 
@@ -641,7 +598,6 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “I worked as a Frontend Developer and built a real-time stock market UI using React and Redux.”
-> 
 
 ---
 
@@ -650,7 +606,6 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “I used React.js, Redux Toolkit, WebSocket for real-time updates, Axios, and Ag-Grid for data tables.”
-> 
 
 ---
 
@@ -659,10 +614,8 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “Handling real-time data and large datasets without performance issues was challenging.
-> 
-> 
+>
 > I optimized rendering and used efficient state management to solve it.”
-> 
 
 ---
 
@@ -671,7 +624,6 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “The key feature was real-time stock price updates with high-performance data tables.”
-> 
 
 ---
 
@@ -682,7 +634,6 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “I worked as a React Frontend Developer, focusing on building reusable and responsive UI components.”
-> 
 
 ---
 
@@ -691,7 +642,6 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “I used React.js, JavaScript, Axios for API integration, and HTML and CSS.”
-> 
 
 ---
 
@@ -700,10 +650,8 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “Optimizing performance while handling dynamic content and search results was challenging.
-> 
-> 
+>
 > I solved this by optimizing components and reducing unnecessary re-renders.”
-> 
 
 ---
 
@@ -712,18 +660,17 @@ I’ll give you **simple, clear, spoken-English answers** for **each project**, 
 **Answer:**
 
 > “The key feature was advanced product search with filters and real-time results.”
-> 
 
 ---
 
-## 
+##
 
 Roles And responsibilty :-
 
 ```
 My main responsibility is to develop and maintain scalable applications,
 ensure code quality, fix bugs, and add new features as per requirements.
-I also work closely with the team to deliver reliable and efficient software 
+I also work closely with the team to deliver reliable and efficient software
 solutions.
  **or**
 
@@ -739,12 +686,12 @@ Collaborate with the team to deliver reliable solutions**
 why do you want to change your job :-
 
 ```
-In my current company, I have learned a lot — both technically and 
+In my current company, I have learned a lot — both technically and
 professionally.
 Now, I’m looking for a new opportunity where I can further explore my knowledge,  work on more challenging projects,
 and grow my skills as a MERN Stack Developer.
 
-I believe a new environment will help me expand my experience and contribute 
+I believe a new environment will help me expand my experience and contribute
 more effectively to the organization’s success.
 
 ```
@@ -801,7 +748,7 @@ Difference between id and class :-
 
 what are the attribute in html
 
-Attribute provide additional information about element 
+Attribute provide additional information about element
 
 example :-
 
@@ -820,7 +767,7 @@ with css we can add colour font spacing
 what the position in css :-
 
 ```
-position is property in css it control how an element is positioned within 
+position is property in css it control how an element is positioned within
 document
 
 there are different types of position available in css
@@ -840,7 +787,7 @@ fixed :-
 	element it fixed relative to browser window
 
 	It does not move when you scroll page
-	 
+
 static :- default  positon of an element
 
 sticky :-
@@ -849,7 +796,7 @@ sticky :-
 
 	when you scroll it stick to the postion you set (like top:0)
 	its only sticks while inside it parent container
-	
+
 	Example :-
 	<div style="display:flex ;gap:10px; height:200vh">
 <div style="background-color:red; height:100px; width:100px;">
@@ -883,17 +830,17 @@ sticky :-
 </div>
 </div>
 </div>
-	
+
 
 OR
 
 ✅ What is position in CSS?
 
-position is a CSS property that controls how an element is positioned in the document and how it 
+position is a CSS property that controls how an element is positioned in the document and how it
 behaves relative to other elements, the viewport, or its parent container.
 
-By default, elements follow the normal document flow, but using position, we can move elements 
-using: 
+By default, elements follow the normal document flow, but using position, we can move elements
+using:
 top, right, bottom, and left.
 
 🔹 Types of position in CSS
@@ -1033,10 +980,10 @@ what is pseudo element :-
 	pseudo elemet let us style part of an element
 
 	example :- ::before, ::after
-	
-	
+
+
 	example :-
-	
+
 		<h2 class="title">Monali</h2>
 
 <style>
@@ -1114,7 +1061,7 @@ what are the different data types are present in javascript :-
 what is closure :-
 
 ```
-	A closure is a feature in JavaScript where an inner function can access variables from its 
+	A closure is a feature in JavaScript where an inner function can access variables from its
 	outer (parent) function,
 	even after the outer function has finished running. Used for data privacy
 
@@ -1136,7 +1083,7 @@ console.log(callingOuter())
 Promise :-
 
 ```
-promise is javascript object used to handle asynchronous operations it represent the task that 
+promise is javascript object used to handle asynchronous operations it represent the task that
 will complete in future
 It is used for async operations such as APIs, database queries, or file operations.
 
@@ -1159,9 +1106,9 @@ promise.then((result)=>{
 
 promise.All :-
 
-	is used when you want to run mutiple promises in parallel and wait for all of the to resoleve 
+	is used when you want to run mutiple promises in parallel and wait for all of the to resoleve
 	if one promise fails the entire operation will fail
-	
+
 	example:-
 		const p1 = Promise.resolve("Task 1 Done");
 const p2 = Promise.resolve("Task 2 Done");
@@ -1190,8 +1137,8 @@ Promise.allSettled([p1, p2, p3])
   .then(results => {
     console.log(results);
   });
-  
-  
+
+
 output:-
 		[
   { status: "fulfilled", value: "Task 1 Done" },
@@ -1227,9 +1174,9 @@ Promise.race([p1, p2])
 what is event loop :-
 
 ```
-event loop is mechanism in javascript that continuosly checks the call stack and callback queue 
+event loop is mechanism in javascript that continuosly checks the call stack and callback queue
 if the callstack is empty it moves the
-first callback from queue into the stack to be executed. this allows javascript 
+first callback from queue into the stack to be executed. this allows javascript
 to handle operations event though it run single thread
 
 ```
@@ -1240,7 +1187,7 @@ what is hoisting in javascript :-
 hositing is the default behaviour of a javacript in which all the variable and function decalration are moved on top
 execution context.
 
-exmaple :-  
+exmaple :-
 a=10
 console.log(a)
 var a   // if we write varible using let const keyword so it will give the reference error
@@ -1312,7 +1259,7 @@ destrcuting means the extracting element form array or object
 What are Default Parameters in JavaScript?
 
 ```
-Default parameters let you set a default value for function arguments if no 
+Default parameters let you set a default value for function arguments if no
 value is provided.
 
 ```
@@ -1320,7 +1267,7 @@ value is provided.
 what is currying :-
 
 ```
-Currying means breaking a function that takes many arguments into multiple 
+Currying means breaking a function that takes many arguments into multiple
 smaller functions, each taking one argument at a time.
 
 function add(a) {
@@ -1350,7 +1297,7 @@ rest operator is used to collect remaining elements into array or object
 pure function :-
 
 ```
-A pure function always returns the same result for the same inputs and has no 
+A pure function always returns the same result for the same inputs and has no
 side effects
 
 ```
@@ -2264,6 +2211,7 @@ Sometimes in React, JSX requires a single parent element, but you don’t want t
 1️⃣ Using a <div> (adds extra node)
 function App() {
 return (
+
 <div>
 <h1>Hello</h1>
 <p>Welcome to React</p>
@@ -2279,6 +2227,7 @@ import React from "react";
 function App() {
 return (
 <React.Fragment>
+
 <h1>Hello</h1>
 <p>Welcome to React</p>
 </React.Fragment>
@@ -2289,18 +2238,19 @@ return (
 function App() {
 return (
 <>
+
 <h1>Hello</h1>
 <p>Welcome to React</p>
 </>
 );
 }
 
-Feature	Normal Hook	Custom Hook
-Origin	React built-in	User-defined (aap banate ho)
-Purpose	Component me state/effect handle karna	Reusable logic ko component me use karna
-Reusability	Single component ke liye	Multiple components me reuse kar sakte ho
-Name rule	No rule	use se start hona chahiye
-Examples	useState, useEffect	useCounter, useFetchData
+Feature Normal Hook Custom Hook
+Origin React built-in User-defined (aap banate ho)
+Purpose Component me state/effect handle karna Reusable logic ko component me use karna
+Reusability Single component ke liye Multiple components me reuse kar sakte ho
+Name rule No rule use se start hona chahiye
+Examples useState, useEffect useCounter, useFetchData
 
 debounce :-
 
@@ -2378,7 +2328,7 @@ Redux sends it to the reducer → updates the store → re-renders the UI.
 what is redux :-
 
 ```
-redux is state management library for javascript, it help to manage multiple 
+redux is state management library for javascript, it help to manage multiple
 application state in single store
 
 ```
@@ -2515,7 +2465,6 @@ dispatch({type:"FETCH_USERS_FAILURE", error });
 ## 🧠 One-Line Interview Answer
 
 > “Redux middleware is used to handle side effects by intercepting actions before they reach reducers.”
-> 
 
 ---
 
@@ -2575,7 +2524,6 @@ dispatch({type:"FETCH_USERS_FAILURE", error });
 🗣 **Interview line:**
 
 > “Redux Thunk allows async logic inside action creators.”
-> 
 
 ---
 
@@ -2630,27 +2578,25 @@ yieldtakeLatest("FETCH_USERS_REQUEST", fetchUsersSaga);
 🗣 **Interview line:**
 
 > “Redux Saga handles side effects using generator functions.”
-> 
 
 ---
 
 ## 🔥 Key Differences (VERY Important)
 
-| Feature | Redux Thunk | Redux Saga |
-| --- | --- | --- |
-| Async handling | Functions | Generator functions |
-| Code style | Simple | More structured |
-| Learning curve | Easy | Steep |
-| Best for | Small/medium apps | Large/complex apps |
-| Testing | Moderate | Easy |
-| Advanced control | Limited | Strong (cancel, retry) |
+| Feature          | Redux Thunk       | Redux Saga             |
+| ---------------- | ----------------- | ---------------------- |
+| Async handling   | Functions         | Generator functions    |
+| Code style       | Simple            | More structured        |
+| Learning curve   | Easy              | Steep                  |
+| Best for         | Small/medium apps | Large/complex apps     |
+| Testing          | Moderate          | Easy                   |
+| Advanced control | Limited           | Strong (cancel, retry) |
 
 ---
 
 ## 🧠 One-Line Interview Answer (Perfect)
 
 > “Redux Thunk is used for simple async logic, while Redux Saga is used for complex async flows requiring better control and scalability.”
-> 
 
 ---
 
@@ -2664,12 +2610,11 @@ yieldtakeLatest("FETCH_USERS_REQUEST", fetchUsersSaga);
 If interviewer asks:
 
 > “Which one have you used?”
-> 
 
 Answer:
 
 > “I have mainly used Redux Thunk for async API handling, and I understand Redux Saga for complex scenarios.”
-> 
+
 ---
 
 **React**
@@ -2720,9 +2665,9 @@ Whenever the state changes, the component re-renders.
 Uncontrolled components are form elements that maintain their own internal state within the DOM.
 Their values can be accessed using refs. Unlike controlled components, uncontrolled components
 do not re-render when their value changes.
-When to use: Controlled components are preferred when you need to actively 
+When to use: Controlled components are preferred when you need to actively
 manage and validate form data.
-Uncontrolled components are useful for simple forms or when you need to quickly 
+Uncontrolled components are useful for simple forms or when you need to quickly
 access DOM values without managing state.
 
 ```
@@ -2738,7 +2683,7 @@ They help React identify which elements have been added, removed, or updated.
 what is useState in react :-
 
 ```
-useState is a hook in React that allows you to store state (data) inside a 
+useState is a hook in React that allows you to store state (data) inside a
 component and update it whenever needed.
 
 ```
@@ -2746,7 +2691,7 @@ component and update it whenever needed.
 explain batching of state update in React :-
 
 ```
-In React, batching of state updates means that multiple state updates are 
+In React, batching of state updates means that multiple state updates are
 grouped together and the component is re-rendered only once.
 This improves performance by reducing unnecessary renders.
 
@@ -2772,7 +2717,7 @@ so that other child components can access and share the data synchronously.
 what is useEffect hook :-
 
 ```
-useEffect is a hook for performing side effects in functional components, 
+useEffect is a hook for performing side effects in functional components,
 running after render and based on dependencies.
 
 ```
@@ -2801,11 +2746,11 @@ React Hooks are functions in React that let you use React features like state an
 difference between custome hook and inbuilt hook :-
 
 ```
-the difference between custom hook and inbuilt hook are custom hook are created 
+the difference between custom hook and inbuilt hook are custom hook are created
 by develper, we can resuse the logic of that
 any wheren in component it always use prefix use
 
-and the inbulit hook are provided by react we only use that hook to store and 
+and the inbulit hook are provided by react we only use that hook to store and
 update information inside components
 
 ```
@@ -2814,9 +2759,9 @@ explain useMemo and useCallback hook :-
 
 ```
 useMemo Hook:
-	useMemo is used to memoize expensive calculations so that the computation is 
+	useMemo is used to memoize expensive calculations so that the computation is
 	only re-executed when its dependencies change.
-	If the dependencies remain the same, React returns the cached (memoized) 
+	If the dependencies remain the same, React returns the cached (memoized)
 	result instead of recalculating it —improving performance.
 
 useCallback Hook:
@@ -2842,11 +2787,11 @@ Both can be used to access DOM elements
 
 ```
 
-what cause re rendering  in react :-
+what cause re rendering in react :-
 
 ```
 React components re-render when their state, props, or context values change.
-Unnecessary re-renders can happen due to frequent or unnecessary state updates, 
+Unnecessary re-renders can happen due to frequent or unnecessary state updates,
 prop changes, or non-memoized values.
 
 ```
@@ -2929,7 +2874,7 @@ or cancel rendering based on what’s most important for a smooth and responsive
 
 what is React portal :-
 
-```jsx
+````jsx
 🔷 **What is a React Portal?
 Normally, React components render **inside their parent component’s DOM tree**.
 
@@ -2949,15 +2894,14 @@ For such cases, **React Portal** helps you render UI *somewhere else* in the DOM
 ```jsx
 ReactDOM.createPortal(child, container)
 
-```
+````
 
 - **child** → React element (component you want to show)
-- **container** → DOM node *outside* the parent hierarchy
-    
-    (like `document.getElementById('modal-root')`)**
-    
-    🔷 **Example: Modal using Portal**
-```
+- **container** → DOM node _outside_ the parent hierarchy
+  (like `document.getElementById('modal-root')`)\*\*
+  🔷 **Example: Modal using Portal**
+
+````
 
 **index.html**
 
@@ -2971,7 +2915,7 @@ ReactDOM.createPortal(child, container)
   <div id="modal-root"></div>
 </body>
 
-```
+````
 
 ### **Modal.js**
 
@@ -2982,12 +2926,11 @@ import ReactDOM from "react-dom";
 const Modal = ({ children }) => {
   return ReactDOM.createPortal(
     <div className="modal">{children}</div>,
-    document.getElementById("modal-root")
+    document.getElementById("modal-root"),
   );
 };
 
 export default Modal;
-
 ```
 
 ### **App.js**
@@ -3000,7 +2943,8 @@ function App() {
   const [open, setOpen] = useState(false);
 
   return (
-    <><button onClick={() => setOpen(true)}>Open Modal</button>
+    <>
+      <button onClick={() => setOpen(true)}>Open Modal</button>
 
       {open && (
         <Modal>
@@ -3013,7 +2957,6 @@ function App() {
 }
 
 export default App;
-
 ```
 
 ---
@@ -3102,7 +3045,6 @@ class ErrorBoundary extends React.Component {
 }
 
 export default ErrorBoundary;
-
 ```
 
 ---
@@ -3115,7 +3057,6 @@ Wrap any risky component:
 <ErrorBoundary>
   <MyComponent />
 </ErrorBoundary>
-
 ```
 
 Or apply globally:
@@ -3124,7 +3065,6 @@ Or apply globally:
 <ErrorBoundary>
   <App />
 </ErrorBoundary>
-
 ```
 
 ---
@@ -3136,7 +3076,6 @@ const BuggyComponent = () => {
   throw new Error("I crashed!");
   return <div>Hello</div>;
 };
-
 ```
 
 Output: instead of crashing the whole app, it shows:
@@ -3157,7 +3096,6 @@ React introduced Error Boundaries in React 16 to prevent full app crashes. Inter
 # 🔷 **Interview Answer (Short Version)**
 
 > “An Error Boundary is a React component that catches JavaScript errors in its child tree, logs the error, and shows a fallback UI instead of breaking the entire app. It uses getDerivedStateFromError and componentDidCatch lifecycle methods. It cannot catch errors in event handlers or async code.”
-> 
 
 what are render props
 
@@ -3165,7 +3103,7 @@ what are render props
 
 **Render Props is a React pattern where a component receives a function as a prop, and that function returns JSX to decide what should be rendered.**
 
-👉 The term *“render prop”* refers to a **prop whose value is a function**.
+👉 The term _“render prop”_ refers to a **prop whose value is a function**.
 
 ---
 
@@ -3255,23 +3193,21 @@ return (
 
 ## 🔹 Render Props vs HOC vs Hooks
 
-| Pattern | Purpose |
-| --- | --- |
-| Render Props | Share logic via function |
-| HOC | Share logic via wrapping |
-| Hooks | Share logic via custom hooks |
+| Pattern      | Purpose                      |
+| ------------ | ---------------------------- |
+| Render Props | Share logic via function     |
+| HOC          | Share logic via wrapping     |
+| Hooks        | Share logic via custom hooks |
 
 🗣 **Interview line:**
 
 > “Render props were commonly used before hooks to share logic.”
-> 
 
 ---
 
 ## 🧠 One-Line Interview Answer
 
 > “Render props is a pattern where a function is passed as a prop to control what a component renders.”
-> 
 
 what is hydration in react :-
 
@@ -3306,26 +3242,24 @@ what is hydration in react :-
 
 ```html
 <button>Click me</button>
-
 ```
 
 ### React Hydration:
 
 ```jsx
-import { hydrateRoot }from"react-dom/client";
+import { hydrateRoot } from "react-dom/client";
 
-hydrateRoot(document.getElementById("root"),<App />);
-
+hydrateRoot(document.getElementById("root"), <App />);
 ```
 
 ---
 
 ## 🔹 Before vs After Hydration
 
-| Stage | Behavior |
-| --- | --- |
+| Stage            | Behavior                             |
+| ---------------- | ------------------------------------ |
 | Before hydration | HTML visible, but buttons don’t work |
-| After hydration | HTML is interactive |
+| After hydration  | HTML is interactive                  |
 
 ---
 
@@ -3347,7 +3281,6 @@ return<buttononClick={() => alert("Hi")}>Click</button>;
 ## 🧠 One-Line Interview Answer (Best)
 
 > “Hydration is the process of making server-rendered HTML interactive by attaching React event listeners on the client.”
-> 
 
 ---
 
@@ -3370,7 +3303,6 @@ return<buttononClick={() => alert("Hi")}>Click</button>;
 Mention:
 
 > “Hydration improves performance and SEO in SSR applications.”
-> 
 
 what is difference between SSR,CSR,SSG
 
@@ -3405,7 +3337,6 @@ Browser →Load JS →Fetch data → Render UI
 🗣 **Interview line:**
 
 > “CSR renders content in the browser using JavaScript.”
-> 
 
 ---
 
@@ -3440,7 +3371,6 @@ Request →Server renders HTML → Browser displays → Hydration
 🗣 **Interview line:**
 
 > “SSR renders fresh HTML on each request.”
-> 
 
 ---
 
@@ -3475,27 +3405,25 @@ Buildtime → GenerateHTML → Serve static files
 🗣 **Interview line:**
 
 > “SSG generates pages at build time.”
-> 
 
 ---
 
 ## 🔥 Key Differences Table (Very Important)
 
-| Feature | CSR | SSR | SSG |
-| --- | --- | --- | --- |
-| Rendering | Browser | Server (per request) | Build time |
-| First load | Slow | Fast | Very fast |
-| SEO | Weak | Strong | Strong |
-| Server load | Low | High | Very low |
-| Data freshness | Client fetch | Always fresh | Fixed at build |
-| Use case | Dashboards, SPAs | E-commerce, blogs | Landing pages |
+| Feature        | CSR              | SSR                  | SSG            |
+| -------------- | ---------------- | -------------------- | -------------- |
+| Rendering      | Browser          | Server (per request) | Build time     |
+| First load     | Slow             | Fast                 | Very fast      |
+| SEO            | Weak             | Strong               | Strong         |
+| Server load    | Low              | High                 | Very low       |
+| Data freshness | Client fetch     | Always fresh         | Fixed at build |
+| Use case       | Dashboards, SPAs | E-commerce, blogs    | Landing pages  |
 
 ---
 
 ## 🧠 One-Line Interview Summary
 
 > “CSR renders in the browser, SSR renders on every request on the server, and SSG renders at build time as static pages.”
-> 
 
 ---
 
@@ -3514,12 +3442,12 @@ Mention **hydration** when explaining SSR & SSG for extra points.
 ---
 
 ```jsx
-**React** is a JavaScript library for building fast, interactive, and 
+**React** is a JavaScript library for building fast, interactive, and
 component-based user interfaces.
 It focuses mainly on the view layer (UI) and allows developers to
- build applications using reusable components, virtual DOM rendering, 
+ build applications using reusable components, virtual DOM rendering,
  and unidirectional data flow for predictable state management.
- 
+
 **🔹 Key React Concepts (Explained Simply)**
 1. Component-Based Architecture
 
@@ -3567,7 +3495,7 @@ Server components (Next.js 13+)
 
 ### **Definition**
 
-A *controlled component* is a form input whose **value is controlled by React state**.
+A _controlled component_ is a form input whose **value is controlled by React state**.
 
 Whatever you type in the input is immediately stored in the React state.
 
@@ -3616,7 +3544,7 @@ export default function ControlledExample() {
 
 ### **Definition**
 
-An *uncontrolled component* is a form input where **React does NOT control the input value**.
+An _uncontrolled component_ is a form input where **React does NOT control the input value**.
 
 Instead, you access the value using **Refs**.
 
@@ -3646,7 +3574,6 @@ export default function UncontrolledExample() {
     </form>
   );
 }
-
 ```
 
 ### **How it works**
@@ -3696,13 +3623,13 @@ export default function Practice() {
 
 # ✅ **When to Use Which?**
 
-| Feature | Controlled | Uncontrolled |
-| --- | --- | --- |
-| Validation | ✔️ Easy | ❌ Hard |
-| Real-time updates | ✔️ Yes | ❌ No |
-| Performance | ❌ More renders | ✔️ Faster |
-| File inputs | ❌ Hard | ✔️ Best |
-| Simple forms | Optional | ✔️ Good |
+| Feature           | Controlled      | Uncontrolled |
+| ----------------- | --------------- | ------------ |
+| Validation        | ✔️ Easy         | ❌ Hard      |
+| Real-time updates | ✔️ Yes          | ❌ No        |
+| Performance       | ❌ More renders | ✔️ Faster    |
+| File inputs       | ❌ Hard         | ✔️ Best      |
+| Simple forms      | Optional        | ✔️ Good      |
 
 ---
 
@@ -3733,7 +3660,7 @@ export default function Practice() {
 
 I choose controlled components when I want full control and predictable behavior, and uncontrolled when I want simplicity and better performance.
 
-# 
+#
 
 # ✅ **React Most Asked Interview Topics (4+ Years Experience)**
 
@@ -3828,9 +3755,9 @@ This is VERY important for senior roles.
 - Why components re-render?
 - How to prevent unwanted re-renders
 - Memoization:
-    - `React.memo()`
-    - `useMemo`
-    - `useCallback`
+  - `React.memo()`
+  - `useMemo`
+  - `useCallback`
 - Key props – why important?
 - Lazy loading + code splitting
 
@@ -4081,14 +4008,14 @@ React updates **Virtual DOM first**, compares changes using the **Diffing/Reconc
 
 # 🆚 **Key Differences Table**
 
-| **Real DOM** | **Virtual DOM** |
-| --- | --- |
-| Directly updates the UI | Updates a virtual copy first |
-| Slow updates | Faster updates |
-| Re-renders entire component tree | Updates only the changed nodes |
-| Causes more reflows/repaints | Minimizes layout thrashing |
-| Browsers maintain it | React maintains it |
-| Expensive for dynamic UIs | Great for high-frequency UI updates |
+| **Real DOM**                     | **Virtual DOM**                     |
+| -------------------------------- | ----------------------------------- |
+| Directly updates the UI          | Updates a virtual copy first        |
+| Slow updates                     | Faster updates                      |
+| Re-renders entire component tree | Updates only the changed nodes      |
+| Causes more reflows/repaints     | Minimizes layout thrashing          |
+| Browsers maintain it             | React maintains it                  |
+| Expensive for dynamic UIs        | Great for high-frequency UI updates |
 
 ---
 
@@ -4193,14 +4120,12 @@ Example:
 
 ```jsx
 const element = <h1>Hello React</h1>;
-
 ```
 
 Under the hood, JSX gets compiled to:
 
 ```jsx
 React.createElement("h1", null, "Hello React");
-
 ```
 
 ---
@@ -4250,14 +4175,12 @@ Babel transforms JSX like:
 
 ```jsx
 <h1>Hello</h1>
-
 ```
 
 into:
 
 ```jsx
 React.createElement("h1", null, "Hello");
-
 ```
 
 ---
@@ -4308,7 +4231,6 @@ Functional components are simple JavaScript functions that return JSX.
 function Button() {
   return <button>Click</button>;
 }
-
 ```
 
 ---
@@ -4333,20 +4255,19 @@ class Button extends React.Component {
     return <button>Click</button>;
   }
 }
-
 ```
 
 ---
 
 # 🆚 **Functional vs Class – Key Differences (Interview Points)**
 
-| **Functional Components** | **Class Components** |
-| --- | --- |
-| Use Hooks | Use lifecycle methods |
-| No “this” | Uses “this” keyword |
-| Simple, clean, and fast | More complex & heavy |
-| Less boilerplate | More boilerplate |
-| Recommended in modern React | Legacy approach |
+| **Functional Components**   | **Class Components**  |
+| --------------------------- | --------------------- |
+| Use Hooks                   | Use lifecycle methods |
+| No “this”                   | Uses “this” keyword   |
+| Simple, clean, and fast     | More complex & heavy  |
+| Less boilerplate            | More boilerplate      |
+| Recommended in modern React | Legacy approach       |
 
 ---
 
@@ -4375,7 +4296,6 @@ Example:
 
 ```jsx
 <Profile name="Monali" />
-
 ```
 
 ---
@@ -4394,18 +4314,17 @@ Example:
 
 ```jsx
 const [count, setCount] = useState(0);
-
 ```
 
 ---
 
 # 🆚 **Props vs State – Differences**
 
-| **Props** | **State** |
-| --- | --- |
-| Passed from parent | Managed inside the component |
-| Read-only | Mutable (can change) |
-| Doesn’t trigger internal updates | Updating state triggers re-render |
+| **Props**                           | **State**                            |
+| ----------------------------------- | ------------------------------------ |
+| Passed from parent                  | Managed inside the component         |
+| Read-only                           | Mutable (can change)                 |
+| Doesn’t trigger internal updates    | Updating state triggers re-render    |
 | Makes components dynamic & reusable | Manages interactive/dynamic behavior |
 
 ---
@@ -4422,7 +4341,7 @@ const [count, setCount] = useState(0);
 
 ### **1️⃣ Data flows in a single direction — from parent → child.**
 
-React passes data **downward** through *props*, never upward.
+React passes data **downward** through _props_, never upward.
 
 ### **2️⃣ Child components cannot modify parent data directly.**
 
@@ -4458,39 +4377,39 @@ Functional components use **Hooks** to achieve the same behavior.
 
 # 🔵 **1️⃣ Mounting Phase**
 
-| **Class Lifecycle Method** | **Hook Equivalent** | **When It Runs** |
-| --- | --- | --- |
-| `constructor()` | `useState()` initialization | Before component renders (setup initial state) |
-| `componentDidMount()` | `useEffect(() => {}, [])` | Runs once after initial render (API calls, subscriptions) |
+| **Class Lifecycle Method** | **Hook Equivalent**         | **When It Runs**                                          |
+| -------------------------- | --------------------------- | --------------------------------------------------------- |
+| `constructor()`            | `useState()` initialization | Before component renders (setup initial state)            |
+| `componentDidMount()`      | `useEffect(() => {}, [])`   | Runs once after initial render (API calls, subscriptions) |
 
 ---
 
 # 🔵 **2️⃣ Updating Phase**
 
-| **Class Lifecycle Method** | **Hook Equivalent** | **When It Runs** |
-| --- | --- | --- |
-| `componentDidUpdate(prevProps, prevState)` | `useEffect(() => {...}, [dependencies])` | Runs after state/props change |
-| `shouldComponentUpdate()` | `React.memo()` / `useMemo()` / `useCallback()` | Controls unnecessary re-renders |
-| `render()` | Component function return value | Handles UI output |
+| **Class Lifecycle Method**                 | **Hook Equivalent**                            | **When It Runs**                |
+| ------------------------------------------ | ---------------------------------------------- | ------------------------------- |
+| `componentDidUpdate(prevProps, prevState)` | `useEffect(() => {...}, [dependencies])`       | Runs after state/props change   |
+| `shouldComponentUpdate()`                  | `React.memo()` / `useMemo()` / `useCallback()` | Controls unnecessary re-renders |
+| `render()`                                 | Component function return value                | Handles UI output               |
 
 ---
 
 # 🔵 **3️⃣ Unmounting Phase**
 
-| **Class Lifecycle Method** | **Hook Equivalent** | **When It Runs** |
-| --- | --- | --- |
-| `componentWillUnmount()` | Cleanup in `useEffect(() => { return () => {...} })` | Before component is removed (cleanup, removing listeners) |
+| **Class Lifecycle Method** | **Hook Equivalent**                                  | **When It Runs**                                          |
+| -------------------------- | ---------------------------------------------------- | --------------------------------------------------------- |
+| `componentWillUnmount()`   | Cleanup in `useEffect(() => { return () => {...} })` | Before component is removed (cleanup, removing listeners) |
 
 ---
 
 # 🔵 **4️⃣ Rare / Deprecated Lifecycle Methods**
 
-| **Old Class Method** | **Hook Equivalent** | Notes |
-| --- | --- | --- |
-| `componentWillMount` (deprecated) | ❌ Not needed | Moved to useEffect |
-| `componentWillReceiveProps` (deprecated) | `useEffect()` watching props | Runs when props change |
-| `getDerivedStateFromProps` | `useEffect()` or compute directly | Sync state with props |
-| `getSnapshotBeforeUpdate` | `useLayoutEffect()` | For DOM measurements before update |
+| **Old Class Method**                     | **Hook Equivalent**               | Notes                              |
+| ---------------------------------------- | --------------------------------- | ---------------------------------- |
+| `componentWillMount` (deprecated)        | ❌ Not needed                     | Moved to useEffect                 |
+| `componentWillReceiveProps` (deprecated) | `useEffect()` watching props      | Runs when props change             |
+| `getDerivedStateFromProps`               | `useEffect()` or compute directly | Sync state with props              |
+| `getSnapshotBeforeUpdate`                | `useLayoutEffect()`               | For DOM measurements before update |
 
 ---
 
@@ -4500,7 +4419,7 @@ Functional components use **Hooks** to achieve the same behavior.
 
 ---
 
-# ***2️⃣ React Hooks (Most Important for 4+ yrs)***
+# **_2️⃣ React Hooks (Most Important for 4+ yrs)_**
 
 - `useState`
 
@@ -4539,18 +4458,14 @@ Interviewers focus HEAVILY on hooks.
 ### Example
 
 ```jsx
-const [count, setCount] =useState(0);
+const [count, setCount] = useState(0);
 
-<button onClick={() => setCount(count + 1)}>
-  Count: {count}
-</button>
-
+<button onClick={() => setCount(count + 1)}>Count: {count}</button>;
 ```
 
 ### Interview Point
 
 > “useState is used to handle component-level state.”
-> 
 
 ---
 
@@ -4566,14 +4481,13 @@ const [count, setCount] =useState(0);
 
 ```jsx
 useEffect(() => {}, []);
-
 ```
 
-| Dependency | When it runs |
-| --- | --- |
-| `[]` | Once (on mount) |
-| `[value]` | When value changes |
-| No array | Every render |
+| Dependency | When it runs       |
+| ---------- | ------------------ |
+| `[]`       | Once (on mount)    |
+| `[value]`  | When value changes |
+| No array   | Every render       |
 
 ---
 
@@ -4583,17 +4497,15 @@ Used to avoid memory leaks.
 
 ```jsx
 useEffect(() => {
-const timer =setInterval(() =>console.log("Running"),1000);
+  const timer = setInterval(() => console.log("Running"), 1000);
 
-return() =>clearInterval(timer);
+  return () => clearInterval(timer);
 }, []);
-
 ```
 
 ### Interview Point
 
 > “useEffect replaces lifecycle methods like componentDidMount.”
-> 
 
 or “useEffect handles side effects and cleanup in functional components.”
 
@@ -4625,7 +4537,6 @@ const inputRef =useRef(null);
 ### Interview Point
 
 > “useRef is used for DOM access and mutable values.”
-> 
 
 ---
 
@@ -4642,16 +4553,14 @@ const inputRef =useRef(null);
 ### Example
 
 ```jsx
-const ThemeContext =React.createContext();
+const ThemeContext = React.createContext();
 
-const theme =useContext(ThemeContext);
-
+const theme = useContext(ThemeContext);
 ```
 
 ### Interview Point
 
 > “useContext is used for global state like theme or authentication.”
-> 
 
 ---
 
@@ -4668,14 +4577,12 @@ const theme =useContext(ThemeContext);
 ### Example
 
 ```jsx
-const total =useMemo(() =>calculateSum(data), [data]);
-
+const total = useMemo(() => calculateSum(data), [data]);
 ```
 
 ### Interview Point
 
 > “useMemo optimizes performance by memoizing values.”
-> 
 
 or “useMemo prevents unnecessary recalculations.”
 
@@ -4694,16 +4601,14 @@ or “useMemo prevents unnecessary recalculations.”
 ### Example
 
 ```jsx
-const handleClick =useCallback(() => {
- setCount(c => c +1);
+const handleClick = useCallback(() => {
+  setCount((c) => c + 1);
 }, []);
-
 ```
 
 ### Interview Point
 
 > “useCallback is useful when passing functions to child components.”
-> 
 
 or “useCallback prevents function recreation.”
 
@@ -4728,22 +4633,20 @@ or “useCallback prevents function recreation.”
 
 ```jsx
 const reducer = (state, action) => {
-	switch (action.type) {
-		case"increment":
-				return {count: state.count +1 };
-		default:
-				return state;
+  switch (action.type) {
+    case "increment":
+      return { count: state.count + 1 };
+    default:
+      return state;
   }
 };
 
-const [state, dispatch] =useReducer(reducer, {count:0 });
-
+const [state, dispatch] = useReducer(reducer, { count: 0 });
 ```
 
 ### Interview Point
 
 > “useReducer is preferred for complex state management.”
-> 
 
 ---
 
@@ -4762,15 +4665,13 @@ const [state, dispatch] =useReducer(reducer, {count:0 });
 
 ```jsx
 useLayoutEffect(() => {
-	const height = ref.current.offsetHeight;
+  const height = ref.current.offsetHeight;
 }, []);
-
 ```
 
 ### Interview Point
 
 > “useLayoutEffect is used when DOM measurement is required.”
-> 
 
 ---
 
@@ -4798,7 +4699,6 @@ const id =useId();
 ### Interview Point
 
 > “useId helps generate consistent IDs in SSR.”
-> 
 
 📌 Prevents hydration mismatch
 
@@ -4807,25 +4707,22 @@ const id =useId();
 🗣 **Interview line:**
 
 > “useId generates stable unique IDs.”
-> 
 
 ---
 
 # 🔥 Quick Interview Summary (Power Answer)
 
 > “React hooks allow functional components to manage state, side effects, performance optimization, and global data efficiently.”
-> 
 
 ---
 
 ## 🎯 Interview Tip
 
-If interviewer asks *“Which hooks have you used?”*
+If interviewer asks _“Which hooks have you used?”_
 
 Answer confidently:
 
 > “useState, useEffect, useRef, useContext, useMemo, useCallback, useReducer, and useId.”
-> 
 
 ### **Advanced questions**
 
@@ -4850,10 +4747,9 @@ When we pass these functions to child components, it can cause **unnecessary re-
 ### Example
 
 ```jsx
-const handleClick =useCallback(() => {
-	setCount(c => c +1);
+const handleClick = useCallback(() => {
+  setCount((c) => c + 1);
 }, []);
-
 ```
 
 ### Why needed (Interview angle)
@@ -4865,7 +4761,6 @@ const handleClick =useCallback(() => {
 ### Interview one-liner
 
 > “useCallback prevents function recreation and unnecessary re-renders.”
-> 
 
 ---
 
@@ -4882,10 +4777,9 @@ Expensive calculations run **on every render**, even when input data hasn’t ch
 ### Example
 
 ```jsx
-const total =useMemo(() => {
-	return expensiveCalculation(data);
+const total = useMemo(() => {
+  return expensiveCalculation(data);
 }, [data]);
-
 ```
 
 ### When to use (Important)
@@ -4902,26 +4796,24 @@ const total =useMemo(() => {
 ### Interview one-liner
 
 > “useMemo optimizes performance by caching expensive calculations.”
-> 
 
 ---
 
 ## 3️⃣ Difference between `useEffect` and `useLayoutEffect`
 
-| Feature | useEffect | useLayoutEffect |
-| --- | --- | --- |
-| Execution | After paint | Before paint |
-| Blocking | Non-blocking | Blocking |
-| Use case | API calls, subscriptions | DOM measurement |
-| UI flicker | Possible | Prevented |
+| Feature    | useEffect                | useLayoutEffect |
+| ---------- | ------------------------ | --------------- |
+| Execution  | After paint              | Before paint    |
+| Blocking   | Non-blocking             | Blocking        |
+| Use case   | API calls, subscriptions | DOM measurement |
+| UI flicker | Possible                 | Prevented       |
 
 ### Example
 
 ```jsx
 useLayoutEffect(() => {
-	const height = ref.current.offsetHeight;
+  const height = ref.current.offsetHeight;
 }, []);
-
 ```
 
 ### Interview explanation
@@ -4932,7 +4824,6 @@ useLayoutEffect(() => {
 ### Interview one-liner
 
 > “Use useLayoutEffect when DOM measurement is required.”
-> 
 
 ---
 
@@ -4947,9 +4838,8 @@ useLayoutEffect(() => {
 
 ```jsx
 useEffect(() => {
-	setCount(count +1);
-}, [count]);// infinite loop
-
+  setCount(count + 1);
+}, [count]); // infinite loop
 ```
 
 ### ✅ Correct Approaches
@@ -4958,31 +4848,27 @@ useEffect(() => {
 
 ```jsx
 useEffect(() => {
-	fetchData();
+  fetchData();
 }, []);
-
 ```
 
 ### 2. Conditional update
 
 ```jsx
 useEffect(() => {
-	if (count <5)setCount(count +1);
+  if (count < 5) setCount(count + 1);
 }, [count]);
-
 ```
 
 ### 3. Functional updates
 
 ```jsx
-setCount(prev => prev +1);
-
+setCount((prev) => prev + 1);
 ```
 
 ### Interview one-liner
 
 > “Avoid infinite loops by managing dependencies correctly.”
-> 
 
 ---
 
@@ -5000,11 +4886,10 @@ Hooks capture **stale values** if dependencies are not handled correctly.
 
 ```jsx
 useEffect(() => {
-	setTimeout(() => {
-		console.log(count);
-	  },2000);
+  setTimeout(() => {
+    console.log(count);
+  }, 2000);
 }, []);
-
 ```
 
 ### Issue
@@ -5016,28 +4901,25 @@ useEffect(() => {
 
 ```jsx
 useEffect(() => {
-	setTimeout(() => {
-		console.log(count);
-	 },2000);
+  setTimeout(() => {
+    console.log(count);
+  }, 2000);
 }, [count]);
-
 ```
 
 ### Interview one-liner
 
 > “Closures can cause stale state if dependencies are not updated.”
-> 
 
 ---
 
 ## 🔥 Power Interview Summary
 
 > “useCallback memoizes functions, useMemo memoizes values, useLayoutEffect runs before paint, infinite loops occur due to incorrect dependencies, and closures can capture stale state.”
-> 
 
 ---
 
-## 
+##
 
 ---
 
@@ -5075,7 +4957,6 @@ function Parent() {
 function Child({ name }) {
   return <h2>Hello {name}</h2>;
 }
-
 ```
 
 ### **Interview Points**
@@ -5111,7 +4992,6 @@ function Parent() {
 function Child({ sendData }) {
   return <button onClick={() => sendData("Hello Parent")}>Send</button>;
 }
-
 ```
 
 ### **Interview Points**
@@ -5154,7 +5034,6 @@ function ChildA({ setData }) {
 function ChildB({ data }) {
   return <p>{data}</p>;
 }
-
 ```
 
 ### **Interview Points**
@@ -5174,9 +5053,9 @@ Context API allows sharing **global data** across components **without passing p
 
 - To avoid prop drilling
 - Useful for global data like:
-    - User authentication
-    - Theme (dark/light)
-    - Language settings
+  - User authentication
+  - Theme (dark/light)
+  - Language settings
 
 ### **Example**
 
@@ -5195,7 +5074,6 @@ function Profile() {
   const user = useContext(UserContext);
   return <h1>{user}</h1>;
 }
-
 ```
 
 ### **How it works**
@@ -5232,7 +5110,6 @@ Passing props through multiple levels of components **even when intermediate com
     </Child>
   </Parent>
 </App>
-
 ```
 
 ---
@@ -5263,9 +5140,8 @@ Passing props through multiple levels of components **even when intermediate com
 
 ```jsx
 <Layout>
-<SubChild />
+  <SubChild />
 </Layout>
-
 ```
 
 - Uses `children` instead of passing props
@@ -5323,9 +5199,9 @@ A built-in React feature to share **global state** across components.
 - Small to medium applications
 - Low-frequency updates
 - Global data like:
-    - Auth user
-    - Theme
-    - Language
+  - Auth user
+  - Theme
+  - Language
 
 ### **Pros**
 
@@ -5362,10 +5238,9 @@ function Header() {
   const theme = React.useContext(ThemeContext);
   return <h1>{theme} theme</h1>;
 }
-
 ```
 
-### 
+###
 
 ---
 
@@ -5419,16 +5294,18 @@ const counterSlice = createSlice({
   name: "counter",
   initialState: { value: 0 },
   reducers: {
-    increment: state => { state.value += 1 }
-  }
+    increment: (state) => {
+      state.value += 1;
+    },
+  },
 });
 export const { increment } = counterSlice.actions;
-jsx
+jsx;
 // Component
-const count = useSelector(state => state.counter.value);
+const count = useSelector((state) => state.counter.value);
 const dispatch = useDispatch();
 
-<button onClick={() => dispatch(increment())}>+</button>
+<button onClick={() => dispatch(increment())}>+</button>;
 ```
 
 ---
@@ -5443,9 +5320,9 @@ Redux is a **state management library** that provides a **centralized store** an
 
 - Too much boilerplate code
 - Separate files for:
-    - Action types
-    - Action creators
-    - Reducers
+  - Action types
+  - Action creators
+  - Reducers
 - Manual immutable updates
 - More setup and learning curve
 
@@ -5468,7 +5345,6 @@ function counterReducer(state = { count: 0 }, action) {
       return state;
   }
 }
-
 ```
 
 ---
@@ -5490,10 +5366,9 @@ const counterSlice = createSlice({
   reducers: {
     increment: (state) => {
       state.count += 1;
-    }
-  }
+    },
+  },
 });
-
 ```
 
 ✔ No action types
@@ -5506,16 +5381,16 @@ const counterSlice = createSlice({
 
 ## 🆚 **Redux vs RTK – Key Differences**
 
-| Feature | Redux | Redux Toolkit (RTK) |
-| --- | --- | --- |
-| Boilerplate | High | Very Low |
-| Action Types | Manual | Auto-generated |
-| Reducers | Switch-case | Slice-based |
-| Immutability | Manual | Handled by Immer |
-| Setup | Complex | Simple |
-| Recommended | ❌ Legacy | ✅ Yes (Official) |
-| DevTools | Manual config | Built-in |
-| Async Handling | Redux Thunk (manual) | `createAsyncThunk` |
+| Feature        | Redux                | Redux Toolkit (RTK) |
+| -------------- | -------------------- | ------------------- |
+| Boilerplate    | High                 | Very Low            |
+| Action Types   | Manual               | Auto-generated      |
+| Reducers       | Switch-case          | Slice-based         |
+| Immutability   | Manual               | Handled by Immer    |
+| Setup          | Complex              | Simple              |
+| Recommended    | ❌ Legacy            | ✅ Yes (Official)   |
+| DevTools       | Manual config        | Built-in            |
+| Async Handling | Redux Thunk (manual) | `createAsyncThunk`  |
 
 ---
 
@@ -5528,10 +5403,9 @@ const counterSlice = createSlice({
   reducers: {
     increment: (state) => {
       state.count += 1;
-    }
-  }
+    },
+  },
 });
-
 ```
 
 ✔ Handles loading, success, error states easily
@@ -5576,11 +5450,11 @@ Zustand is a **lightweight global state library** using hooks.
 ```jsx
 import create from "zustand";
 
-const useStore = create(set => ({
+const useStore = create((set) => ({
   count: 0,
-  increase: () => set(state => ({ count: state.count + 1 }))
+  increase: () => set((state) => ({ count: state.count + 1 })),
 }));
-jsx
+jsx;
 
 function Counter() {
   const { count, increase } = useStore();
@@ -5624,7 +5498,7 @@ Atomic state management — state is divided into **small independent pieces (at
 ```jsx
 const countAtom = atom({
   key: "count",
-  default: 0
+  default: 0,
 });
 function Counter() {
   const [count, setCount] = useRecoilState(countAtom);
@@ -5636,13 +5510,13 @@ function Counter() {
 
 ## 🆚 **Quick Comparison Table (Interview Friendly)**
 
-| Feature | Context API | Redux Toolkit | Zustand | Recoil / Jotai |
-| --- | --- | --- | --- | --- |
-| Built-in | ✅ Yes | ❌ No | ❌ No | ❌ No |
-| Best for | Global config | Large apps | Medium apps | Complex UI |
-| Boilerplate | Low | Medium | Very Low | Low |
-| Performance | Medium | High | High | High |
-| Enterprise Ready | ❌ | ✅ | ⚠️ | ⚠️ |
+| Feature          | Context API   | Redux Toolkit | Zustand     | Recoil / Jotai |
+| ---------------- | ------------- | ------------- | ----------- | -------------- |
+| Built-in         | ✅ Yes        | ❌ No         | ❌ No       | ❌ No          |
+| Best for         | Global config | Large apps    | Medium apps | Complex UI     |
+| Boilerplate      | Low           | Medium        | Very Low    | Low            |
+| Performance      | Medium        | High          | High        | High           |
+| Enterprise Ready | ❌            | ✅            | ⚠️          | ⚠️             |
 
 ---
 
@@ -5674,7 +5548,6 @@ Redux follows a **unidirectional (one-way) data flow** to manage application sta
 
 ```jsx
 dispatch(increment());
-
 ```
 
 ### **Best for**
@@ -5716,12 +5589,11 @@ A pure function that updates state based on action.
 
 ```jsx
 function reducer(state, action) {
-  switch(action.type) {
+  switch (action.type) {
     case "ADD_USER":
       return { ...state, users: [...state.users, action.payload] };
   }
 }
-
 ```
 
 ### **Why used**
@@ -5743,11 +5615,10 @@ Code that runs **between dispatch and reducer**.
 - Error handling
 
 ```jsx
-const logger = store => next => action => {
+const logger = (store) => (next) => (action) => {
   console.log(action);
   next(action);
 };
-
 ```
 
 ### **Cons**
@@ -5770,12 +5641,11 @@ Middleware that allows **functions instead of objects** for async logic.
 - Easy to understand
 
 ```jsx
-const fetchUsers = () => async dispatch => {
+const fetchUsers = () => async (dispatch) => {
   dispatch(start());
   const res = await api();
   dispatch(success(res));
 };
-
 ```
 
 ### **Best for**
@@ -5834,10 +5704,9 @@ const cartSlice = createSlice({
   reducers: {
     addItem(state, action) {
       state.items.push(action.payload);
-    }
-  }
+    },
+  },
 });
-
 ```
 
 ### **Best for**
@@ -5870,7 +5739,6 @@ const cartSlice = createSlice({
 ### **Interview Answer**
 
 > Redux Toolkit simplifies Redux by reducing boilerplate, handling immutability internally, and enforcing best practices, making large applications easier to manage and maintain.
-> 
 
 ### **Cons of RTK**
 
@@ -5882,7 +5750,6 @@ const cartSlice = createSlice({
 ## ⭐ **Strong Interview Closing Statement**
 
 > “In enterprise applications, I prefer Redux Toolkit with Thunk because it provides predictable state management, minimal boilerplate, and excellent debugging support.”
-> 
 
 ---
 
@@ -5913,14 +5780,12 @@ Concurrent rendering allows React to **prepare multiple UI updates at the same t
 ### **Example**
 
 ```jsx
-setState(data);// low priority updates can be paused
-
+setState(data); // low priority updates can be paused
 ```
 
 ### **Interview Line**
 
 > “Concurrent rendering improves user experience by prioritizing urgent updates like typing over non-urgent renders.”
-> 
 
 ### **Cons**
 
@@ -5943,23 +5808,20 @@ React batches multiple state updates **automatically**, even inside promises, ti
 ### **Before React 18**
 
 ```jsx
-setCount(c => c +1);
-setFlag(true);// ❌ 2 re-renders
-
+setCount((c) => c + 1);
+setFlag(true); // ❌ 2 re-renders
 ```
 
 ### **React 18**
 
 ```jsx
-setCount(c => c +1);
-setFlag(true);// ✅ 1 re-render
-
+setCount((c) => c + 1);
+setFlag(true); // ✅ 1 re-render
 ```
 
 ### **Interview Line**
 
 > “Automatic batching reduces unnecessary re-renders across async boundaries.”
-> 
 
 ---
 
@@ -5977,12 +5839,11 @@ Marks updates as **non-urgent** so React can keep the UI responsive.
 ### **Example**
 
 ```jsx
-import { startTransition }from"react";
+import { startTransition } from "react";
 
 startTransition(() => {
-setFilteredList(list);
+  setFilteredList(list);
 });
-
 ```
 
 ### **Best for**
@@ -6011,15 +5872,13 @@ Better handling of **lazy loading and async data fetching**.
 
 ```jsx
 <Suspense fallback={<Loader />}>
-<ProductList />
+  <ProductList />
 </Suspense>
-
 ```
 
 ### **Interview Line**
 
 > “Suspense simplifies async UI handling by separating loading logic from components.”
-> 
 
 ---
 
@@ -6038,7 +5897,6 @@ Allows server to **send HTML in chunks** instead of waiting for the full page.
 
 ```jsx
 renderToPipeableStream(<App />);
-
 ```
 
 ### **Best for**
@@ -6073,16 +5931,14 @@ const id =useId();
 ## ⭐ **Quick Interview Summary (1-liner)**
 
 > “React 18 introduces concurrent rendering, automatic batching, and new APIs like startTransition and useId to improve performance, responsiveness, and SSR.”
-> 
 
 ---
 
-## ⭐ **When interviewer asks: *Which feature did you use?***
+## ⭐ **When interviewer asks: _Which feature did you use?_**
 
 Say:
 
 > “I’ve used automatic batching, startTransition for filtering, Suspense for lazy loading, and streaming SSR in Next.js.”
-> 
 
 ---
 
@@ -6097,9 +5953,9 @@ This is VERY important for senior roles.
 - Why components re-render?
 - How to prevent unwanted re-renders
 - Memoization:
-    - `React.memo()`
-    - `useMemo`
-    - `useCallback`
+  - `React.memo()`
+  - `useMemo`
+  - `useCallback`
 - Key props – why important?
 - Lazy loading + code splitting
 
@@ -6125,7 +5981,6 @@ This is VERY important for senior roles.
 ### **Interview Line**
 
 > “A render means React recalculates UI, not necessarily updates the DOM.”
-> 
 
 ---
 
@@ -6140,14 +5995,13 @@ Process of **diffing old vs new Virtual DOM** to determine minimal updates.
 - React’s internal architecture (since React 16)
 - Breaks rendering into **units of work**
 - Enables:
-    - Pausing
-    - Resuming
-    - Prioritizing updates (React 18 concurrency)
+  - Pausing
+  - Resuming
+  - Prioritizing updates (React 18 concurrency)
 
 ### **Interview Line**
 
 > “Fiber enables React to interrupt rendering and keep the UI responsive.”
-> 
 
 ---
 
@@ -6190,11 +6044,10 @@ Even if props value is same, **new reference** causes re-render.
 Prevents re-render if props didn’t change.
 
 ```jsx
-const Child =React.memo(({ value }) => {
-console.log("Rendered");
-return<div>{value}</div>;
+const Child = React.memo(({ value }) => {
+  console.log("Rendered");
+  return <div>{value}</div>;
 });
-
 ```
 
 ### **When to use**
@@ -6205,7 +6058,6 @@ return<div>{value}</div>;
 ### **Interview Tip**
 
 > “React.memo uses shallow comparison of props.”
-> 
 
 ---
 
@@ -6216,8 +6068,7 @@ return<div>{value}</div>;
 Memoizes **computed values**.
 
 ```jsx
-const total =useMemo(() =>calculateTotal(data), [data]);
-
+const total = useMemo(() => calculateTotal(data), [data]);
 ```
 
 ### **Use when**
@@ -6236,7 +6087,7 @@ Memoizes **functions**.
 
 ```jsx
 const handleClick = useCallback(() => {
-  setCount(c => c + 1);
+  setCount((c) => c + 1);
 }, []);
 ```
 
@@ -6260,21 +6111,18 @@ const handleClick = useCallback(() => {
 ### **Bad**
 
 ```jsx
-items.map((item, index) =><Item key={index} />)
-
+items.map((item, index) => <Item key={index} />);
 ```
 
 ### **Good**
 
 ```jsx
-items.map(item =><Item key={item.id} />)
-
+items.map((item) => <Item key={item.id} />);
 ```
 
 ### **Interview Line**
 
 > “Keys should be stable, predictable, and unique.”
-> 
 
 ---
 
@@ -6292,12 +6140,11 @@ Loads components **only when needed**.
 ### **Example**
 
 ```jsx
-const Dashboard =React.lazy(() =>import("./Dashboard"));
+const Dashboard = React.lazy(() => import("./Dashboard"));
 
 <Suspense fallback={<Loader />}>
-<Dashboard />
-</Suspense>
-
+  <Dashboard />
+</Suspense>;
 ```
 
 ### **Used in**
@@ -6310,7 +6157,6 @@ const Dashboard =React.lazy(() =>import("./Dashboard"));
 ## ⭐ **Senior Interview Summary (Strong Answer)**
 
 > “React optimizes performance using Virtual DOM, reconciliation, and Fiber architecture. To prevent unnecessary re-renders, I use memoization techniques like React.memo, useMemo, and useCallback, proper key usage, and lazy loading with code splitting.”
-> 
 
 ---
 
@@ -6325,10 +6171,8 @@ const Dashboard =React.lazy(() =>import("./Dashboard"));
 # ✅ **React.memo vs useMemo vs useCallback**
 
 > Core idea:
-> 
-> 
+>
 > All three are **memoization tools** used to **prevent unnecessary re-renders and recomputations**.
-> 
 
 ---
 
@@ -6376,7 +6220,6 @@ function Parent() {
     </>
   );
 }
-
 ```
 
 ✔ `Child` will **NOT re-render** when `count` changes
@@ -6403,7 +6246,6 @@ function Parent() {
 ### 🔹 Interview line
 
 > “React.memo prevents unnecessary re-renders by memoizing the component based on shallow prop comparison.”
-> 
 
 ---
 
@@ -6436,7 +6278,6 @@ const totalPrice = useMemo(() => {
   console.log("Calculating...");
   return items.reduce((sum, item) => sum + item.price, 0);
 }, [items]);
-
 ```
 
 ✔ Calculation runs **only when `items` changes**
@@ -6446,8 +6287,7 @@ const totalPrice = useMemo(() => {
 ### 🔹 Wrong usage (common mistake)
 
 ```jsx
-const value =useMemo(() => count +1, [count]);// ❌ unnecessary
-
+const value = useMemo(() => count + 1, [count]); // ❌ unnecessary
 ```
 
 ---
@@ -6470,7 +6310,6 @@ const value =useMemo(() => count +1, [count]);// ❌ unnecessary
 ### 🔹 Interview line
 
 > “useMemo memoizes the result of an expensive calculation and recomputes it only when dependencies change.”
-> 
 
 ---
 
@@ -6499,9 +6338,8 @@ const value =useMemo(() => count +1, [count]);// ❌ unnecessary
 
 ```jsx
 const handleClick = useCallback(() => {
-  setCount(c => c + 1);
+  setCount((c) => c + 1);
 }, []);
-
 ```
 
 ✔ Function reference stays same across renders
@@ -6530,7 +6368,6 @@ function Parent() {
     </>
   );
 }
-
 ```
 
 ✔ Child does **NOT re-render**
@@ -6554,24 +6391,22 @@ function Parent() {
 ### 🔹 Interview line
 
 > “useCallback prevents unnecessary re-renders by memoizing function references.”
-> 
 
 ---
 
 ## 🟨 **Key Differences (Very Important)**
 
-| Feature | React.memo | useMemo | useCallback |
-| --- | --- | --- | --- |
-| Memoizes | Component | Value | Function |
-| Prevents | Re-render | Re-computation | New function reference |
-| Used at | Component level | Inside component | Inside component |
+| Feature  | React.memo      | useMemo          | useCallback            |
+| -------- | --------------- | ---------------- | ---------------------- |
+| Memoizes | Component       | Value            | Function               |
+| Prevents | Re-render       | Re-computation   | New function reference |
+| Used at  | Component level | Inside component | Inside component       |
 
 ---
 
 ## ⭐ **One-line Interview Summary**
 
 > “React.memo memoizes components, useMemo memoizes values, and useCallback memoizes functions to optimize rendering performance.”
-> 
 
 ---
 
@@ -6588,7 +6423,6 @@ function Parent() {
 ## 🎯 **Senior-level closing statement**
 
 > “I use memoization selectively after identifying performance bottlenecks using React Profiler.”
-> 
 
 ---
 
@@ -6636,6 +6470,7 @@ The **diffing algorithm** is the process React uses to **compare the previous Vi
 ```
 
 1. **List diffing uses keys**
+
 - Keys help React match old & new elements
 
 ---
@@ -6643,7 +6478,6 @@ The **diffing algorithm** is the process React uses to **compare the previous Vi
 ### **Interview Line**
 
 > “React’s diffing algorithm works in O(n) time by making assumptions about element types and keys.”
-> 
 
 ---
 
@@ -6668,7 +6502,6 @@ The **diffing algorithm** is the process React uses to **compare the previous Vi
 ### **Interview Line**
 
 > “React recalculates UI on every render but updates only the changed DOM nodes.”
-> 
 
 ---
 
@@ -6691,19 +6524,13 @@ Keys are **stable identifiers** for list elements.
 ### ❌ **Wrong**
 
 ```jsx
-items.map((item, index) => (
-  <Item key={index} />
-));
-
+items.map((item, index) => <Item key={index} />);
 ```
 
 ### ✅ **Correct**
 
 ```jsx
-items.map(item => (
-  <Item key={item.id} />
-));
-
+items.map((item) => <Item key={item.id} />);
 ```
 
 ---
@@ -6720,7 +6547,6 @@ items.map(item => (
 ### **Interview Line**
 
 > “Keys must be unique and stable to allow efficient reconciliation.”
-> 
 
 ---
 
@@ -6743,9 +6569,9 @@ Fiber is React’s **internal architecture** introduced in React 16.
 
 - Breaks rendering into **small units of work**
 - Can:
-    - Pause rendering
-    - Resume later
-    - Abort unnecessary work
+  - Pause rendering
+  - Resume later
+  - Abort unnecessary work
 - Prioritizes updates (React 18)
 
 ---
@@ -6760,14 +6586,12 @@ Fiber is React’s **internal architecture** introduced in React 16.
 ### **Interview Line**
 
 > “Fiber enables React to interrupt rendering and prioritize user interactions for better responsiveness.”
-> 
 
 ---
 
 ## ⭐ **Senior-Level Interview Summary**
 
 > “React uses a Virtual DOM and diffing algorithm to efficiently update the UI. Keys help React reconcile lists correctly, and Fiber architecture enables scheduling and concurrent rendering for smooth user experience.”
-> 
 
 ---
 
@@ -6781,10 +6605,9 @@ Fiber is React’s **internal architecture** introduced in React 16.
 
 ---
 
-## 🎯 **If interviewer asks *where you used this?***
+## 🎯 **If interviewer asks _where you used this?_**
 
 > “In large lists and dashboards, proper key usage and memoization significantly improved performance and prevented UI glitches.”
-> 
 
 ---
 
@@ -6826,14 +6649,8 @@ A **controlled component** is a form element whose value is **controlled by Reac
 function Login() {
   const [email, setEmail] = useState("");
 
-  return (
-    <input
-      value={email}
-      onChange={e => setEmail(e.target.value)}
-    />
-  );
+  return <input value={email} onChange={(e) => setEmail(e.target.value)} />;
 }
-
 ```
 
 ---
@@ -6857,7 +6674,6 @@ function Login() {
 ### **Interview line**
 
 > “Controlled components keep form data in React state, making validation and dynamic behavior easier.”
-> 
 
 ---
 
@@ -6890,7 +6706,6 @@ function Login() {
 
   return <input ref={inputRef} />;
 }
-
 ```
 
 ---
@@ -6912,18 +6727,17 @@ function Login() {
 ### **Interview line**
 
 > “Uncontrolled components rely on the DOM for state and are accessed via refs.”
-> 
 
 ---
 
 ## 🆚 **Controlled vs Uncontrolled (Comparison)**
 
-| Feature | Controlled | Uncontrolled |
-| --- | --- | --- |
-| Data source | React state | DOM |
-| Validation | Easy | Hard |
-| Performance | Slightly slower | Faster |
-| Use case | Complex forms | Simple forms |
+| Feature     | Controlled      | Uncontrolled |
+| ----------- | --------------- | ------------ |
+| Data source | React state     | DOM          |
+| Validation  | Easy            | Hard         |
+| Performance | Slightly slower | Faster       |
+| Use case    | Complex forms   | Simple forms |
 
 ---
 
@@ -6934,10 +6748,9 @@ function Login() {
 ```jsx
 const [form, setForm] = useState({ email: "", password: "" });
 
-const handleChange = e => {
+const handleChange = (e) => {
   setForm({ ...form, [e.target.name]: e.target.value });
 };
-
 ```
 
 ---
@@ -6961,7 +6774,6 @@ const handleChange = e => {
     <Field name="email" />
   </Form>
 </Formik>
-
 ```
 
 ### **Cons**
@@ -6985,8 +6797,7 @@ const handleChange = e => {
 ```jsx
 const { register, handleSubmit } = useForm();
 
-<input {...register("email", { required: true })} />
-
+<input {...register("email", { required: true })} />;
 ```
 
 ### **Pros**
@@ -7002,14 +6813,12 @@ const { register, handleSubmit } = useForm();
 ### **Interview line**
 
 > “I prefer React Hook Form because it minimizes re-renders and scales well for complex forms.”
-> 
 
 ---
 
 ## ⭐ **Senior-Level Interview Summary**
 
 > “Controlled components offer full control and validation at the cost of re-renders, while uncontrolled components are simpler and more performant. For large forms, React Hook Form is preferred.”
-> 
 
 ---
 
@@ -7056,7 +6865,6 @@ example.com/dashboard
 <BrowserRouter>
   <App />
 </BrowserRouter>
-
 ```
 
 ---
@@ -7087,7 +6895,6 @@ example.com/#/dashboard
 <HashRouter>
   <App />
 </HashRouter>
-
 ```
 
 ---
@@ -7095,7 +6902,6 @@ example.com/#/dashboard
 ### **Interview Line**
 
 > “BrowserRouter is preferred for production apps, HashRouter is used when server configuration is not possible.”
-> 
 
 ---
 
@@ -7117,7 +6923,6 @@ const navigate = useNavigate();
 
 navigate("/dashboard");
 navigate(-1); // go back
-
 ```
 
 ---
@@ -7131,10 +6936,9 @@ Access dynamic URL parameters.
 ### **Example**
 
 ```jsx
-<Route path="/user/:id" element={<User />} />
+<Route path="/user/:id" element={<User />} />;
 
-const { id } =useParams();
-
+const { id } = useParams();
 ```
 
 ---
@@ -7142,7 +6946,6 @@ const { id } =useParams();
 ### **Interview Line**
 
 > “useParams is used to read dynamic route parameters from the URL.”
-> 
 
 ---
 
@@ -7159,7 +6962,6 @@ const { id } =useParams();
 const PrivateRoute = ({ children }) => {
   return isAuthenticated ? children : <Navigate to="/login" />;
 };
-
 ```
 
 ```jsx
@@ -7171,7 +6973,6 @@ const PrivateRoute = ({ children }) => {
     </PrivateRoute>
   }
 />
-
 ```
 
 ---
@@ -7179,7 +6980,6 @@ const PrivateRoute = ({ children }) => {
 ### **Interview Line**
 
 > “Private routes prevent unauthorized users from accessing protected pages.”
-> 
 
 ---
 
@@ -7201,12 +7001,10 @@ Routes inside routes.
   <Route path="profile" element={<Profile />} />
   <Route path="settings" element={<Settings />} />
 </Route>
-
 ```
 
 ```jsx
 <Outlet />
-
 ```
 
 ---
@@ -7214,7 +7012,6 @@ Routes inside routes.
 ### **Interview Line**
 
 > “Nested routes help build layout-based navigation using Outlet.”
-> 
 
 ---
 
@@ -7237,8 +7034,7 @@ const Dashboard = React.lazy(() => import("./Dashboard"));
       <Dashboard />
     </Suspense>
   }
-/>
-
+/>;
 ```
 
 ---
@@ -7246,14 +7042,12 @@ const Dashboard = React.lazy(() => import("./Dashboard"));
 ### **Interview Line**
 
 > “Lazy loading routes improves performance by loading components only when required.”
-> 
 
 ---
 
 ## ⭐ **Quick Interview Summary**
 
 > “React Router provides declarative routing with hooks like useNavigate and useParams. BrowserRouter is preferred for clean URLs, and features like private routes, nested routes, and lazy loading improve security and performance.”
-> 
 
 # ✅ **React Router v5 vs v6 (Very Important Interview Topic)**
 
@@ -7273,7 +7067,6 @@ const Dashboard = React.lazy(() => import("./Dashboard"));
 
 ```jsx
 <Route path="/home" element={<Home />} />
-
 ```
 
 ### **Why changed**
@@ -7291,7 +7084,6 @@ const Dashboard = React.lazy(() => import("./Dashboard"));
 <Switch>
   <Route path="/about" component={About} />
 </Switch>
-
 ```
 
 ### **v6**
@@ -7300,7 +7092,6 @@ const Dashboard = React.lazy(() => import("./Dashboard"));
 <Routes>
   <Route path="/about" element={<About />} />
 </Routes>
-
 ```
 
 ### **Why**
@@ -7316,14 +7107,12 @@ const Dashboard = React.lazy(() => import("./Dashboard"));
 
 ```jsx
 <Route path="/users" exact component={Users} />
-
 ```
 
 ### **v6**
 
 ```jsx
 <Route path="/users" element={<Users />} />
-
 ```
 
 ✔ `exact` is default in v6
@@ -7335,17 +7124,15 @@ const Dashboard = React.lazy(() => import("./Dashboard"));
 ### **v5**
 
 ```jsx
-const history =useHistory();
+const history = useHistory();
 history.push("/login");
-
 ```
 
 ### **v6**
 
 ```jsx
-const navigate =useNavigate();
+const navigate = useNavigate();
 navigate("/login");
-
 ```
 
 ---
@@ -7356,14 +7143,12 @@ navigate("/login");
 
 ```jsx
 <Redirect to="/login" />
-
 ```
 
 ### **v6**
 
 ```jsx
 <Navigate to="/login" replace />
-
 ```
 
 ---
@@ -7381,7 +7166,6 @@ navigate("/login");
 <Route path="/dashboard" element={<Layout />}>
   <Route path="profile" element={<Profile />} />
 </Route>
-
 ```
 
 Uses `<Outlet />`
@@ -7395,11 +7179,8 @@ Uses `<Outlet />`
 ```jsx
 <Route
   path="/dashboard"
-  render={() =>
-    isAuth ? <Dashboard /> : <Redirect to="/login" />
-  }
+  render={() => (isAuth ? <Dashboard /> : <Redirect to="/login" />)}
 />
-
 ```
 
 ### **v6**
@@ -7421,16 +7202,14 @@ Uses `<Outlet />`
 ### **v5**
 
 ```jsx
-const { id } =useParams();
-const { path, url } =useRouteMatch();
-
+const { id } = useParams();
+const { path, url } = useRouteMatch();
 ```
 
 ### **v6**
 
 ```jsx
-const { id } =useParams();
-
+const { id } = useParams();
 ```
 
 ✔ `useRouteMatch` removed
@@ -7445,14 +7224,12 @@ const { id } =useParams();
 
 ```jsx
 <Route component={NotFound} />
-
 ```
 
 ### **v6**
 
 ```jsx
 <Route path="*" element={<NotFound />} />
-
 ```
 
 ---
@@ -7468,22 +7245,21 @@ const { id } =useParams();
 
 ## 🆚 **Quick Comparison Table**
 
-| Feature | v5 | v6 |
-| --- | --- | --- |
-| Wrapper | Switch | Routes |
-| Route API | component / render | element |
-| exact | Required | Default |
-| Navigation | useHistory | useNavigate |
-| Redirect | Redirect | Navigate |
-| Nested routes | Limited | First-class |
-| Matching | First match | Best match |
+| Feature       | v5                 | v6          |
+| ------------- | ------------------ | ----------- |
+| Wrapper       | Switch             | Routes      |
+| Route API     | component / render | element     |
+| exact         | Required           | Default     |
+| Navigation    | useHistory         | useNavigate |
+| Redirect      | Redirect           | Navigate    |
+| Nested routes | Limited            | First-class |
+| Matching      | First match        | Best match  |
 
 ---
 
 ## ⭐ **One-Line Interview Answer**
 
 > “React Router v6 simplifies routing with element-based routes, better matching, built-in nested routing, and modern hooks like useNavigate.”
-> 
 
 ---
 
@@ -7500,7 +7276,6 @@ const { id } =useParams();
 ## 🎯 **Senior-Level Closing**
 
 > “In modern React applications, React Router v6 is preferred for its cleaner API, improved performance, and better nested routing support.”
-> 
 
 # ✅ **Auth + Role-Based Routing (React Router v6)**
 
@@ -7545,7 +7320,6 @@ const PrivateRoute = ({ children }) => {
 
   return isAuth ? children : <Navigate to="/login" />;
 };
-
 ```
 
 ### **Usage**
@@ -7559,7 +7333,6 @@ const PrivateRoute = ({ children }) => {
     </PrivateRoute>
   }
 />
-
 ```
 
 ---
@@ -7570,7 +7343,7 @@ const PrivateRoute = ({ children }) => {
 const RoleRoute = ({ allowedRoles, children }) => {
   const user = {
     isAuth: true,
-    role: "admin"
+    role: "admin",
   };
 
   if (!user.isAuth) {
@@ -7583,7 +7356,6 @@ const RoleRoute = ({ allowedRoles, children }) => {
 
   return children;
 };
-
 ```
 
 ### **Usage**
@@ -7597,7 +7369,6 @@ const RoleRoute = ({ allowedRoles, children }) => {
     </RoleRoute>
   }
 />
-
 ```
 
 ---
@@ -7615,7 +7386,6 @@ const RoleRoute = ({ allowedRoles, children }) => {
   <Route path="/reports" element={<Reports />} />
   <Route path="/users" element={<Users />} />
 </Route>
-
 ```
 
 Uses `<Outlet />` inside `Layout`
@@ -7639,7 +7409,6 @@ Uses `<Outlet />` inside `Layout`
 ## ⭐ **Interview Summary (Strong Answer)**
 
 > “Auth routing protects routes based on login state, while role-based routing adds an authorization layer to control access per user role. In React Router v6, this is implemented using wrapper components and <Navigate />.”
-> 
 
 ---
 
@@ -7656,7 +7425,6 @@ Uses `<Outlet />` inside `Layout`
 ## 🎯 **If interviewer asks where you used this**
 
 > “In enterprise dashboards, we restrict admin features using role-based routing and backend authorization.”
-> 
 
 # **RBAC vs ABAC (Authorization Models)**
 
@@ -7668,7 +7436,7 @@ Uses `<Outlet />` inside `Layout`
 
 Access is granted based on the **role assigned to a user**.
 
-👉 *User → Role → Permissions*
+👉 _User → Role → Permissions_
 
 ---
 
@@ -7693,7 +7461,6 @@ User: {
 if (user.role === "admin") {
   allowAccess();
 }
-
 ```
 
 ---
@@ -7735,7 +7502,6 @@ if (user.role === "admin") {
 ### **Interview line**
 
 > “RBAC assigns permissions based on user roles and is simple and widely used.”
-> 
 
 ---
 
@@ -7745,7 +7511,7 @@ if (user.role === "admin") {
 
 Access is granted based on **attributes of user, resource, action, and environment**.
 
-👉 *User + Resource + Context → Decision*
+👉 _User + Resource + Context → Decision_
 
 ---
 
@@ -7760,14 +7526,9 @@ Access is granted based on **attributes of user, resource, action, and environme
 ### **Example**
 
 ```jsx
-if (
-  user.department === "HR" &&
-  resource.ownerId === user.id &&
-  time < "6PM"
-) {
+if (user.department === "HR" && resource.ownerId === user.id && time < "6PM") {
   allowAccess();
 }
-
 ```
 
 ---
@@ -7813,34 +7574,31 @@ if (
 ### **Interview line**
 
 > “ABAC makes access decisions using multiple attributes and context, enabling fine-grained control.”
-> 
 
 ---
 
 ## 🆚 **RBAC vs ABAC (Comparison Table)**
 
-| Feature | RBAC | ABAC |
-| --- | --- | --- |
-| Based on | Roles | Attributes |
-| Complexity | Low | High |
-| Flexibility | Limited | Very high |
-| Maintenance | Easy | Complex |
-| Performance | Faster | Slightly slower |
-| Use case | Common enterprise apps | Policy-driven systems |
+| Feature     | RBAC                   | ABAC                  |
+| ----------- | ---------------------- | --------------------- |
+| Based on    | Roles                  | Attributes            |
+| Complexity  | Low                    | High                  |
+| Flexibility | Limited                | Very high             |
+| Maintenance | Easy                   | Complex               |
+| Performance | Faster                 | Slightly slower       |
+| Use case    | Common enterprise apps | Policy-driven systems |
 
 ---
 
 ## ⭐ **Which one to choose? (Interview Answer)**
 
 > “RBAC is ideal for most applications due to simplicity, while ABAC is chosen when access rules depend on dynamic conditions and context.”
-> 
 
 ---
 
 ## 🎯 **Real-Project Answer**
 
 > “We primarily use RBAC at the UI level and enforce ABAC-like checks at the backend for sensitive operations.”
-> 
 
 ---
 
@@ -7870,12 +7628,11 @@ Most expected:
 
 ```jsx
 fetch("/api/users")
-  .then(res => {
+  .then((res) => {
     if (!res.ok) throw new Error("Error");
     return res.json();
   })
-  .then(data => setUsers(data));
-
+  .then((data) => setUsers(data));
 ```
 
 **Cons**
@@ -7893,9 +7650,7 @@ fetch("/api/users")
 - Supports interceptors
 
 ```jsx
-axios.get("/api/users")
-  .then(res =>setUsers(res.data));
-
+axios.get("/api/users").then((res) => setUsers(res.data));
 ```
 
 **Why axios is preferred**
@@ -7911,7 +7666,6 @@ axios.get("/api/users")
 ### **Interview Line**
 
 > “I prefer axios for enterprise apps due to interceptors and cleaner error handling.”
-> 
 
 ---
 
@@ -7928,7 +7682,6 @@ useEffect(() => {
 
   fetchData();
 }, []);
-
 ```
 
 ---
@@ -7941,7 +7694,6 @@ useEffect(() => {
 useEffect(async () => {
   const res = await fetchData();
 }, []);
-
 ```
 
 ### **Why**
@@ -7958,7 +7710,6 @@ Define async function inside effect.
 ### **Interview Line**
 
 > “useEffect should not be async because it must return a cleanup function, not a promise.”
-> 
 
 ---
 
@@ -7995,9 +7746,9 @@ useEffect(() => {
   const controller = new AbortController();
 
   fetch("/api/users", { signal: controller.signal })
-    .then(res => res.json())
-    .then(data => setUsers(data))
-    .catch(err => {
+    .then((res) => res.json())
+    .then((data) => setUsers(data))
+    .catch((err) => {
       if (err.name !== "AbortError") {
         console.error(err);
       }
@@ -8005,7 +7756,6 @@ useEffect(() => {
 
   return () => controller.abort();
 }, []);
-
 ```
 
 ---
@@ -8013,7 +7763,6 @@ useEffect(() => {
 ### **Interview Line**
 
 > “AbortController prevents memory leaks and race conditions.”
-> 
 
 ---
 
@@ -8027,7 +7776,6 @@ try {
 } catch (error) {
   setError(error.message);
 }
-
 ```
 
 ### **HTTP Status Handling**
@@ -8057,11 +7805,9 @@ A data-fetching library that handles:
 ### **Example**
 
 ```jsx
-const { data, isLoading, error } = useQuery(
-  ["users"],
-  () => axios.get("/api/users").then(res => res.data)
+const { data, isLoading, error } = useQuery(["users"], () =>
+  axios.get("/api/users").then((res) => res.data),
 );
-
 ```
 
 ---
@@ -8087,14 +7833,12 @@ const { data, isLoading, error } = useQuery(
 ### **Interview Line**
 
 > “React Query simplifies server-state management and eliminates most manual data-fetching logic.”
-> 
 
 ---
 
 ## ⭐ **Senior-Level Summary (Strong Answer)**
 
 > “For API integration, I follow proper useEffect patterns, avoid async effects, handle race conditions using AbortController, and manage errors centrally. For scalable apps, I prefer React Query for caching and background updates.”
-> 
 
 ---
 
@@ -8121,12 +7865,12 @@ An **interceptor** is a function that runs **before a request is sent** or **aft
 ## 🔁 **Types of Interceptors (Axios)**
 
 1. **Request Interceptor**
-    - Runs **before API call**
-    - Add headers (token, language, etc.)
+   - Runs **before API call**
+   - Add headers (token, language, etc.)
 2. **Response Interceptor**
-    - Runs **after API response**
-    - Handle errors (401, 403)
-    - Transform response
+   - Runs **after API response**
+   - Handle errors (401, 403)
+   - Transform response
 
 ---
 
@@ -8134,29 +7878,27 @@ An **interceptor** is a function that runs **before a request is sent** or **aft
 
 ```jsx
 axios.interceptors.request.use(
-  config => {
+  (config) => {
     const token = localStorage.getItem("token");
     config.headers.Authorization = `Bearer ${token}`;
     return config;
   },
-  error => Promise.reject(error)
+  (error) => Promise.reject(error),
 );
-
 ```
 
 ### **Response Interceptor**
 
 ```jsx
 axios.interceptors.response.use(
-  response => response,
-  error => {
+  (response) => response,
+  (error) => {
     if (error.response?.status === 401) {
       logoutUser();
     }
     return Promise.reject(error);
-  }
+  },
 );
-
 ```
 
 ---
@@ -8202,8 +7944,8 @@ const fetchWithAuth = async (url, options = {}) => {
     ...options,
     headers: {
       ...options.headers,
-      Authorization: `Bearer ${token}`
-    }
+      Authorization: `Bearer ${token}`,
+    },
   });
 
   if (res.status === 401) {
@@ -8212,7 +7954,6 @@ const fetchWithAuth = async (url, options = {}) => {
 
   return res.json();
 };
-
 ```
 
 ❌ But this is **manual and repetitive**
@@ -8222,27 +7963,25 @@ const fetchWithAuth = async (url, options = {}) => {
 ## ⭐ **Interview-Ready Answer (Must Remember)**
 
 > “Axios provides interceptors because it’s designed as a higher-level HTTP client with middleware support, while fetch is a low-level browser API that intentionally keeps things minimal.”
-> 
 
 ---
 
 ## 🆚 **Axios Interceptor vs Fetch Wrapper**
 
-| Feature | Axios | Fetch |
-| --- | --- | --- |
-| Interceptors | Built-in | ❌ No |
-| Middleware style | ✔ | ❌ |
-| Error handling | Automatic | Manual |
-| Enterprise ready | ✔ | ❌ |
+| Feature          | Axios     | Fetch  |
+| ---------------- | --------- | ------ |
+| Interceptors     | Built-in  | ❌ No  |
+| Middleware style | ✔         | ❌     |
+| Error handling   | Automatic | Manual |
+| Enterprise ready | ✔         | ❌     |
 
 ---
 
-## 
+##
 
 ## 🎯 **Senior-Level Closing Line**
 
 > “In enterprise applications, axios interceptors are preferred for centralized authentication and error handling.”
-> 
 
 ---
 
@@ -8303,7 +8042,6 @@ class ErrorBoundary extends React.Component {
     return this.props.children;
   }
 }
-
 ```
 
 ### **Usage**
@@ -8312,7 +8050,6 @@ class ErrorBoundary extends React.Component {
 <ErrorBoundary>
   <Dashboard />
 </ErrorBoundary>
-
 ```
 
 ---
@@ -8320,7 +8057,6 @@ class ErrorBoundary extends React.Component {
 ### 🎯 **Interview Line**
 
 > “Error boundaries catch render-time errors and show fallback UI without crashing the whole app.”
-> 
 
 ---
 
@@ -8343,7 +8079,6 @@ const fetchUsers = async () => {
     setError("Failed to load users");
   }
 };
-
 ```
 
 ---
@@ -8361,7 +8096,6 @@ const fetchUsers = async () => {
 ### 🎯 **Interview Line**
 
 > “Async errors should be handled using try/catch, not error boundaries.”
-> 
 
 ---
 
@@ -8393,7 +8127,6 @@ if (error) {
     </div>
   );
 }
-
 ```
 
 ---
@@ -8412,28 +8145,26 @@ if (error) {
 ### 🎯 **Interview Line**
 
 > “Fallback UI improves UX by gracefully handling failures.”
-> 
 
 ---
 
 ## 🧠 **Senior-Level Summary (Strong Answer)**
 
 > “In React, render-time errors are handled using Error Boundaries, async errors via try/catch, and user-friendly fallback UIs ensure the app doesn’t crash and maintains good UX.”
-> 
 
 ---
 
-## 
+##
 
 ---
 
 ## ✅ **Quick Comparison**
 
-| Error Type | Solution |
-| --- | --- |
-| Render error | Error Boundary |
-| API failure | try/catch |
-| Lazy loading | Suspense fallback |
+| Error Type    | Solution                    |
+| ------------- | --------------------------- |
+| Render error  | Error Boundary              |
+| API failure   | try/catch                   |
+| Lazy loading  | Suspense fallback           |
 | Global errors | Axios interceptors / Sentry |
 
 ---
@@ -8460,7 +8191,6 @@ These lifecycle methods **do not exist in function components**.
 ## 🎯 **Interview Line (Very Important)**
 
 > “Error boundaries currently must be implemented using class components because functional components don’t support error lifecycle methods.”
-> 
 
 ---
 
@@ -8493,7 +8223,6 @@ class ErrorBoundary extends React.Component {
     return this.props.children;
   }
 }
-
 ```
 
 ---
@@ -8513,7 +8242,6 @@ export default function App() {
     </ErrorBoundary>
   );
 }
-
 ```
 
 ✔ Error is caught
@@ -8532,7 +8260,6 @@ try {
 } catch {
   return <Error />;
 }
-
 ```
 
 ❌ This does NOT catch render errors
@@ -8550,8 +8277,7 @@ import { ErrorBoundary } from "react-error-boundary";
 
 <ErrorBoundary fallback={<ErrorPage />}>
   <Dashboard />
-</ErrorBoundary>
-
+</ErrorBoundary>;
 ```
 
 ---
@@ -8569,7 +8295,6 @@ import { ErrorBoundary } from "react-error-boundary";
 ## 🧠 **Senior-Level Answer (Best)**
 
 > “Error boundaries cannot be written as functional components because they depend on lifecycle methods. However, functional components can be safely wrapped inside class-based error boundaries or libraries like react-error-boundary.”
-> 
 
 ---
 
@@ -8585,12 +8310,12 @@ import { ErrorBoundary } from "react-error-boundary";
 
 ## ✅ **Quick Summary**
 
-| Topic | Answer |
-| --- | --- |
-| Functional Error Boundary | ❌ Not possible |
-| Class-based | ✔ Required |
-| Wrap functional components | ✔ Yes |
-| Async errors | ❌ Not caught |
+| Topic                      | Answer          |
+| -------------------------- | --------------- |
+| Functional Error Boundary  | ❌ Not possible |
+| Class-based                | ✔ Required      |
+| Wrap functional components | ✔ Yes           |
+| Async errors               | ❌ Not caught   |
 
 ---
 
@@ -8634,7 +8359,6 @@ Jest is a **JavaScript testing framework** used for:
 test("adds numbers", () => {
   expect(1 + 2).toBe(3);
 });
-
 ```
 
 ---
@@ -8642,7 +8366,6 @@ test("adds numbers", () => {
 ### 🎯 **Interview Line**
 
 > “Jest is the test runner and assertion library used to execute React tests.”
-> 
 
 ---
 
@@ -8663,7 +8386,6 @@ RTL is a library for **testing React components the way users interact with them
 ### 🔹 **Core Principle**
 
 > “The more your tests resemble the way your software is used, the more confidence they give.”
-> 
 
 ---
 
@@ -8676,7 +8398,6 @@ test("renders login button", () => {
   render(<Login />);
   expect(screen.getByText("Login")).toBeInTheDocument();
 });
-
 ```
 
 ---
@@ -8684,7 +8405,6 @@ test("renders login button", () => {
 ### 🎯 **Interview Line**
 
 > “React Testing Library focuses on user-centric testing rather than internal component structure.”
-> 
 
 ---
 
@@ -8710,12 +8430,11 @@ import userEvent from "@testing-library/user-event";
 test("calls onClick when clicked", async () => {
   const onClick = jest.fn();
   render(<Button onClick={onClick} />);
-  
+
   await userEvent.click(screen.getByRole("button"));
-  
+
   expect(onClick).toHaveBeenCalled();
 });
-
 ```
 
 ---
@@ -8735,14 +8454,13 @@ import { renderHook, act } from "@testing-library/react";
 
 test("increments counter", () => {
   const { result } = renderHook(() => useCounter());
-  
+
   act(() => {
     result.current.increment();
   });
 
   expect(result.current.count).toBe(1);
 });
-
 ```
 
 ---
@@ -8750,7 +8468,6 @@ test("increments counter", () => {
 ### 🎯 **Interview Line**
 
 > “Hooks can be tested using renderHook from React Testing Library.”
-> 
 
 ---
 
@@ -8765,10 +8482,7 @@ Avoid real API calls in tests.
 ### 🔹 **Example**
 
 ```jsx
-jest.spyOn(api, "fetchUsers").mockResolvedValue([
-  { id: 1, name: "John" }
-]);
-
+jest.spyOn(api, "fetchUsers").mockResolvedValue([{ id: 1, name: "John" }]);
 ```
 
 ---
@@ -8792,7 +8506,6 @@ jest.spyOn(api, "fetchUsers").mockResolvedValue([
 ## 🧠 **Senior-Level Summary (Strong Answer)**
 
 > “In React, I use Jest as the test runner and React Testing Library for component and hook testing. I focus on user interactions, mock APIs, and avoid testing implementation details.”
-> 
 
 ---
 
@@ -8808,12 +8521,12 @@ jest.spyOn(api, "fetchUsers").mockResolvedValue([
 
 ## ✅ **Quick Comparison**
 
-| Tool | Purpose |
-| --- | --- |
-| Jest | Test runner & mocking |
-| RTL | Component behavior testing |
-| userEvent | Simulate user actions |
-| MSW | Mock APIs |
+| Tool      | Purpose                    |
+| --------- | -------------------------- |
+| Jest      | Test runner & mocking      |
+| RTL       | Component behavior testing |
+| userEvent | Simulate user actions      |
+| MSW       | Mock APIs                  |
 
 ---
 
@@ -8855,16 +8568,15 @@ Cypress is a **JavaScript-based E2E testing framework** that runs **inside the b
 ### 🔹 **Example**
 
 ```jsx
-describe("Login Flow",() => {
-it("logs in successfully",() => {
+describe("Login Flow", () => {
+  it("logs in successfully", () => {
     cy.visit("/login");
     cy.get("input[name=email]").type("test@test.com");
     cy.get("input[name=password]").type("123456");
     cy.contains("Login").click();
-    cy.url().should("include","/dashboard");
+    cy.url().should("include", "/dashboard");
   });
 });
-
 ```
 
 ---
@@ -8892,7 +8604,6 @@ it("logs in successfully",() => {
 ### 🎯 **Interview Line**
 
 > “Cypress is great for fast, developer-friendly E2E testing with strong debugging support.”
-> 
 
 ---
 
@@ -8926,7 +8637,6 @@ test("Login flow", async ({ page }) => {
   await page.click("text=Login");
   await expect(page).toHaveURL("/dashboard");
 });
-
 ```
 
 ---
@@ -8954,20 +8664,19 @@ test("Login flow", async ({ page }) => {
 ### 🎯 **Interview Line**
 
 > “Playwright is preferred for enterprise-grade testing with cross-browser and parallel execution.”
-> 
 
 ---
 
 ## 🆚 **Cypress vs Playwright (Comparison Table)**
 
-| Feature | Cypress | Playwright |
-| --- | --- | --- |
-| Runs | Inside browser | Outside browser |
-| Languages | JS only | JS, TS, Python, Java |
-| Multi-tab | ❌ Limited | ✔ Full |
-| Cross-browser | Partial | ✔ Full |
-| Parallel tests | Limited | ✔ Built-in |
-| CI/CD | Good | Excellent |
+| Feature        | Cypress        | Playwright           |
+| -------------- | -------------- | -------------------- |
+| Runs           | Inside browser | Outside browser      |
+| Languages      | JS only        | JS, TS, Python, Java |
+| Multi-tab      | ❌ Limited     | ✔ Full               |
+| Cross-browser  | Partial        | ✔ Full               |
+| Parallel tests | Limited        | ✔ Built-in           |
+| CI/CD          | Good           | Excellent            |
 
 ---
 
@@ -9001,7 +8710,6 @@ test("Login flow", async ({ page }) => {
 ## ⭐ **Senior-Level Answer (Best)**
 
 > “Cypress offers an excellent developer experience for UI-focused E2E tests, while Playwright is better suited for large-scale, cross-browser, CI-driven testing.”
-> 
 
 ---
 
@@ -9038,7 +8746,6 @@ test("Login flow", async ({ page }) => {
 ## 🎯 **Interview Line**
 
 > “Code splitting improves performance by loading only the required code for a given route or component.”
-> 
 
 ---
 
@@ -9053,8 +8760,7 @@ test("Login flow", async ({ page }) => {
 ### 🔹 **Example**
 
 ```jsx
-const Dashboard =React.lazy(() =>import("./Dashboard"));
-
+const Dashboard = React.lazy(() => import("./Dashboard"));
 ```
 
 ✔ The `Dashboard` component is loaded **only when rendered**.
@@ -9083,7 +8789,6 @@ const Dashboard =React.lazy(() =>import("./Dashboard"));
 <Suspense fallback={<Loader />}>
   <Dashboard />
 </Suspense>
-
 ```
 
 ---
@@ -9097,7 +8802,6 @@ Without `Suspense`, React won’t know what to render during loading.
 ### 🎯 **Interview Line**
 
 > “Suspense handles the loading state for lazy-loaded components.”
-> 
 
 ---
 
@@ -9112,10 +8816,9 @@ Dynamic imports (`import()`) load JavaScript **at runtime**.
 ### 🔹 **Example**
 
 ```jsx
-import("./utils").then(module => {
+import("./utils").then((module) => {
   module.doSomething();
 });
-
 ```
 
 ---
@@ -9142,8 +8845,7 @@ const Dashboard = React.lazy(() => import("./Dashboard"));
       <Dashboard />
     </Suspense>
   }
-/>
-
+/>;
 ```
 
 ✔ Loads Dashboard only when `/dashboard` is visited
@@ -9155,12 +8857,13 @@ const Dashboard = React.lazy(() => import("./Dashboard"));
 ```jsx
 const Chart = React.lazy(() => import("./Chart"));
 
-{showChart && (
-  <Suspense fallback={<Loader />}>
-    <Chart />
-  </Suspense>
-)}
-
+{
+  showChart && (
+    <Suspense fallback={<Loader />}>
+      <Chart />
+    </Suspense>
+  );
+}
 ```
 
 ---
@@ -9208,17 +8911,16 @@ const Chart = React.lazy(() => import("./Chart"));
 ## 🧠 **Senior-Level Summary (Strong Answer)**
 
 > “Code splitting using React.lazy, Suspense, and dynamic imports helps optimize performance by reducing initial bundle size and loading code only when required.”
-> 
 
 ---
 
 ## 📌 **Quick Comparison**
 
-| Feature | Purpose |
-| --- | --- |
-| React.lazy | Lazy load components |
-| Suspense | Show fallback UI |
-| Dynamic import | Runtime loading |
+| Feature        | Purpose              |
+| -------------- | -------------------- |
+| React.lazy     | Lazy load components |
+| Suspense       | Show fallback UI     |
+| Dynamic import | Runtime loading      |
 
 ---
 
@@ -9326,7 +9028,6 @@ Build → StaticHTML → CDN
 ### 🧠 **Interview One-Liner**
 
 > “CSR renders on browser, SSR renders per request on server, and SSG pre-renders at build time.”
-> 
 
 ---
 
@@ -9349,7 +9050,6 @@ Next.js is a **React framework** that supports:
 ### 🎯 **Interview Line**
 
 > “Next.js provides hybrid rendering, performance optimizations, and built-in tooling on top of React.”
-> 
 
 ---
 
@@ -9388,7 +9088,6 @@ Next.js is a **React framework** that supports:
 export async function getServerSideProps() {
   return { props: { data } };
 }
-
 ```
 
 ✔ Runs on every request
@@ -9401,7 +9100,6 @@ export async function getServerSideProps() {
 export async function getStaticProps() {
   return { props: { data } };
 }
-
 ```
 
 ✔ Runs at build time
@@ -9426,7 +9124,6 @@ Backend APIs inside Next.js app.
 export default function handler(req, res) {
   res.status(200).json({ message: "Hello" });
 }
-
 ```
 
 ---
@@ -9458,8 +9155,7 @@ Automatically:
 ```jsx
 import Image from "next/image";
 
-<Image src="/logo.png" width={200} height={100} alt="Logo" />
-
+<Image src="/logo.png" width={200} height={100} alt="Logo" />;
 ```
 
 ---
@@ -9487,18 +9183,17 @@ import Image from "next/image";
 ## ⭐ **Senior-Level Final Answer**
 
 > “Next.js is a React framework that supports CSR, SSR, and SSG, enabling better SEO, faster initial load, and scalable performance through hybrid rendering.”
-> 
 
 ---
 
 ## 📌 **Quick Comparison Table**
 
-| Feature | CSR | SSR | SSG |
-| --- | --- | --- | --- |
-| Render time | Browser | Server | Build |
-| SEO | ❌ | ✔ | ✔ |
-| Performance | Medium | Good | Best |
-| Cost | Low | High | Lowest |
+| Feature     | CSR     | SSR    | SSG    |
+| ----------- | ------- | ------ | ------ |
+| Render time | Browser | Server | Build  |
+| SEO         | ❌      | ✔      | ✔      |
+| Performance | Medium  | Good   | Best   |
+| Cost        | Low     | High   | Lowest |
 
 ---
 
@@ -9561,10 +9256,9 @@ module.exports = {
   entry: "./src/index.js",
   output: { filename: "bundle.js" },
   module: {
-    rules: [{ test: /\.js$/, use: "babel-loader" }]
-  }
+    rules: [{ test: /\.js$/, use: "babel-loader" }],
+  },
 };
-
 ```
 
 ---
@@ -9586,7 +9280,6 @@ module.exports = {
 ### 🎯 **Interview Line**
 
 > “Webpack bundles and optimizes assets for production.”
-> 
 
 ---
 
@@ -9611,15 +9304,15 @@ Babel is a **JavaScript compiler** that converts **modern JS/JSX** into browser-
 ### 🔹 **Example**
 
 ```jsx
-constadd = () =>1 +2;
-
+constadd = () => 1 + 2;
 ```
 
 ⬇
 
 ```jsx
-var add =function () {return1 +2; };
-
+var add = function () {
+  return1 + 2;
+};
 ```
 
 ---
@@ -9633,7 +9326,6 @@ var add =function () {return1 +2; };
 ### 🎯 **Interview Line**
 
 > “Babel converts modern JavaScript and JSX into backward-compatible JavaScript.”
-> 
 
 ---
 
@@ -9687,26 +9379,24 @@ npm run dev
 ### 🎯 **Interview Line**
 
 > “Vite offers faster development using native ES modules and Rollup for production builds.”
-> 
 
 ---
 
 ## 🆚 **Comparison Table**
 
-| Feature | Webpack | Babel | Vite |
-| --- | --- | --- | --- |
-| Role | Bundler | Compiler | Build tool |
-| Dev speed | Slow | N/A | Very fast |
-| JSX support | Via Babel | ✔ | ✔ |
-| Config | Complex | Simple | Minimal |
-| Prod build | ✔ | ❌ | ✔ |
+| Feature     | Webpack   | Babel    | Vite       |
+| ----------- | --------- | -------- | ---------- |
+| Role        | Bundler   | Compiler | Build tool |
+| Dev speed   | Slow      | N/A      | Very fast  |
+| JSX support | Via Babel | ✔        | ✔          |
+| Config      | Complex   | Simple   | Minimal    |
+| Prod build  | ✔         | ❌       | ✔          |
 
 ---
 
 ## 🧠 **Senior-Level Summary**
 
 > “Webpack handles bundling and optimization, Babel transpiles modern JavaScript and JSX, and Vite provides a fast modern development experience using ES modules.”
-> 
 
 ---
 
@@ -9776,7 +9466,6 @@ CRA is a **React project starter** built on **Webpack + Babel**.
 ### 🎯 **Interview Line**
 
 > “CRA is beginner-friendly but not ideal for large or performance-critical apps.”
-> 
 
 ---
 
@@ -9818,19 +9507,18 @@ Vite is a **modern build tool** optimized for **speed**.
 ### 🎯 **Interview Line**
 
 > “Vite offers much faster development by using native ES modules.”
-> 
 
 ---
 
 ## 🆚 **Vite vs CRA (Quick Comparison)**
 
-| Feature | CRA | Vite |
-| --- | --- | --- |
-| Bundler | Webpack | Rollup |
-| Dev startup | Slow | Instant |
-| HMR | Slow | Very fast |
-| Config | Limited | Flexible |
-| Modern apps | ❌ | ✔ |
+| Feature     | CRA     | Vite      |
+| ----------- | ------- | --------- |
+| Bundler     | Webpack | Rollup    |
+| Dev startup | Slow    | Instant   |
+| HMR         | Slow    | Very fast |
+| Config      | Limited | Flexible  |
+| Modern apps | ❌      | ✔         |
 
 ---
 
@@ -9873,12 +9561,10 @@ Tree shaking is a **build optimization** that removes **unused code** from the f
 // utils.js
 export const add = () => {};
 export const subtract = () => {};
-
 ```
 
 ```jsx
 import { add } from "./utils";
-
 ```
 
 ➡ `subtract` is removed in production build
@@ -9898,7 +9584,6 @@ import { add } from "./utils";
 ### 🎯 **Interview Line**
 
 > “Tree shaking eliminates unused code using ES module analysis during production builds.”
-> 
 
 ---
 
@@ -9915,14 +9600,12 @@ import { add } from "./utils";
 ## 🧠 **Senior-Level Final Answer**
 
 > “Vite provides a faster development experience compared to CRA by leveraging native ES modules, while tree shaking reduces bundle size by removing unused code during production builds.”
-> 
 
 ---
 
 ## 📌 **Extra Tip (Impress Interviewer)**
 
 > “Vite uses Rollup for production, which has excellent tree-shaking support.”
-> 
 
 ---
 
@@ -9980,7 +9663,6 @@ HMR allows you to **update modules in a running application without a full page 
 if (import.meta.hot) {
   import.meta.hot.accept();
 }
-
 ```
 
 ---
@@ -9996,7 +9678,6 @@ if (import.meta.hot) {
 ## 🎯 **Interview Line**
 
 > “HMR updates only the changed modules without reloading the page, preserving application state.”
-> 
 
 ---
 
@@ -10043,7 +9724,6 @@ Webpack is a **general-purpose bundler** designed for complex applications.
 ### 🎯 **Interview Line**
 
 > “Webpack is ideal for large, complex enterprise applications.”
-> 
 
 ---
 
@@ -10076,19 +9756,18 @@ Rollup is a **modern bundler optimized for libraries and production builds**.
 ### 🎯 **Interview Line**
 
 > “Rollup produces smaller bundles with superior tree shaking.”
-> 
 
 ---
 
 ## 🆚 **Rollup vs Webpack (Comparison Table)**
 
-| Feature | Webpack | Rollup |
-| --- | --- | --- |
-| Use case | Applications | Libraries |
-| Tree shaking | Good | Excellent |
-| HMR | ✔ Strong | ❌ Limited |
-| Config | Complex | Simple |
-| Output | Multiple chunks | Cleaner bundles |
+| Feature      | Webpack         | Rollup          |
+| ------------ | --------------- | --------------- |
+| Use case     | Applications    | Libraries       |
+| Tree shaking | Good            | Excellent       |
+| HMR          | ✔ Strong        | ❌ Limited      |
+| Config       | Complex         | Simple          |
+| Output       | Multiple chunks | Cleaner bundles |
 
 ---
 
@@ -10103,7 +9782,6 @@ Rollup is a **modern bundler optimized for libraries and production builds**.
 ## 🧠 **Senior-Level Summary**
 
 > “HMR speeds up development by replacing modules at runtime, while Webpack excels in complex app bundling and Rollup shines in optimized production builds with superior tree shaking.”
-> 
 
 ---
 
@@ -10194,7 +9872,6 @@ Start devserver instantly
 ### 🎯 **Interview Line**
 
 > “Vite is faster because it avoids bundling during development and serves native ES modules directly.”
-> 
 
 ---
 
@@ -10227,16 +9904,14 @@ Module Federation allows **multiple independent applications** to **share code a
 new ModuleFederationPlugin({
   name: "app1",
   remotes: {
-    app2: "app2@http://localhost:3002/remoteEntry.js"
+    app2: "app2@http://localhost:3002/remoteEntry.js",
   },
-  shared: ["react", "react-dom"]
+  shared: ["react", "react-dom"],
 });
-
 ```
 
 ```jsx
 import Button from "app2/Button";
-
 ```
 
 ---
@@ -10251,7 +9926,6 @@ import Button from "app2/Button";
 ### 🎯 **Interview Line**
 
 > “Module Federation enables micro-frontends by sharing modules at runtime.”
-> 
 
 ---
 
@@ -10289,7 +9963,6 @@ Split bundles by:
 
 ```jsx
 const Dashboard = React.lazy(() => import("./Dashboard"));
-
 ```
 
 ---
@@ -10300,7 +9973,6 @@ const Dashboard = React.lazy(() => import("./Dashboard"));
 const loadChart = async () => {
   const { Chart } = await import("chart.js");
 };
-
 ```
 
 ---
@@ -10353,7 +10025,6 @@ npm run build -- --analyze
 ## 🧠 **Senior-Level Summary (Best Answer)**
 
 > “Vite speeds up development by leveraging native ES modules, Module Federation enables micro-frontends through runtime sharing, and advanced bundle optimization ensures smaller, faster production builds.”
-> 
 
 ---
 
@@ -10386,19 +10057,19 @@ Add reward points → RabbitMQ
 
 how many parameter pass to middleware
 
-how to secure password from frontend 
+how to secure password from frontend
 
 jwt token flow with syntax
 
-node js folder strcuture 
+node js folder strcuture
 
-when you filling form from frontend and the in between page get reload how do you get back 
+when you filling form from frontend and the in between page get reload how do you get back
 
-that filled vanished value 
+that filled vanished value
 
 disadvantages of being MERN stack developer
 
-all is working fine with node js you can write whole code by  using node js why do you need of express js  
+all is working fine with node js you can write whole code by using node js why do you need of express js
 
 Node.js handles only basic, low-level HTTP work.
 
@@ -10502,9 +10173,9 @@ if (typeof data === "string") {
 What is type inference :-
 
 ```
-Type inference means TypeScript can automatically guess the type of a variable 
+Type inference means TypeScript can automatically guess the type of a variable
 even if you don’t write it.
-You don’t always need to mention the type — TypeScript figures it out from the 
+You don’t always need to mention the type — TypeScript figures it out from the
 value you assign.
 
 Example 👇
@@ -10527,7 +10198,7 @@ let value: string | number;
 Interface :-
 
 ```
-An interface in TypeScript is a way to define the shape of an object — what 
+An interface in TypeScript is a way to define the shape of an object — what
 properties it has and what types those properties are.
 
 interface Person {
@@ -10562,18 +10233,16 @@ Instead of hard-coding a type, we pass the type when using the function, class, 
 
 ```tsx
 function identity<T>(value: T): T {
-return value;
+  return value;
 }
 
-identity<number>(10);// number
-identity<string>("Hello");// string
-
+identity<number>(10); // number
+identity<string>("Hello"); // string
 ```
 
 🗣 **Interview line:**
 
 > “Generics help write flexible and type-safe code.”
-> 
 
 ---
 
@@ -10581,12 +10250,11 @@ identity<string>("Hello");// string
 
 ```tsx
 function getFirstItem<T>(items: T[]): T {
-return items[0];
+  return items[0];
 }
 
-getFirstItem<number>([1,2,3]);
-getFirstItem<string>(["a","b"]);
-
+getFirstItem<number>([1, 2, 3]);
+getFirstItem<string>(["a", "b"]);
 ```
 
 ---
@@ -10595,15 +10263,14 @@ getFirstItem<string>(["a","b"]);
 
 ```tsx
 interface ApiResponse<T> {
-data: T;
-status:number;
+  data: T;
+  status: number;
 }
 
-constresponse:ApiResponse<string> = {
-data:"Success",
-status:200
+constresponse: ApiResponse<string> = {
+  data: "Success",
+  status: 200,
 };
-
 ```
 
 ---
@@ -10643,8 +10310,7 @@ Updating form values
 ### 2️⃣ `Required<T>` — Makes All Properties Required
 
 ```tsx
-typeUserRequired =Required<User>;
-
+typeUserRequired = Required<User>;
 ```
 
 ---
@@ -10652,13 +10318,12 @@ typeUserRequired =Required<User>;
 ### 3️⃣ `Readonly<T>` — Makes Properties Read-Only
 
 ```tsx
-constuser:Readonly<User> = {
-name:"Monali",
-age:25
+constuser: Readonly<User> = {
+  name: "Monali",
+  age: 25,
 };
 
 // user.age = 26 ❌ Error
-
 ```
 
 ---
@@ -10666,8 +10331,7 @@ age:25
 ### 4️⃣ `Pick<T, K>` — Select Specific Properties
 
 ```tsx
-typeUserName =Pick<User,"name">;
-
+typeUserName = Pick<User, "name">;
 ```
 
 ---
@@ -10675,8 +10339,7 @@ typeUserName =Pick<User,"name">;
 ### 5️⃣ `Omit<T, K>` — Remove Specific Properties
 
 ```tsx
-typeUserWithoutAge =Omit<User,"age">;
-
+typeUserWithoutAge = Omit<User, "age">;
 ```
 
 ---
@@ -10684,13 +10347,12 @@ typeUserWithoutAge =Omit<User,"age">;
 ### 6️⃣ `Record<K, T>` — Key-Value Object Type
 
 ```tsx
-typeRoles =Record<string,boolean>;
+typeRoles = Record<string, boolean>;
 
-constpermissions:Roles = {
-admin:true,
-user:false
+constpermissions: Roles = {
+  admin: true,
+  user: false,
 };
-
 ```
 
 ---
@@ -10700,12 +10362,10 @@ user:false
 ### Generics:
 
 > “Generics allow us to write reusable and type-safe code by passing types as parameters.”
-> 
 
 ### Utility Types:
 
 > “Utility types are built-in TypeScript types that help modify existing types easily.”
-> 
 
 ---
 
@@ -10714,12 +10374,10 @@ user:false
 If interviewer asks:
 
 > “Where have you used generics?”
-> 
 
 Answer:
 
 > “In API responses, reusable functions, and common components.”
-> 
 
 ## 1️⃣ TypeScript Basics (Must-know)
 
@@ -10733,11 +10391,11 @@ TypeScript is a **superset of JavaScript** that adds **static typing**. It helps
 
 ### Q2. Difference between `any`, `unknown`, and `never`?
 
-| Type | Meaning |
-| --- | --- |
-| `any` | No type safety |
-| `unknown` | Type-safe version of `any` |
-| `never` | Function never returns (error / infinite loop) |
+| Type      | Meaning                                        |
+| --------- | ---------------------------------------------- |
+| `any`     | No type safety                                 |
+| `unknown` | Type-safe version of `any`                     |
+| `never`   | Function never returns (error / infinite loop) |
 
 ```tsx
 let a: any;
@@ -10746,23 +10404,23 @@ let b: unknown;
 b = 10;
 // a.toUpperCase(); ❌
 // b.toUpperCase(); ❌ need type check
-
 ```
 
 ---
 
 ### Q3. Difference between `interface` and `type`?
 
-| Interface | Type |
-| --- | --- |
-| Extendable | Supports unions |
-| Preferred for objects | More flexible |
-| Declaration merging | No merging |
+| Interface             | Type            |
+| --------------------- | --------------- |
+| Extendable            | Supports unions |
+| Preferred for objects | More flexible   |
+| Declaration merging   | No merging      |
 
 ```tsx
-interface User { name: string }
-type Admin = User & { role: string }
-
+interface User {
+  name: string;
+}
+type Admin = User & { role: string };
 ```
 
 ---
@@ -10772,9 +10430,8 @@ type Admin = User & { role: string }
 ### Q4. What are Union and Intersection types?
 
 ```tsx
-typeStatus ="success" |"error";
-typeUser = {name:string } & {age:number };
-
+typeStatus = "success" | "error";
+typeUser = { name: string } & { age: number };
 ```
 
 ---
@@ -10800,12 +10457,11 @@ Readonly<User>
 ### Q6. What is `Record`?
 
 ```tsx
-typeRoles ="admin" |"user";
-constrolePermissions:Record<Roles,string[]> = {
-admin: ["read","write"],
-user: ["read"]
+typeRoles = "admin" | "user";
+constrolePermissions: Record<Roles, string[]> = {
+  admin: ["read", "write"],
+  user: ["read"],
 };
-
 ```
 
 ---
@@ -10820,9 +10476,8 @@ Generics make components **reusable and type-safe**.
 
 ```tsx
 function identity<T>(value: T): T {
-return value;
+  return value;
 }
-
 ```
 
 ---
@@ -10841,8 +10496,7 @@ return arg.length;
 ### Q9. Generics in React
 
 ```tsx
-const [data, setData] = useState<User |null>(null);
-
+const [data, setData] = useState<User | null>(null);
 ```
 
 ---
@@ -10914,10 +10568,10 @@ protectedrole:string;
 
 ### Q15. Abstract class vs Interface
 
-| Abstract | Interface |
-| --- | --- |
-| Can have implementation | No implementation |
-| One class only | Multiple interfaces |
+| Abstract                | Interface           |
+| ----------------------- | ------------------- |
+| Can have implementation | No implementation   |
+| One class only          | Multiple interfaces |
 
 ---
 
@@ -10992,11 +10646,10 @@ interfaceErrors {
 
 ```json
 {
-"strict":true,
-"noImplicitAny":true,
-"strictNullChecks":true
+  "strict": true,
+  "noImplicitAny": true,
+  "strictNullChecks": true
 }
-
 ```
 
 ---
@@ -11095,9 +10748,8 @@ TypeScript ensures that **function contracts and API responses are consistent**,
 - Should be avoided in production
 
 ```tsx
-letdata:any;
-data.toUpperCase();// No error, but may crash at runtime
-
+letdata: any;
+data.toUpperCase(); // No error, but may crash at runtime
 ```
 
 ### `unknown`
@@ -11106,21 +10758,20 @@ data.toUpperCase();// No error, but may crash at runtime
 - Requires type checking before usage
 
 ```tsx
-letvalue:unknown;
+letvalue: unknown;
 
-if (typeof value ==="string") {
-  value.toUpperCase();// Safe
+if (typeof value === "string") {
+  value.toUpperCase(); // Safe
 }
-
 ```
 
 ### `never`
 
 - Represents values that never occur
 - Used in:
-    - Infinite loops
-    - Throwing errors
-    - Exhaustive checks
+  - Infinite loops
+  - Throwing errors
+  - Exhaustive checks
 
 ```tsx
 functionthrowError():never {
@@ -11132,7 +10783,6 @@ thrownewError("Error");
 ✅ **Interview Tip:**
 
 > "In large projects, we prefer unknown over any to maintain type safety."
-> 
 
 ---
 
@@ -11157,8 +10807,7 @@ name:string;
 - Supports unions, intersections, primitives
 
 ```tsx
-typeStatus ="active" |"inactive";
-
+typeStatus = "active" | "inactive";
 ```
 
 ### When to use what?
@@ -11169,7 +10818,6 @@ typeStatus ="active" |"inactive";
 ✅ **Interview line:**
 
 > "I use interface for object contracts and type for complex type compositions."
-> 
 
 ---
 
@@ -11180,8 +10828,7 @@ typeStatus ="active" |"inactive";
 Allows multiple possible types
 
 ```tsx
-typeID =number |string;
-
+typeID = number | string;
 ```
 
 ### Intersection (`&`)
@@ -11189,8 +10836,7 @@ typeID =number |string;
 Combines multiple types
 
 ```tsx
-typeUser = {name:string } & {age:number };
-
+typeUser = { name: string } & { age: number };
 ```
 
 ### Real-world usage:
@@ -11209,8 +10855,7 @@ Utility types help **reuse and transform types** instead of rewriting them.
 ### `Partial`
 
 ```tsx
-Partial<User>// All properties optional
-
+Partial<User>; // All properties optional
 ```
 
 Used in **edit forms / update APIs**
@@ -11220,8 +10865,7 @@ Used in **edit forms / update APIs**
 ### `Pick`
 
 ```tsx
-Pick<User,"name" |"email">
-
+Pick<User, "name" | "email">;
 ```
 
 Used when sending limited data
@@ -11231,8 +10875,7 @@ Used when sending limited data
 ### `Omit`
 
 ```tsx
-Omit<User,"password">
-
+Omit<User, "password">;
 ```
 
 Used for response sanitization
@@ -11242,8 +10885,7 @@ Used for response sanitization
 ### `Readonly`
 
 ```tsx
-Readonly<User>
-
+Readonly<User>;
 ```
 
 Prevents mutation
@@ -11253,8 +10895,7 @@ Prevents mutation
 ### `Record`
 
 ```tsx
-Record<string,number>
-
+Record<string, number>;
 ```
 
 Used for **dynamic objects**
@@ -11262,7 +10903,6 @@ Used for **dynamic objects**
 ✅ **Interview Tip:**
 
 > "Utility types reduce duplication and improve maintainability."
-> 
 
 ---
 
@@ -11274,9 +10914,8 @@ Generics allow writing **reusable and type-safe code**.
 
 ```tsx
 function response<T>(data: T): T {
-return data;
+  return data;
 }
-
 ```
 
 ### Why interviewers care:
@@ -11311,28 +10950,24 @@ isActive?:boolean;
 ### Typing state:
 
 ```tsx
-const [user, setUser] = useState<User |null>(null);
-
+const [user, setUser] = useState<User | null>(null);
 ```
 
 ### Typing events:
 
 ```tsx
-consthandleChange = (e:React.ChangeEvent<HTMLInputElement>) => {}
-
+consthandleChange = (e: React.ChangeEvent<HTMLInputElement>) => {};
 ```
 
 ### Typing API calls:
 
 ```tsx
-axios.get<User[]>("/users")
-
+axios.get<User[]>("/users");
 ```
 
 ✅ **Interview Line:**
 
 > "Strong typing in React prevents prop misuse and runtime UI crashes."
-> 
 
 ---
 
@@ -11369,8 +11004,7 @@ User
 ### Union (Preferred)
 
 ```tsx
-typeRole ="admin" |"user";
-
+typeRole = "admin" | "user";
 ```
 
 ### Why union preferred?
@@ -11419,8 +11053,7 @@ message?:string;
 Usage:
 
 ```tsx
-constres:ApiResponse<User[]> =awaitapiCall();
-
+constres: ApiResponse<User[]> = awaitapiCall();
 ```
 
 ✅ Interviewers love this pattern.
@@ -11473,8 +11106,6 @@ Why?
 ## ✅ Final Interview Closing Statement (You can say)
 
 > "I use TypeScript not just for syntax, but to enforce contracts, improve code quality, and ensure scalability in React and Node applications."
-> 
-
 
 **Node**
 
@@ -11499,14 +11130,14 @@ This helps Node.js handle multiple requests efficiently at the same time using a
 what is the package.json used for ?
 
 ```jsx
-package.json file used to store the information about project like name, 
+package.json file used to store the information about project like name,
 version, script, and dependecies
 ```
 
 what is node js :-
 
 ```jsx
-node js is open source cross platform javascript run time environment that 
+node js is open source cross platform javascript run time environment that
 execute javascript code outside the browser
 ```
 
@@ -11700,7 +11331,7 @@ What is JWT and why is it used?
 
 ```
 JWT (JSON Web Token) is used for secure user authentication.
-After login, the server gives a token to the client, which is sent with each 
+After login, the server gives a token to the client, which is sent with each
 request to verify identity.
 
 example:-
@@ -11726,7 +11357,7 @@ Buffer in node js
 
 ```
 Buffer in Node.js is a temporary memory that stores binary data (like files, images, or streams) while it’s being transferred or processed.
-It helps Node.js handle large data efficiently without loading everything at 
+It helps Node.js handle large data efficiently without loading everything at
 once.
 
 ```
@@ -11887,16 +11518,16 @@ Hello, Welcome to Node.js!
 
 ### **8. What is the difference between PUT and PATCH?**
 
-| PUT | PATCH |
-| --- | --- |
+| PUT                    | PATCH                   |
+| ---------------------- | ----------------------- |
 | Replaces entire object | Updates specific fields |
 
 ### **What are CommonJS and ES modules?**
 
-| CommonJS | ES Modules |
-| --- | --- |
-| require() | import |
-| module.exports | export |
+| CommonJS        | ES Modules                 |
+| --------------- | -------------------------- |
+| require()       | import                     |
+| module.exports  | export                     |
 | Used in Node.js | Used in modern JS projects |
 
 what is authentication:-
@@ -11948,7 +11579,6 @@ Oauth2
 🗣 **Interview line:**
 
 > “Authentication answers the question: Who are you?”
-> 
 
 ---
 
@@ -11970,27 +11600,25 @@ Oauth2
 🗣 **Interview line:**
 
 > “Authorization answers the question: What can you do?”
-> 
 
 ---
 
 ## 🔥 Key Differences Table (Very Important)
 
-| Feature | Authentication | Authorization |
-| --- | --- | --- |
-| Purpose | Verify user identity | Control access |
-| Happens when | First step (login) | After authentication |
-| Checks | Who the user is | What the user can access |
-| Data used | Credentials (password, OTP) | Roles, permissions |
-| Example | Login success | Admin-only access |
-| Order | First | Second |
+| Feature      | Authentication              | Authorization            |
+| ------------ | --------------------------- | ------------------------ |
+| Purpose      | Verify user identity        | Control access           |
+| Happens when | First step (login)          | After authentication     |
+| Checks       | Who the user is             | What the user can access |
+| Data used    | Credentials (password, OTP) | Roles, permissions       |
+| Example      | Login success               | Admin-only access        |
+| Order        | First                       | Second                   |
 
 ---
 
 ## 🧠 One-Line Interview Answer (Best)
 
 > “Authentication verifies who the user is, while authorization determines what the user is allowed to do.”
-> 
 
 ---
 
@@ -12006,12 +11634,10 @@ Oauth2
 If interviewer asks:
 
 > “Can authorization happen without authentication?”
-> 
 
 Answer:
 
 > “No, authorization always requires authentication first.”
-> 
 
 HTML 5 feature :-
 
@@ -12062,10 +11688,10 @@ npx is a package runner — it lets you execute a package without installing it 
 
 ### **20. Difference between Monolithic & Microservices**
 
-| Monolithic | Microservices |
-| --- | --- |
-| One big app | Many small services |
-| Hard to scale | Easily scalable |
+| Monolithic    | Microservices       |
+| ------------- | ------------------- |
+| One big app   | Many small services |
+| Hard to scale | Easily scalable     |
 
 ### **Explain Node.js architecture**
 
@@ -12075,7 +11701,7 @@ npx is a package runner — it lets you execute a package without installing it 
 - Non-blocking I/O
 - Uses worker threads internally
 
-AWS lambda  :-
+AWS lambda :-
 
 ```
 	aws lambda serverless compute(gini jati he) service that lets you run your code without managing server
@@ -12129,7 +11755,7 @@ amazone api gateway :-
 
 ```
 
-amazone s3  (simple storage service) :-
+amazone s3 (simple storage service) :-
 
 ```
 	amazone s3 is cloud-based storage service used to store and retrieve files (like images,videos,documents,etc)
@@ -12357,10 +11983,10 @@ MongoDB JOIN using $lookup
 db.orders.aggregate([
 {
 $lookup: {
-from: "users",          // table to join
-localField: "userId",   // field in orders
-foreignField: "_id",    // field in users
-as: "userDetails"       // output array field
+from: "users", // table to join
+localField: "userId", // field in orders
+foreignField: "_id", // field in users
+as: "userDetails" // output array field
 }
 }
 ])
@@ -12407,12 +12033,12 @@ it can provide compatibility on cross browser for application and website
 steps to deploy project on aws :-
 
 1. login to aws using credential
-2. create ec2 machine 
-3. configure security group (ssh -22 for  admin only ) (80 - for normal traffic)
+2. create ec2 machine
+3. configure security group (ssh -22 for admin only ) (80 - for normal traffic)
 4. connect to ec2 mechine
 5. install httpd wbserver in machine (used to run web app)
 
-     sudo su
+   sudo su
 
 yum update -y
 
@@ -12425,8 +12051,6 @@ create website to ec2 machine
 service httpd start
 
 1. access website from browser using ec2 public ip or DNS
-    
-    
 
 ## **What is SQL Injection? — Interview Answer**
 
@@ -12453,67 +12077,60 @@ password: ' OR '1'='1
 
 ```
 
-Indexing :- 
+Indexing :-
 
 > An Index is a special data structure used by databases to speed up search and read operations. Instead of scanning the entire table row by row, the database uses an index to directly jump to the required data.
-> 
 
 > Internally, most database indexes are implemented using a Binary Search Tree structure, specifically a B-Tree or B+Tree.
-> 
-> 
+>
 > This tree keeps the data values sorted and allows the system to quickly move left or right in the tree, reducing the search time from `O(n)` to `O(log n)`.
-> 
 
 > So indexing makes searching extremely fast, especially when the table has millions of records.
-> 
-> 
+>
 > But since the index needs to update every time we insert or update a record, write operations can be slightly slower.
-> 
 
 In SQL we use `CREATE INDEX`, and in MongoDB we use `createIndex()` function on a collection.
 
 # **Node.js Clustering Kya Hota Hai?**
 
 > Clustering in Node.js is a technique to use all CPU cores of a machine to improve performance and handle more requests.
-> 
-> 
+>
 > Normally Node.js single-threaded hota hai, so it uses **only one CPU core**.
-> 
+>
 > Clustering multiple processes create karta hai (workers) so that application parallel me multiple requests handle kar sake.
-> 
 
 Interview asked output
 
 var i=5,j,k // i=5, j=undefined,k=undefined
-j=++i       // j=6, i=6
-k=j++       // k=6, j=7
-i=--k       // i=5, k=5
-console.log(i)  // 5
-console.log(j)  // 7
-console.log(k)  // 5
+j=++i // j=6, i=6
+k=j++ // k=6, j=7
+i=--k // i=5, k=5
+console.log(i) // 5
+console.log(j) // 7
+console.log(k) // 5
 
 // Objects/Arrays compare by reference, not value
-console.log([] === []); // false  -> different memory reference
-console.log([] == []);  // false  -> == also checks reference for objects
+console.log([] === []); // false -> different memory reference
+console.log([] == []); // false -> == also checks reference for objects
 
 // + operator converts objects to string
-console.log([] + {});   // "[object Object]"
+console.log([] + {}); // "[object Object]"
 
-// [] -> ""    {} -> "[object Object]"   "" + "[object Object]"
+// [] -> "" {} -> "[object Object]" "" + "[object Object]"
 
 // == forces type conversion (ToPrimitive)
-console.log([] == {});  // false
-// [] -> ""   {} -> "[object Object]"   "" == "[object Object]" -> false
+console.log([] == {}); // false
+// [] -> "" {} -> "[object Object]" "" == "[object Object]" -> false
 
 // Bonus tricky example
 console.log([] == ![]); // true
-// ![] -> false   [] -> ""   "" == false -> 0 == 0 -> true
+// ![] -> false [] -> "" "" == false -> 0 == 0 -> true
 
 ---
 
 ---
 
-Next.js 
+Next.js
 
 what is next js :-
 
@@ -12533,16 +12150,16 @@ Overall, Next.js improves **performance**, **developer experience**, and **scala
 
 ### **Difference Between React and Next.js**
 
-| **React** | **Next.js** |
-| --- | --- |
-| React is a **JavaScript library** for building user interfaces. | Next.js is a **full-stack React framework** built on top of React. |
+| **React**                                                                                                    | **Next.js**                                                                                           |
+| ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| React is a **JavaScript library** for building user interfaces.                                              | Next.js is a **full-stack React framework** built on top of React.                                    |
 | Handles only the **UI layer**; other features like routing, data fetching, and SSR need additional packages. | Provides many built-in features like **routing, SSR, SSG, ISR, API routes**, image optimization, etc. |
-| Provides only **client-side rendering (CSR)** by default. | Supports **SSR (Server-Side Rendering)**, **SSG (Static Site Generation)**, **ISR**, and **CSR**. |
-| Requires **React Router** for navigation. | Has **file-based routing**, no need to install anything. |
-| **SEO is weaker**, because content loads in browser after JS execution. | **Better SEO**, because pages are pre-rendered on server. |
-| You need to manage backend separately (Node/Express). | Can create backend APIs inside `pages/api` or `app/api`. |
-| Bundle optimization and image optimization must be handled manually. | Built-in **automatic code splitting** & **image optimization**. |
-|  |  |
+| Provides only **client-side rendering (CSR)** by default.                                                    | Supports **SSR (Server-Side Rendering)**, **SSG (Static Site Generation)**, **ISR**, and **CSR**.     |
+| Requires **React Router** for navigation.                                                                    | Has **file-based routing**, no need to install anything.                                              |
+| **SEO is weaker**, because content loads in browser after JS execution.                                      | **Better SEO**, because pages are pre-rendered on server.                                             |
+| You need to manage backend separately (Node/Express).                                                        | Can create backend APIs inside `pages/api` or `app/api`.                                              |
+| Bundle optimization and image optimization must be handled manually.                                         | Built-in **automatic code splitting** & **image optimization**.                                       |
+|                                                                                                              |                                                                                                       |
 
 ### **What is Next.js?**
 
@@ -12554,13 +12171,13 @@ Next.js is a **React-based full-stack framework** used to build modern web appli
 
 ### **2. Difference between React and Next.js**
 
-| React | Next.js |
-| --- | --- |
-| JS library for UI | Full-stack framework |
-| CSR only | CSR, SSR, SSG, ISR |
-| Routing via React Router | File-based routing |
-| Weak SEO | Strong SEO |
-| No backend support | Built-in API routes |
+| React                    | Next.js              |
+| ------------------------ | -------------------- |
+| JS library for UI        | Full-stack framework |
+| CSR only                 | CSR, SSR, SSG, ISR   |
+| Routing via React Router | File-based routing   |
+| Weak SEO                 | Strong SEO           |
+| No backend support       | Built-in API routes  |
 
 ---
 
@@ -12576,9 +12193,8 @@ Used for dynamic data that changes frequently.
 export async function getServerSideProps() {
   const res = await fetch("https://api.example.com/products");
   const data = await res.json();
-  return { props: { data }};
+  return { props: { data } };
 }
-
 ```
 
 ---
@@ -12593,9 +12209,8 @@ Page is generated **at build time** and reused for every request. Best for stati
 export async function getStaticProps() {
   const res = await fetch("https://api.example.com/posts");
   const posts = await res.json();
-  return { props: { posts }};
+  return { props: { posts } };
 }
-
 ```
 
 ---
@@ -12610,10 +12225,9 @@ ISR lets you update static pages **after deployment** without rebuilding the ent
 export async function getStaticProps() {
   return {
     props: {},
-    revalidate: 10 // refresh every 10 seconds
+    revalidate: 10, // refresh every 10 seconds
   };
 }
-
 ```
 
 ---
@@ -12633,7 +12247,6 @@ API routes allow you to build backend APIs inside Next.js.
 export default function handler(req, res) {
   res.status(200).json({ name: "John Doe" });
 }
-
 ```
 
 ---
@@ -12666,21 +12279,20 @@ pages/product/[id].js
 
 ```jsx
 export async function getStaticPaths() {
-  return { paths: [{ params: { id: '1' }}], fallback: false };
+  return { paths: [{ params: { id: "1" } }], fallback: false };
 }
-
 ```
 
 ---
 
 ### **9. What is the App Router vs Pages Router?**
 
-| Pages Router (`pages/`) | App Router (`app/`) |
-| --- | --- |
-| Old architecture | New (Next.js 13+) |
-| `getStaticProps` etc | `fetch`, `generateStaticParams` |
-| CSR/SSR/SSG | Server & Client components |
-| No layouts | Layout system |
+| Pages Router (`pages/`) | App Router (`app/`)             |
+| ----------------------- | ------------------------------- |
+| Old architecture        | New (Next.js 13+)               |
+| `getStaticProps` etc    | `fetch`, `generateStaticParams` |
+| CSR/SSR/SSG             | Server & Client components      |
+| No layouts              | Layout system                   |
 
 ---
 
@@ -12701,7 +12313,6 @@ export default function Page() {
 ```jsx
 "use client";
 import { useState } from "react";
-
 ```
 
 ---
@@ -12713,9 +12324,8 @@ Runs **before request completes**, useful for authentication, redirects, logs, I
 ```jsx
 // middleware.js
 export function middleware(req) {
-  return NextResponse.redirect(new URL('/login', req.url))
+  return NextResponse.redirect(new URL("/login", req.url));
 }
-
 ```
 
 ---
@@ -12746,8 +12356,7 @@ export function middleware(req) {
 ```jsx
 import Image from "next/image";
 
-<Image src="/car.png" width={300} height={300} alt="car" />
-
+<Image src="/car.png" width={300} height={300} alt="car" />;
 ```
 
 ---
@@ -12766,12 +12375,12 @@ import Image from "next/image";
 
 ### **How do you choose between SSR, SSG, ISR, and CSR?**
 
-| Requirement | Best Method |
-| --- | --- |
-| Real-time dynamic data | SSR |
-| Static content (blog docs) | SSG |
-| Content updated periodically | ISR |
-| After login pages | CSR |
+| Requirement                  | Best Method |
+| ---------------------------- | ----------- |
+| Real-time dynamic data       | SSR         |
+| Static content (blog docs)   | SSG         |
+| Content updated periodically | ISR         |
+| After login pages            | CSR         |
 
 ---
 
@@ -12786,7 +12395,6 @@ app
 ## ⚡ BONUS: One-Line Self-Introduction Example
 
 > I have strong experience with Next.js, using App Router, SSR/SSG/ISR, API routes, and performance optimizations. I have built SEO-friendly dashboards, e-commerce apps, and deployed on Vercel with CI/CD and Git workflows.
-> 
 
 # **useEffect vs useLayoutEffect**
 
@@ -12800,7 +12408,7 @@ app
 
 ### **useLayoutEffect**
 
-- Runs **right after the component renders, but *before* the UI is painted**.
+- Runs **right after the component renders, but _before_ the UI is painted**.
 - Runs **synchronously**.
 - **Blocks the browser paint** until the code inside is executed.
 - Best for **measuring layout, DOM calculations, updating style or position**, or fixing layout shift.
@@ -12818,12 +12426,12 @@ JavaScript single-threaded language hai, to **execution stack (call stack) + eve
 
 # 🚦 **Priority Order (Highest to Lowest)**
 
-| Priority | Type | Example |
-| --- | --- | --- |
-| **1️⃣ Synchronous Code** | Direct execution | `console.log()` normal code |
-| **2️⃣ Microtasks** | Promises, queueMicrotask | `Promise.then()` |
-| **3️⃣ Macrotasks** | Callbacks, timer, events | `setTimeout`, `setInterval`, `fetch callback` |
-| **4️⃣ Rendering / UI updates** | Browser render | Screen updates |
+| Priority                      | Type                     | Example                                       |
+| ----------------------------- | ------------------------ | --------------------------------------------- |
+| **1️⃣ Synchronous Code**       | Direct execution         | `console.log()` normal code                   |
+| **2️⃣ Microtasks**             | Promises, queueMicrotask | `Promise.then()`                              |
+| **3️⃣ Macrotasks**             | Callbacks, timer, events | `setTimeout`, `setInterval`, `fetch callback` |
+| **4️⃣ Rendering / UI updates** | Browser render           | Screen updates                                |
 
 ---
 
@@ -12837,7 +12445,6 @@ setTimeout(() => console.log("B"), 0);
 Promise.resolve().then(() => console.log("C"));
 
 console.log("D");
-
 ```
 
 ### **Output:**
@@ -12852,12 +12459,12 @@ B
 
 ### **Why?**
 
-| Line | Reason |
-| --- | --- |
-| A | Sync |
-| D | Sync |
-| C | Promise → **Microtask** |
-| B | setTimeout → **Macrotask** |
+| Line | Reason                     |
+| ---- | -------------------------- |
+| A    | Sync                       |
+| D    | Sync                       |
+| C    | Promise → **Microtask**    |
+| B    | setTimeout → **Macrotask** |
 
 So **microtask > macrotask**
 
@@ -12889,19 +12496,18 @@ Contains:
 
 ## 🎯 Final Summary
 
-| Order | Runs |
-| --- | --- |
-| 1 | Synchronous code |
-| 2 | Microtask queue (promises) |
-| 3 | Macrotask queue (setTimeout, fetch) |
-| 4 | UI Rendering |
+| Order | Runs                                |
+| ----- | ----------------------------------- |
+| 1     | Synchronous code                    |
+| 2     | Microtask queue (promises)          |
+| 3     | Macrotask queue (setTimeout, fetch) |
+| 4     | UI Rendering                        |
 
 ---
 
 ## 🌟 Interview Short Answer
 
 > JavaScript execution follows a priority chain: synchronous code runs first, then microtasks like Promise callbacks, then macrotasks such as setTimeout and I/O callbacks, and finally browser rendering. Microtasks always execute before macrotasks after the call stack clears.
-> 
 
 What is specificity in CSS?
 What are pseudo-classes in HTML/CSS?
@@ -12952,9 +12558,9 @@ What is GraphQL and how is it different from REST API?
 
 11]implememt debunce and throtle function
 
-12]array of object ⇒grouping by using reduce method 
+12]array of object ⇒grouping by using reduce method
 13]object ⇒key ,valye ⇒
-value key 
+value key
 
 convert object to to key value format
 
@@ -13057,7 +12663,7 @@ covering JavaScript, React, Next.js, System Design, and more.
 
 ❓ 𝙃𝙤𝙬 𝙬𝙤𝙪𝙡𝙙 𝙮𝙤𝙪 optimize a React list of 5000 items? (Virtualization)
 
-Client 
+Client
 
 ```jsx
 Hi Sarika Jadhav Neosofttech , below are the question that client has asked.
@@ -13129,8 +12735,8 @@ suitable for a **React Developer with 4–4.5 years of experience**.
 
 - Decide folder structure (components, hooks, pages, services, context/store).
 - Choose state management:
-    - **Context API** for small projects
-    - **Redux Toolkit / Zustand** for medium/large apps
+  - **Context API** for small projects
+  - **Redux Toolkit / Zustand** for medium/large apps
 - Decide routing structure using **React Router**.
 - Plan API integration structure (Axios + interceptors + services).
 
@@ -13138,12 +12744,12 @@ suitable for a **React Developer with 4–4.5 years of experience**.
 
 - Create React app using Vite or Create React App.
 - Install required dependencies:
-    - React Router
-    - Redux Toolkit / Zustand
-    - Axios
-    - Tailwind / Material UI
-    - ESLint + Prettier
-    - form libraries (React Hook Form)
+  - React Router
+  - Redux Toolkit / Zustand
+  - Axios
+  - Tailwind / Material UI
+  - ESLint + Prettier
+  - form libraries (React Hook Form)
 
 **4. Creating Reusable Components**
 
@@ -13246,7 +12852,6 @@ Heavy queries bar-bar mat run karo, result ko cache karo.
 
 ```jsx
 const redis = require("redis");
-
 ```
 
 Helps: Fast response time, reduced DB load.
@@ -13276,8 +12881,7 @@ Avoid **blocking operations**, avoid large loops & sync functions:
 Instead of loading complete file into memory:
 
 ```jsx
-fs.createReadStream()
-
+fs.createReadStream();
 ```
 
 Helps memory consumption reduce hota.
@@ -13289,7 +12893,6 @@ Helps memory consumption reduce hota.
 ```jsx
 const compression = require("compression");
 app.use(compression());
-
 ```
 
 Reduces bandwidth & improves speed.
@@ -13307,8 +12910,7 @@ Heavy CPU tasks ko **child process**, **worker threads**, or **message queues (B
 DDOS or spam se protect:
 
 ```jsx
-express-rate-limit
-
+express - rate - limit;
 ```
 
 ---
@@ -13340,7 +12942,6 @@ Optimize based on test results.
 ## 🧠 **Quick Summary (Interview Lines)**
 
 > "To optimize Node.js apps, I use clustering to utilize CPU cores, caching with Redis to reduce DB load, compression and streaming to reduce response time, asynchronous code to avoid blocking, and rate limiting & load balancing to handle high traffic. I also optimize database queries, remove unused dependencies, and perform load testing to find bottlenecks."
-> 
 
 ---
 
@@ -13479,7 +13080,6 @@ I wrap such code inside:
 useEffect(() => {
   // client side only logic
 }, []);
-
 ```
 
 Or conditionally check:
@@ -13504,7 +13104,6 @@ export function middleware(req) {
   const token = req.cookies.get("token");
   if (!token) return NextResponse.redirect("/login");
 }
-
 ```
 
 This prevents unauthenticated users from accessing protected pages.
@@ -13576,7 +13175,6 @@ Using **WebSockets / Socket.IO**, implement:
 socket.on("disconnect", () => {
   socket.connect();
 });
-
 ```
 
 And maintain **retry attempts & fallback polling**.
@@ -13770,7 +13368,7 @@ next tick
 
 promise
 
-Onlcik of the button which component will re render there 
+Onlcik of the button which component will re render there
 
 const p = () => {
 
@@ -13779,6 +13377,7 @@ const [s1, setS1] = useState('');
 const [s2, setS2] = useState('');
 
 return (
+
 <div>
 <C1 s1={s1} />
 <C2 s2={s2} />
